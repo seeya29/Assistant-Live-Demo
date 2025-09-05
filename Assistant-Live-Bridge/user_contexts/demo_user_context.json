@@ -1,0 +1,170 @@
+{
+  "user_id": "demo_user",
+  "platforms": {
+    "whatsapp": [
+      {
+        "timestamp": "2025-09-02T11:39:42.230198",
+        "message_text": "Heyy there! Is tomorrow's plan still on. I am very excited about it\n",
+        "message_id": "custom_0",
+        "summary": "General message",
+        "intent": "social",
+        "urgency": "critical",
+        "context_score": 0.0
+      },
+      {
+        "timestamp": "2025-09-02T11:39:42.230198",
+        "message_text": "Heyy there! Is tomorrow's plan still on. I am very excited about it\n",
+        "message_id": "custom_0",
+        "summary": "General message",
+        "intent": "social",
+        "urgency": "critical",
+        "context_score": 0.0
+      }
+    ],
+    "email": [
+      {
+        "timestamp": "2025-09-02T12:00:00Z",
+        "message_text": "Hi team, we need to schedule an urgent meeting for tomorrow at 2 PM to discuss the quarterly results. Please confirm your attendance ASAP as this is critical for our board presentation.",
+        "message_id": "demo_task_001",
+        "summary": "Meeting request for tomorrow - Task assignment",
+        "intent": "meeting",
+        "urgency": "critical",
+        "context_score": 0.0
+      },
+      {
+        "timestamp": "2025-09-02T12:00:00Z",
+        "message_text": "Hi team, we need to schedule an urgent meeting for tomorrow at 2 PM to discuss the quarterly results. Please confirm your attendance ASAP as this is critical for our board presentation.",
+        "message_id": "demo_task_001",
+        "summary": "Meeting request for tomorrow - Task assignment (continuing previous topic)",
+        "intent": "meeting",
+        "urgency": "critical",
+        "context_score": 0.0
+      },
+      {
+        "timestamp": "2025-09-02T12:00:00Z",
+        "message_text": "Hi team, we need to schedule an urgent meeting for tomorrow at 2 PM to discuss the quarterly results. Please confirm your attendance ASAP as this is critical for our board presentation.",
+        "message_id": "demo_task_001",
+        "summary": "Meeting request for tomorrow - Task assignment (continuing previous topic)",
+        "intent": "meeting",
+        "urgency": "critical",
+        "context_score": 0.0
+      },
+      {
+        "timestamp": "2025-09-02T13:25:20.358306",
+        "message_text": "URGENT: Need to schedule team meeting for tomorrow 2 PM for quarterly review. Please confirm ASAP!",
+        "message_id": "integration_test_001",
+        "summary": "Continuing: URGENT: Need to schedule team meeting for tomorrow 2 PM for quarterly review",
+        "intent": "schedule",
+        "urgency": "critical",
+        "context_score": 0.0
+      },
+      {
+        "timestamp": "2025-09-02T13:26:00.207147",
+        "message_text": "URGENT: Need to schedule team meeting for tomorrow 2 PM for quarterly review. Please confirm ASAP!",
+        "message_id": "integration_test_001",
+        "summary": "Continuing: URGENT: Need to schedule team meeting for tomorrow 2 PM for quarterly review",
+        "intent": "schedule",
+        "urgency": "critical",
+        "context_score": 0.0
+      },
+      {
+        "timestamp": "2025-01-02T10:00:00Z",
+        "message_text": "I need to schedule a meeting with the development team tomorrow at 2 PM to discuss the new project requirements. This is urgent.",
+        "message_id": "msg_00016e5606ea",
+        "summary": "Continuing: I need to schedule a meeting with the development team tomorrow at 2 PM to discuss th...",
+        "intent": "schedule",
+        "urgency": "critical",
+        "context_score": 0.0
+      },
+      {
+        "timestamp": "2025-09-02T13:51:59.904018",
+        "message_text": "URGENT: Need to schedule team meeting for tomorrow 2 PM for quarterly review. Please confirm ASAP!",
+        "message_id": "integration_test_001",
+        "summary": "Continuing: URGENT: Need to schedule team meeting for tomorrow 2 PM for quarterly review",
+        "intent": "schedule",
+        "urgency": "critical",
+        "context_score": 0.0
+      },
+      {
+        "timestamp": "2025-09-02T13:51:59.904018",
+        "message_text": "URGENT: Need to schedule team meeting for tomorrow 2 PM for quarterly review. Please confirm ASAP!",
+        "message_id": "integration_test_001",
+        "summary": "Continuing: URGENT: Need to schedule team meeting for tomorrow 2 PM for quarterly review",
+        "intent": "schedule",
+        "urgency": "critical",
+        "context_score": 0.0
+      }
+    ]
+  },
+  "created_at": "2025-09-02T11:40:00.642495",
+  "last_updated": "2025-09-05T07:24:02.208267+00:00",
+  "total_messages": 10,
+  "message_history": [
+    {
+      "timestamp": "2025-09-02T11:56:33.682017",
+      "platform": "email",
+      "message_type": "urgent",
+      "summary": "Meeting request for tomorrow - Task assignment"
+    },
+    {
+      "timestamp": "2025-09-02T12:02:40.359679",
+      "platform": "email",
+      "message_type": "urgent",
+      "summary": "Meeting request for tomorrow - Task assignment (continuing previous topic)"
+    },
+    {
+      "timestamp": "2025-09-02T12:11:18.336859",
+      "platform": "email",
+      "message_type": "urgent",
+      "summary": "Meeting request for tomorrow - Task assignment (continuing previous topic)"
+    },
+    {
+      "timestamp": "2025-09-02T13:45:17.552681",
+      "platform": "email",
+      "message_type": "urgent",
+      "summary": "Continuing: I need to schedule a meeting with the development team tomorrow at 2 PM to discuss th..."
+    },
+    {
+      "timestamp": "2025-09-05T12:53:59.800363",
+      "platform": "whatsapp",
+      "message_type": "general",
+      "summary": "\ud83d\udc4b Invite: mall shopping + latest movie today"
+    },
+    {
+      "timestamp": "2025-09-05T12:54:02.208267",
+      "platform": "whatsapp",
+      "message_type": "general",
+      "summary": "\ud83d\udc4b Invite: mall shopping + latest movie today"
+    }
+  ],
+  "intent_patterns": {
+    "scheduling": 4,
+    "task_assignment": 4,
+    "type_urgent": 4,
+    "type_general": 2
+  },
+  "platform_usage": {
+    "email": 4,
+    "whatsapp": 2
+  },
+  "message_type_frequency": {
+    "urgent": 4,
+    "general": 2
+  },
+  "scheduled_tasks": [],
+  "missed_tasks": [],
+  "completed_tasks": [],
+  "response_patterns": {},
+  "peak_activity_hours": {
+    "11": 1,
+    "12": 2
+  },
+  "context_score": 0.288,
+  "behavioral_insights": {
+    "preferred_platform": "email",
+    "common_message_type": "urgent",
+    "peak_activity_hour": 12,
+    "dominant_intent": "scheduling",
+    "activity_level": "low"
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "user_id": "demo_user_whatsapp",
+  "platforms": {
+    "whatsapp": [
+      {
+        "timestamp": "2025-09-02T14:00:49.342274",
+        "message_text": " hey team! urgent meeting needed tomorrow 2pm about the client project. server issues r affecting delivery  need everyone there asap!",
+        "message_id": "wa_urgent_001",
+        "summary": "\ud83d\udea8 hey team",
+        "intent": "urgent",
+        "urgency": "critical",
+        "context_score": 0.0
+      }
+    ]
+  },
+  "created_at": "2025-09-02T14:00:51.390006",
+  "last_updated": "2025-09-02T14:00:51.390076",
+  "total_messages": 1
+}

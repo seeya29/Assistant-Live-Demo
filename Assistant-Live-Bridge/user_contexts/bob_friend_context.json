@@ -1,0 +1,19 @@
+{
+  "user_id": "bob_friend",
+  "platforms": {
+    "whatsapp": [
+      {
+        "timestamp": "2025-09-02T13:26:57.506156",
+        "message_text": "yo whats up? party tonight at 8pm \ud83c\udf89 u coming? gonna be lit! btw bring snacks lol \ud83d\ude02",
+        "message_id": "whatsapp_001",
+        "summary": "\u2753 yo whats up",
+        "intent": "question",
+        "urgency": "medium",
+        "context_score": 0.0
+      }
+    ]
+  },
+  "created_at": "2025-09-02T13:26:57.570571",
+  "last_updated": "2025-09-02T13:26:57.570640",
+  "total_messages": 1
+}

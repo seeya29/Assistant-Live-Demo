@@ -1,0 +1,42 @@
+[
+  {
+    "user_id": "u1",
+    "platform": "whatsapp",
+    "conversation_id": "conv001",
+    "message_id": "m1",
+    "message_text": "Hey, did the report get done?",
+    "timestamp": "2025-09-01T10:00:00Z"
+  },
+  {
+    "user_id": "u2",
+    "platform": "email",
+    "conversation_id": "conv002",
+    "message_id": "m2",
+    "message_text": "Can we reschedule the review to next Monday?",
+    "timestamp": "2025-09-01T11:00:00Z"
+  },
+  {
+    "user_id": "u3",
+    "platform": "instagram",
+    "conversation_id": "conv003",
+    "message_id": "m3",
+    "message_text": "Are you free to collab next week?",
+    "timestamp": "2025-09-01T12:00:00Z"
+  },
+  {
+    "user_id": "u4",
+    "platform": "whatsapp",
+    "conversation_id": "conv004",
+    "message_id": "m4",
+    "message_text": "URGENT: Server is down, need help ASAP.",
+    "timestamp": "2025-09-01T13:00:00Z"
+  },
+  {
+    "user_id": "u5",
+    "platform": "email",
+    "conversation_id": "conv005",
+    "message_id": "m5",
+    "message_text": "Reminder: invoice due by Friday.",
+    "timestamp": "2025-09-01T14:00:00Z"
+  }
+]

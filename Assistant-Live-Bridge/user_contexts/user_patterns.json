@@ -1,0 +1,198 @@
+{
+  "demo_user": {
+    "platforms": {
+      "email": 2
+    },
+    "message_types": {
+      "schedule": 2
+    },
+    "response_times": [],
+    "common_contacts": {},
+    "activity_hours": {
+      "13": 1
+    }
+  },
+  "alice_work": {
+    "platforms": {
+      "email": 5
+    },
+    "message_types": {
+      "schedule": 4,
+      "question": 1
+    },
+    "response_times": [],
+    "common_contacts": {},
+    "activity_hours": {
+      "13": 2
+    }
+  },
+  "sarah_style": {
+    "platforms": {
+      "instagram": 1
+    },
+    "message_types": {
+      "question": 1
+    },
+    "response_times": [],
+    "common_contacts": {},
+    "activity_hours": {
+      "13": 1
+    }
+  },
+  "bob_friend": {
+    "platforms": {
+      "whatsapp": 1
+    },
+    "message_types": {
+      "question": 1
+    },
+    "response_times": [],
+    "common_contacts": {},
+    "activity_hours": {
+      "13": 1
+    }
+  },
+  "devops_team": {
+    "platforms": {
+      "slack": 1
+    },
+    "message_types": {
+      "question": 1
+    },
+    "response_times": [],
+    "common_contacts": {},
+    "activity_hours": {
+      "13": 1
+    }
+  },
+  "design_lead": {
+    "platforms": {
+      "teams": 1
+    },
+    "message_types": {
+      "informational": 1
+    },
+    "response_times": [],
+    "common_contacts": {},
+    "activity_hours": {
+      "12": 1
+    }
+  },
+  "sales_team": {
+    "platforms": {
+      "email": 1
+    },
+    "message_types": {
+      "request": 1
+    },
+    "response_times": [],
+    "common_contacts": {},
+    "activity_hours": {
+      "9": 1
+    }
+  },
+  "bob_personal": {
+    "platforms": {
+      "whatsapp": 1
+    },
+    "message_types": {
+      "social": 1
+    },
+    "response_times": [],
+    "common_contacts": {},
+    "activity_hours": {
+      "14": 1
+    }
+  },
+  "customer_support": {
+    "platforms": {
+      "slack": 1
+    },
+    "message_types": {
+      "request": 1
+    },
+    "response_times": [],
+    "common_contacts": {},
+    "activity_hours": {
+      "11": 1
+    }
+  },
+  "project_manager": {
+    "platforms": {
+      "teams": 1
+    },
+    "message_types": {
+      "schedule": 1
+    },
+    "response_times": [],
+    "common_contacts": {},
+    "activity_hours": {
+      "17": 1
+    }
+  },
+  "ops_oncall": {
+    "platforms": {
+      "slack": 1
+    },
+    "message_types": {
+      "request": 1
+    },
+    "response_times": [],
+    "common_contacts": {},
+    "activity_hours": {
+      "18": 1
+    }
+  },
+  "marketing": {
+    "platforms": {
+      "instagram": 1
+    },
+    "message_types": {
+      "informational": 1
+    },
+    "response_times": [],
+    "common_contacts": {},
+    "activity_hours": {
+      "8": 1
+    }
+  },
+  "qa_lead": {
+    "platforms": {
+      "telegram": 1
+    },
+    "message_types": {
+      "request": 1
+    },
+    "response_times": [],
+    "common_contacts": {},
+    "activity_hours": {
+      "13": 1
+    }
+  },
+  "engineering": {
+    "platforms": {
+      "email": 1
+    },
+    "message_types": {
+      "question": 1
+    },
+    "response_times": [],
+    "common_contacts": {},
+    "activity_hours": {
+      "16": 1
+    }
+  },
+  "support_mgr": {
+    "platforms": {
+      "slack": 1
+    },
+    "message_types": {
+      "follow_up": 1
+    },
+    "response_times": [],
+    "common_contacts": {},
+    "activity_hours": {
+      "10": 1
+    }
+  }
+}

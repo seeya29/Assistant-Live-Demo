@@ -1,0 +1,19 @@
+{
+  "user_id": "load_test_user_0",
+  "platforms": {
+    "email": [
+      {
+        "timestamp": "2025-09-02T13:50:57.129464",
+        "message_text": "Load test message #0: Please process this quickly for performance testing.",
+        "message_id": "load_test_msg_0",
+        "summary": "Load test message #0: Please process this quickly for performance testing",
+        "intent": "request",
+        "urgency": "high",
+        "context_score": 0.0
+      }
+    ]
+  },
+  "created_at": "2025-09-02T13:50:59.153557",
+  "last_updated": "2025-09-02T13:50:59.153611",
+  "total_messages": 1
+}

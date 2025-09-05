@@ -1,0 +1,52 @@
+{
+  "user_id": "demo_slack",
+  "platforms": {
+    "slack": [
+      {
+        "timestamp": "2025-09-02T12:20:00Z",
+        "message_text": "URGENT: Production server is down. Database connection timeout errors. Need immediate investigation. All users affected.",
+        "message_id": "slack_urgent_001",
+        "summary": "URGENT: Server issue",
+        "intent": "urgent",
+        "urgency": "critical",
+        "context_score": 0.0
+      }
+    ]
+  },
+  "created_at": "2025-09-02T12:11:35.748889",
+  "last_updated": "2025-09-02T06:41:43.267507+00:00",
+  "total_messages": 1,
+  "message_history": [
+    {
+      "timestamp": "2025-09-02T12:11:43.249815",
+      "platform": "slack",
+      "message_type": "urgent",
+      "summary": "URGENT: Server issue"
+    }
+  ],
+  "intent_patterns": {
+    "urgent_request": 1,
+    "type_urgent": 1
+  },
+  "platform_usage": {
+    "slack": 1
+  },
+  "message_type_frequency": {
+    "urgent": 1
+  },
+  "scheduled_tasks": [],
+  "missed_tasks": [],
+  "completed_tasks": [],
+  "response_patterns": {},
+  "peak_activity_hours": {
+    "12": 1
+  },
+  "context_score": 0.33,
+  "behavioral_insights": {
+    "preferred_platform": "slack",
+    "common_message_type": "urgent",
+    "peak_activity_hour": 12,
+    "dominant_intent": "urgent_request",
+    "activity_level": "low"
+  }
+}

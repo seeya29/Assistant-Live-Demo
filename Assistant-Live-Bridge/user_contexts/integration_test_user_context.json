@@ -1,0 +1,140 @@
+{
+  "user_id": "integration_test_user",
+  "platforms": {
+    "email": [
+      {
+        "timestamp": "2025-09-02T13:52:23.390783",
+        "message_text": "Please schedule a project review meeting for next Tuesday at 3 PM. We need to discuss budget and timeline.",
+        "message_id": "test_msg_123",
+        "summary": "Please schedule a project review meeting for next Tuesday at 3 PM",
+        "intent": "request",
+        "urgency": "medium",
+        "context_score": 0.0
+      },
+      {
+        "timestamp": "2025-09-05T06:58:23.766839Z",
+        "message_text": "Please schedule a project review meeting next Tuesday at 3 PM.",
+        "message_id": "testmsg_1757055503",
+        "summary": "Error processing message",
+        "intent": "unknown",
+        "urgency": "low",
+        "context_score": 0.0
+      },
+      {
+        "timestamp": "2025-09-05T06:59:24.057371Z",
+        "message_text": "Please schedule a project review meeting next Tuesday at 3 PM.",
+        "message_id": "testmsg_1757055564",
+        "summary": "Error processing message",
+        "intent": "unknown",
+        "urgency": "low",
+        "context_score": 0.0
+      },
+      {
+        "timestamp": "2025-09-05T07:00:55.097185Z",
+        "message_text": "Please schedule a project review meeting next Tuesday at 3 PM.",
+        "message_id": "testmsg_1757055655",
+        "summary": "Error processing message",
+        "intent": "unknown",
+        "urgency": "low",
+        "context_score": 0.0
+      },
+      {
+        "timestamp": "2025-09-05T07:02:07.243480Z",
+        "message_text": "Please schedule a project review meeting next Tuesday at 3 PM.",
+        "message_id": "testmsg_1757055727",
+        "summary": "Error processing message",
+        "intent": "unknown",
+        "urgency": "low",
+        "context_score": 0.0
+      }
+    ]
+  },
+  "created_at": "2025-09-02T13:52:25.413798",
+  "last_updated": "2025-09-05T07:02:07.378457+00:00",
+  "total_messages": 5,
+  "message_history": [
+    {
+      "timestamp": "2025-09-02T13:52:25.416354",
+      "platform": "email",
+      "message_type": "request",
+      "summary": "Please schedule a project review meeting for next Tuesday at 3 PM"
+    },
+    {
+      "timestamp": "2025-09-05T12:28:23.801280",
+      "platform": "email",
+      "message_type": "error",
+      "summary": "Error processing message"
+    },
+    {
+      "timestamp": "2025-09-05T12:28:24.434498",
+      "platform": "email",
+      "message_type": "error",
+      "summary": "Error processing message"
+    },
+    {
+      "timestamp": "2025-09-05T12:29:24.087627",
+      "platform": "email",
+      "message_type": "error",
+      "summary": "Error processing message"
+    },
+    {
+      "timestamp": "2025-09-05T12:29:24.143457",
+      "platform": "email",
+      "message_type": "error",
+      "summary": "Error processing message"
+    },
+    {
+      "timestamp": "2025-09-05T12:30:55.129929",
+      "platform": "email",
+      "message_type": "error",
+      "summary": "Error processing message"
+    },
+    {
+      "timestamp": "2025-09-05T12:30:55.181740",
+      "platform": "email",
+      "message_type": "error",
+      "summary": "Error processing message"
+    },
+    {
+      "timestamp": "2025-09-05T12:32:07.297852",
+      "platform": "email",
+      "message_type": "error",
+      "summary": "Error processing message"
+    },
+    {
+      "timestamp": "2025-09-05T12:32:07.377287",
+      "platform": "email",
+      "message_type": "error",
+      "summary": "Error processing message"
+    }
+  ],
+  "intent_patterns": {
+    "scheduling": 1,
+    "social": 1,
+    "type_request": 1,
+    "type_error": 8
+  },
+  "platform_usage": {
+    "email": 9
+  },
+  "message_type_frequency": {
+    "request": 1,
+    "error": 8
+  },
+  "scheduled_tasks": [],
+  "missed_tasks": [],
+  "completed_tasks": [],
+  "response_patterns": {},
+  "peak_activity_hours": {
+    "13": 1,
+    "12": 8
+  },
+  "context_score": 0.37,
+  "behavioral_insights": {
+    "preferred_platform": "email",
+    "common_message_type": "error",
+    "peak_activity_hour": 12,
+    "dominant_intent": "type_error",
+    "activity_level": "low"
+  }
+}

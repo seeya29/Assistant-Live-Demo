@@ -1,0 +1,3763 @@
+{
+  "q_table": {
+    "blackhole01729@gmail.com_True_False_1": {
+      "Reply": 2.6527617396597427,
+      "Archive": 0.0,
+      "Forward": 0.0,
+      "Mark Important": 0.0,
+      "Delete": 0.0,
+      "Spam": 0.0
+    },
+    "blackhole01729@gmail.com_False_True_1": {
+      "Spam": -0.0010000000000000286,
+      "Reply": 0.1937627081744375,
+      "Archive": 0.0,
+      "Forward": 0.0,
+      "Mark Important": 0.0,
+      "Delete": -0.2
+    },
+    "blackhole01729@gmail.com_False_False_1": {
+      "Reply": 0.990049875125,
+      "Archive": 0.0,
+      "Forward": 0.0,
+      "Mark Important": 0.0,
+      "Delete": 0.0,
+      "Spam": 0.0
+    },
+    "john.doe@company.com_False_True_1": {
+      "Reply": 0.2,
+      "Archive": 0.0,
+      "Forward": 0.0,
+      "Mark Important": 0.0,
+      "Delete": 0.0,
+      "Spam": 0.0
+    },
+    "sarah.smith@business.org_False_True_1": {
+      "Reply": -0.2,
+      "Archive": 0.0,
+      "Forward": 0.0,
+      "Mark Important": 0.0,
+      "Delete": 0.0,
+      "Spam": 0.0
+    },
+    "mike.wilson@startup.io_True_True_1": {
+      "Reply": 0.2,
+      "Archive": 0.0,
+      "Forward": 0.0,
+      "Mark Important": 0.0,
+      "Delete": 0.0,
+      "Spam": 0.0
+    },
+    "lisa.chen@techcorp.com_True_True_1": {
+      "Reply": -0.2,
+      "Archive": 0.0,
+      "Forward": 0.0,
+      "Mark Important": 0.0,
+      "Delete": 0.0,
+      "Spam": 0.0
+    },
+    "john.doe@company.com_True_True_1": {
+      "Reply": 0.2,
+      "Archive": 0.0,
+      "Forward": 0.0,
+      "Mark Important": 0.0,
+      "Delete": 0.0,
+      "Spam": 0.0
+    },
+    "sarah.smith@business.org_False_False_1": {
+      "Reply": -0.2,
+      "Archive": 0.0,
+      "Forward": 0.0,
+      "Mark Important": 0.0,
+      "Delete": 0.0,
+      "Spam": 0.0
+    },
+    "mike.wilson@startup.io_False_False_1": {
+      "Reply": 0.399,
+      "Archive": 0.0,
+      "Forward": 0.0,
+      "Mark Important": 0.0,
+      "Delete": 0.0,
+      "Spam": 0.0
+    },
+    "lisa.chen@techcorp.com_False_False_1": {
+      "Reply": -0.38,
+      "Archive": 0.0,
+      "Forward": 0.0,
+      "Mark Important": 0.0,
+      "Delete": 0.0,
+      "Spam": 0.0
+    },
+    "john.doe@company.com_False_False_1": {
+      "Reply": 0.2,
+      "Archive": 0.0,
+      "Forward": 0.0,
+      "Mark Important": 0.0,
+      "Delete": 0.0,
+      "Spam": 0.0
+    },
+    "sarah.smith@business.org_True_False_1": {
+      "Reply": -0.2,
+      "Archive": 0.0,
+      "Forward": 0.0,
+      "Mark Important": 0.0,
+      "Delete": 0.0,
+      "Spam": 0.0
+    },
+    "google <no-reply@accounts.google.com>_True_False_2": {
+      "Reply": 0.2,
+      "Archive": 0.0,
+      "Forward": 0.0,
+      "Mark Important": 0.0,
+      "Delete": 0.0,
+      "Spam": 0.0
+    },
+    "pingalwad sankalp <vu2f2223072@pvppcoe.ac.in>_False_False_2": {
+      "Reply": -0.2,
+      "Archive": 0.2,
+      "Forward": 0.0,
+      "Mark Important": 0.0,
+      "Delete": 0.0,
+      "Spam": 0.0
+    },
+    "pingalwad sankalp <vu2f2223072@pvppcoe.ac.in>_False_False_3": {
+      "Reply": -0.0010000000000000286,
+      "Archive": 0.0,
+      "Forward": 0.0,
+      "Mark Important": 0.0,
+      "Delete": 0.0,
+      "Spam": 0.0
+    },
+    "google <no-reply@accounts.google.com>_True_False_8": {
+      "Reply": -0.2,
+      "Archive": 0.0,
+      "Forward": 0.0,
+      "Mark Important": 0.0,
+      "Delete": 0.0,
+      "Spam": 0.0
+    },
+    "pingalwad sankalp <vu2f2223072@pvppcoe.ac.in>_False_False_8": {
+      "Reply": -0.2,
+      "Archive": 0.2,
+      "Forward": 0.0,
+      "Mark Important": 0.0,
+      "Delete": 0.0,
+      "Spam": 0.0
+    },
+    "alex.johnson@finance.com_False_False_8": {
+      "Reply": 0.2,
+      "Archive": 0.0,
+      "Forward": 0.0,
+      "Mark Important": 0.0,
+      "Delete": 0.0,
+      "Spam": 0.0
+    },
+    "emma.davis@marketing.co_False_True_8": {
+      "Reply": 0.0,
+      "Archive": 0.0,
+      "Forward": 0.0,
+      "Mark Important": 0.0,
+      "Delete": 0.0,
+      "Spam": 0.0
+    },
+    "blackhole01729@gmail.com_False_False_8": {
+      "Reply": -0.2,
+      "Archive": 0.0,
+      "Forward": 0.0,
+      "Mark Important": 0.0,
+      "Delete": 0.0,
+      "Spam": 0.0
+    },
+    "lisa.chen@techcorp.com_False_False_8": {
+      "Reply": 0.0,
+      "Archive": 0.0,
+      "Forward": 0.0,
+      "Mark Important": 0.0,
+      "Delete": 0.0,
+      "Spam": 0.0
+    },
+    "emma.davis@marketing.co_True_True_8": {
+      "Reply": 0.0,
+      "Archive": 0.0,
+      "Forward": 0.0,
+      "Mark Important": 0.0,
+      "Delete": 0.0,
+      "Spam": 0.0
+    },
+    "blackhole01729@gmail.com_False_True_8": {
+      "Reply": 0.2,
+      "Archive": 0.0,
+      "Forward": 0.0,
+      "Mark Important": 0.0,
+      "Delete": 0.0,
+      "Spam": 0.0
+    },
+    "pingalwad sankalp <vu2f2223072@pvppcoe.ac.in>_True_False_8": {
+      "Reply": 0.0,
+      "Archive": 0.2,
+      "Forward": 0.0,
+      "Mark Important": 0.0,
+      "Delete": 0.0,
+      "Spam": 0.0
+    },
+    "google <no-reply@accounts.google.com>_True_False_9": {
+      "Reply": 0.0,
+      "Archive": 0.0,
+      "Forward": 0.0,
+      "Mark Important": 0.0,
+      "Delete": 0.0,
+      "Spam": 0.0
+    },
+    "blackhole01729@gmail.com_False_False_9": {
+      "Reply": 0.0,
+      "Archive": 0.0,
+      "Forward": 0.0,
+      "Mark Important": 0.0,
+      "Delete": 0.0,
+      "Spam": 0.0
+    },
+    "pingalwad sankalp <vu2f2223072@pvppcoe.ac.in>_True_False_9": {
+      "Reply": 0.0,
+      "Archive": 0.2,
+      "Forward": 0.0,
+      "Mark Important": 0.0,
+      "Delete": 0.0,
+      "Spam": 0.0
+    },
+    "anna.white@support.net_True_False_9": {
+      "Reply": 0.2,
+      "Archive": 0.0,
+      "Forward": 0.0,
+      "Mark Important": 0.0,
+      "Delete": 0.0,
+      "Spam": 0.0
+    },
+    "blackhole01729@gmail.com_True_False_9": {
+      "Reply": 0.2,
+      "Archive": 0.0,
+      "Forward": 0.0,
+      "Mark Important": 0.0,
+      "Delete": 0.0,
+      "Spam": 0.0
+    },
+    "lisa.chen@techcorp.com_False_True_9": {
+      "Reply": 0.2,
+      "Archive": 0.0,
+      "Forward": 0.0,
+      "Mark Important": 0.0,
+      "Delete": 0.0,
+      "Spam": 0.0
+    },
+    "blackhole01729@gmail.com_True_True_9": {
+      "Reply": 0.2,
+      "Archive": 0.0,
+      "Forward": 0.0,
+      "Mark Important": 0.0,
+      "Delete": 0.0,
+      "Spam": 0.0
+    },
+    "emma.davis@marketing.co_False_False_9": {
+      "Reply": 0.0,
+      "Archive": 0.0,
+      "Forward": 0.0,
+      "Mark Important": 0.0,
+      "Delete": 0.0,
+      "Spam": 0.0
+    },
+    "emma.davis@marketing.co_True_True_9": {
+      "Reply": 0.0,
+      "Archive": 0.0,
+      "Forward": 0.0,
+      "Mark Important": 0.0,
+      "Delete": 0.0,
+      "Spam": 0.0
+    },
+    "maria.garcia@hr.org_False_False_9": {
+      "Reply": 0.0,
+      "Archive": 0.0,
+      "Forward": 0.0,
+      "Mark Important": 0.0,
+      "Delete": -0.2,
+      "Spam": 0.0
+    },
+    "lisa.chen@techcorp.com_False_False_9": {
+      "Reply": 0.0,
+      "Archive": 0.0,
+      "Forward": 0.0,
+      "Mark Important": 0.0,
+      "Delete": 0.0,
+      "Spam": 0.0
+    },
+    "alex.johnson@finance.com_False_False_9": {
+      "Reply": 0.0,
+      "Archive": 0.0,
+      "Forward": 0.0,
+      "Mark Important": 0.0,
+      "Delete": 0.0,
+      "Spam": 0.0
+    },
+    "blackhole01729@gmail.com_False_True_9": {
+      "Reply": 0.219,
+      "Archive": 0.0,
+      "Forward": 0.0,
+      "Mark Important": 0.0,
+      "Delete": 0.2,
+      "Spam": 0.0
+    },
+    "david.brown@consulting.net_False_False_9": {
+      "Reply": 0.0,
+      "Archive": 0.0,
+      "Forward": 0.0,
+      "Mark Important": 0.0,
+      "Delete": 0.0,
+      "Spam": 0.0
+    },
+    "james.lee@operations.io_False_False_9": {
+      "Reply": 0.0,
+      "Archive": 0.0,
+      "Forward": 0.0,
+      "Mark Important": 0.0,
+      "Delete": 0.0,
+      "Spam": 0.0
+    },
+    "lisa.chen@techcorp.com_True_True_9": {
+      "Reply": 0.0,
+      "Archive": 0.0,
+      "Forward": 0.0,
+      "Mark Important": 0.0,
+      "Delete": 0.0,
+      "Spam": 0.0
+    },
+    "pingalwad sankalp <vu2f2223072@pvppcoe.ac.in>_True_True_9": {
+      "Reply": 0.0,
+      "Archive": 0.2,
+      "Forward": 0.0,
+      "Mark Important": 0.0,
+      "Delete": 0.0,
+      "Spam": 0.0
+    },
+    "pingalwad sankalp <vu2f2223072@pvppcoe.ac.in>_False_False_9": {
+      "Reply": 0.0,
+      "Archive": 0.2,
+      "Forward": 0.0,
+      "Mark Important": 0.0,
+      "Delete": 0.0,
+      "Spam": 0.0
+    },
+    "john.doe@company.com_False_False_9": {
+      "Reply": 0.0,
+      "Archive": 0.0,
+      "Forward": 0.0,
+      "Mark Important": 0.0,
+      "Delete": -0.2,
+      "Spam": 0.0
+    }
+  },
+  "sender_memory": {
+    "blackhole01729@gmail.com": {
+      "action_counts": {
+        "Reply": 36,
+        "Spam": 2,
+        "Delete": 2,
+        "Forward": 1
+      },
+      "total_emails": 41,
+      "avg_confidence": 0.0,
+      "last_interaction": "2025-08-02T09:57:06.899460"
+    },
+    "john.doe@company.com": {
+      "action_counts": {
+        "Reply": 3,
+        "Forward": 1
+      },
+      "total_emails": 4,
+      "avg_confidence": 0.0,
+      "last_interaction": "2025-08-02T09:57:15.663106"
+    },
+    "sarah.smith@business.org": {
+      "action_counts": {
+        "Reply": 3
+      },
+      "total_emails": 3,
+      "avg_confidence": 0.0,
+      "last_interaction": "2025-08-02T01:45:09.004262"
+    },
+    "mike.wilson@startup.io": {
+      "action_counts": {
+        "Reply": 3
+      },
+      "total_emails": 3,
+      "avg_confidence": 0.0,
+      "last_interaction": "2025-08-02T01:45:09.139692"
+    },
+    "lisa.chen@techcorp.com": {
+      "action_counts": {
+        "Reply": 4
+      },
+      "total_emails": 4,
+      "avg_confidence": 0.0,
+      "last_interaction": "2025-08-02T09:02:15.629767"
+    },
+    "google <no-reply@accounts.google.com>": {
+      "action_counts": {
+        "Reply": 1,
+        "Archive": 1
+      },
+      "total_emails": 2,
+      "avg_confidence": 0.0,
+      "last_interaction": "2025-08-02T08:22:45.392746"
+    },
+    "pingalwad sankalp <vu2f2223072@pvppcoe.ac.in>": {
+      "action_counts": {
+        "Archive": 9,
+        "Reply": 1
+      },
+      "total_emails": 10,
+      "avg_confidence": 0.0,
+      "last_interaction": "2025-08-02T09:56:57.944501"
+    },
+    "alex.johnson@finance.com": {
+      "action_counts": {
+        "Reply": 1
+      },
+      "total_emails": 1,
+      "avg_confidence": 0.0,
+      "last_interaction": "2025-08-02T08:54:31.269365"
+    },
+    "emma.davis@marketing.co": {
+      "action_counts": {},
+      "total_emails": 0,
+      "avg_confidence": 0.0,
+      "last_interaction": null
+    },
+    "anna.white@support.net": {
+      "action_counts": {
+        "Reply": 1
+      },
+      "total_emails": 1,
+      "avg_confidence": 0.0,
+      "last_interaction": "2025-08-02T09:02:01.824946"
+    },
+    "david.brown@consulting.net": {
+      "action_counts": {},
+      "total_emails": 0,
+      "avg_confidence": 0.0,
+      "last_interaction": null
+    },
+    "maria.garcia@hr.org": {
+      "action_counts": {
+        "Forward": 1
+      },
+      "total_emails": 1,
+      "avg_confidence": 0.0,
+      "last_interaction": "2025-08-02T09:02:47.339158"
+    },
+    "james.lee@operations.io": {
+      "action_counts": {},
+      "total_emails": 0,
+      "avg_confidence": 0.0,
+      "last_interaction": null
+    }
+  },
+  "keyword_memory": {
+    "that": {
+      "action_counts": {
+        "Reply": 25,
+        "Archive": 2
+      },
+      "confidence_scores": [
+        2.0,
+        2.0,
+        2.0,
+        2.0,
+        2.0,
+        2.0,
+        2.0,
+        2.0,
+        -2.0,
+        2.0,
+        -2.0,
+        2.0,
+        2.0,
+        -2.0,
+        2.0,
+        2.0,
+        2.0,
+        2.0,
+        2.0,
+        2.0,
+        2.0,
+        2.0,
+        -2.0,
+        2.0,
+        2.0,
+        2.0,
+        2.0
+      ]
+    },
+    "this": {
+      "action_counts": {
+        "Reply": 25,
+        "Archive": 3
+      },
+      "confidence_scores": [
+        2.0,
+        2.0,
+        2.0,
+        2.0,
+        2.0,
+        2.0,
+        2.0,
+        2.0,
+        -2.0,
+        2.0,
+        2.0,
+        2.0,
+        2.0,
+        -2.0,
+        -2.0,
+        2.0,
+        2.0,
+        2.0,
+        2.0,
+        2.0,
+        2.0,
+        2.0,
+        -2.0,
+        2.0,
+        -2.0,
+        2.0,
+        2.0,
+        2.0
+      ]
+    },
+    "required": {
+      "action_counts": {
+        "Reply": 21
+      },
+      "confidence_scores": [
+        2.0,
+        2.0,
+        2.0,
+        2.0,
+        2.0,
+        2.0,
+        2.0,
+        2.0,
+        -2.0,
+        2.0,
+        2.0,
+        -2.0,
+        2.0,
+        2.0,
+        2.0,
+        2.0,
+        2.0,
+        2.0,
+        2.0,
+        -2.0,
+        2.0
+      ]
+    },
+    "requires": {
+      "action_counts": {
+        "Reply": 21
+      },
+      "confidence_scores": [
+        2.0,
+        2.0,
+        2.0,
+        2.0,
+        2.0,
+        2.0,
+        2.0,
+        2.0,
+        -2.0,
+        2.0,
+        2.0,
+        -2.0,
+        2.0,
+        2.0,
+        2.0,
+        2.0,
+        2.0,
+        2.0,
+        2.0,
+        -2.0,
+        2.0
+      ]
+    },
+    "immediately": {
+      "action_counts": {
+        "Reply": 21
+      },
+      "confidence_scores": [
+        2.0,
+        2.0,
+        2.0,
+        2.0,
+        2.0,
+        2.0,
+        2.0,
+        2.0,
+        -2.0,
+        2.0,
+        2.0,
+        -2.0,
+        2.0,
+        2.0,
+        2.0,
+        2.0,
+        2.0,
+        2.0,
+        2.0,
+        -2.0,
+        2.0
+      ]
+    },
+    "matter": {
+      "action_counts": {
+        "Reply": 21
+      },
+      "confidence_scores": [
+        2.0,
+        2.0,
+        2.0,
+        2.0,
+        2.0,
+        2.0,
+        2.0,
+        2.0,
+        -2.0,
+        2.0,
+        2.0,
+        -2.0,
+        2.0,
+        2.0,
+        2.0,
+        2.0,
+        2.0,
+        2.0,
+        2.0,
+        -2.0,
+        2.0
+      ]
+    },
+    "your": {
+      "action_counts": {
+        "Reply": 43,
+        "Spam": 2,
+        "Delete": 1,
+        "Archive": 4,
+        "Forward": 3
+      },
+      "confidence_scores": [
+        2.0,
+        2.0,
+        2.0,
+        -2.0,
+        2.0,
+        2.0,
+        2.0,
+        2.0,
+        2.0,
+        2.0,
+        2.0,
+        -2.0,
+        2.0,
+        -2.0,
+        2.0,
+        2.0,
+        -2.0,
+        2.0,
+        2.0,
+        2.0,
+        -2.0,
+        2.0,
+        -2.0,
+        2.0,
+        2.0,
+        2.0,
+        -2.0,
+        2.0,
+        2.0,
+        2.0,
+        2.0,
+        2.0,
+        2.0,
+        2.0,
+        -2.0,
+        2.0,
+        -2.0,
+        2.0,
+        2.0,
+        -2.0,
+        2.0,
+        -2.0,
+        2.0,
+        -2.0,
+        2.0,
+        2.0,
+        2.0,
+        2.0,
+        2.0,
+        -2.0,
+        2.0,
+        2.0,
+        -2.0
+      ]
+    },
+    "immediate": {
+      "action_counts": {
+        "Reply": 21
+      },
+      "confidence_scores": [
+        2.0,
+        2.0,
+        2.0,
+        2.0,
+        2.0,
+        2.0,
+        2.0,
+        2.0,
+        -2.0,
+        2.0,
+        2.0,
+        -2.0,
+        2.0,
+        2.0,
+        2.0,
+        2.0,
+        2.0,
+        2.0,
+        2.0,
+        -2.0,
+        2.0
+      ]
+    },
+    "urgent": {
+      "action_counts": {
+        "Reply": 25
+      },
+      "confidence_scores": [
+        2.0,
+        2.0,
+        2.0,
+        2.0,
+        2.0,
+        2.0,
+        2.0,
+        2.0,
+        -2.0,
+        2.0,
+        -2.0,
+        2.0,
+        2.0,
+        -2.0,
+        2.0,
+        2.0,
+        2.0,
+        2.0,
+        2.0,
+        2.0,
+        2.0,
+        2.0,
+        -2.0,
+        2.0,
+        2.0
+      ]
+    },
+    "action": {
+      "action_counts": {
+        "Reply": 21
+      },
+      "confidence_scores": [
+        2.0,
+        2.0,
+        2.0,
+        2.0,
+        2.0,
+        2.0,
+        2.0,
+        2.0,
+        -2.0,
+        2.0,
+        2.0,
+        -2.0,
+        2.0,
+        2.0,
+        2.0,
+        2.0,
+        2.0,
+        2.0,
+        2.0,
+        -2.0,
+        2.0
+      ]
+    },
+    "service": {
+      "action_counts": {
+        "Spam": 2,
+        "Delete": 1,
+        "Reply": 9
+      },
+      "confidence_scores": [
+        2.0,
+        -2.0,
+        -2.0,
+        2.0,
+        2.0,
+        -2.0,
+        2.0,
+        -2.0,
+        -2.0,
+        2.0,
+        2.0,
+        2.0
+      ]
+    },
+    "about": {
+      "action_counts": {
+        "Spam": 2,
+        "Delete": 2,
+        "Reply": 13,
+        "Archive": 1
+      },
+      "confidence_scores": [
+        2.0,
+        -2.0,
+        -2.0,
+        2.0,
+        2.0,
+        -2.0,
+        2.0,
+        -2.0,
+        2.0,
+        -2.0,
+        -2.0,
+        2.0,
+        2.0,
+        -2.0,
+        2.0,
+        2.0,
+        2.0,
+        2.0
+      ]
+    },
+    "could": {
+      "action_counts": {
+        "Spam": 2,
+        "Delete": 2,
+        "Reply": 12,
+        "Archive": 2
+      },
+      "confidence_scores": [
+        2.0,
+        -2.0,
+        -2.0,
+        2.0,
+        2.0,
+        -2.0,
+        2.0,
+        -2.0,
+        2.0,
+        -2.0,
+        -2.0,
+        2.0,
+        2.0,
+        2.0,
+        2.0,
+        2.0,
+        2.0,
+        2.0
+      ]
+    },
+    "order": {
+      "action_counts": {
+        "Spam": 2,
+        "Delete": 1,
+        "Reply": 9
+      },
+      "confidence_scores": [
+        2.0,
+        -2.0,
+        -2.0,
+        2.0,
+        2.0,
+        -2.0,
+        2.0,
+        -2.0,
+        -2.0,
+        2.0,
+        2.0,
+        2.0
+      ]
+    },
+    "please": {
+      "action_counts": {
+        "Spam": 2,
+        "Reply": 38,
+        "Delete": 2
+      },
+      "confidence_scores": [
+        2.0,
+        2.0,
+        -2.0,
+        2.0,
+        2.0,
+        2.0,
+        2.0,
+        2.0,
+        2.0,
+        -2.0,
+        -2.0,
+        2.0,
+        2.0,
+        -2.0,
+        2.0,
+        -2.0,
+        2.0,
+        2.0,
+        -2.0,
+        -2.0,
+        2.0,
+        2.0,
+        -2.0,
+        2.0,
+        -2.0,
+        2.0,
+        2.0,
+        2.0,
+        2.0,
+        2.0,
+        2.0,
+        -2.0,
+        -2.0,
+        2.0,
+        2.0,
+        2.0,
+        2.0,
+        2.0,
+        2.0,
+        2.0,
+        2.0,
+        2.0
+      ]
+    },
+    "question": {
+      "action_counts": {
+        "Spam": 2,
+        "Delete": 1,
+        "Reply": 9
+      },
+      "confidence_scores": [
+        2.0,
+        -2.0,
+        -2.0,
+        2.0,
+        2.0,
+        -2.0,
+        2.0,
+        -2.0,
+        -2.0,
+        2.0,
+        2.0,
+        2.0
+      ]
+    },
+    "recent": {
+      "action_counts": {
+        "Spam": 2,
+        "Delete": 1,
+        "Reply": 9
+      },
+      "confidence_scores": [
+        2.0,
+        -2.0,
+        -2.0,
+        2.0,
+        2.0,
+        -2.0,
+        2.0,
+        -2.0,
+        -2.0,
+        2.0,
+        2.0,
+        2.0
+      ]
+    },
+    "customer": {
+      "action_counts": {
+        "Spam": 2,
+        "Delete": 1,
+        "Reply": 9
+      },
+      "confidence_scores": [
+        2.0,
+        -2.0,
+        -2.0,
+        2.0,
+        2.0,
+        -2.0,
+        2.0,
+        -2.0,
+        -2.0,
+        2.0,
+        2.0,
+        2.0
+      ]
+    },
+    "regarding": {
+      "action_counts": {
+        "Spam": 2,
+        "Delete": 1,
+        "Reply": 9,
+        "Archive": 1
+      },
+      "confidence_scores": [
+        2.0,
+        -2.0,
+        -2.0,
+        2.0,
+        2.0,
+        -2.0,
+        2.0,
+        -2.0,
+        -2.0,
+        2.0,
+        2.0,
+        2.0,
+        2.0
+      ]
+    },
+    "have": {
+      "action_counts": {
+        "Spam": 2,
+        "Delete": 1,
+        "Reply": 10,
+        "Archive": 1
+      },
+      "confidence_scores": [
+        2.0,
+        -2.0,
+        -2.0,
+        2.0,
+        2.0,
+        -2.0,
+        2.0,
+        -2.0,
+        -2.0,
+        -2.0,
+        2.0,
+        2.0,
+        2.0,
+        2.0
+      ]
+    },
+    "delivery": {
+      "action_counts": {
+        "Spam": 2,
+        "Delete": 1,
+        "Reply": 9
+      },
+      "confidence_scores": [
+        2.0,
+        -2.0,
+        -2.0,
+        2.0,
+        2.0,
+        -2.0,
+        2.0,
+        -2.0,
+        -2.0,
+        2.0,
+        2.0,
+        2.0
+      ]
+    },
+    "clarify": {
+      "action_counts": {
+        "Spam": 2,
+        "Delete": 1,
+        "Reply": 9
+      },
+      "confidence_scores": [
+        2.0,
+        -2.0,
+        -2.0,
+        2.0,
+        2.0,
+        -2.0,
+        2.0,
+        -2.0,
+        -2.0,
+        2.0,
+        2.0,
+        2.0
+      ]
+    },
+    "support": {
+      "action_counts": {
+        "Reply": 19
+      },
+      "confidence_scores": [
+        2.0,
+        2.0,
+        2.0,
+        2.0,
+        2.0,
+        2.0,
+        2.0,
+        -2.0,
+        2.0,
+        -2.0,
+        2.0,
+        2.0,
+        2.0,
+        2.0,
+        2.0,
+        2.0,
+        2.0,
+        -2.0,
+        2.0
+      ]
+    },
+    "team": {
+      "action_counts": {
+        "Reply": 25,
+        "Forward": 1,
+        "Archive": 1
+      },
+      "confidence_scores": [
+        2.0,
+        2.0,
+        2.0,
+        2.0,
+        2.0,
+        2.0,
+        2.0,
+        2.0,
+        2.0,
+        -2.0,
+        2.0,
+        2.0,
+        2.0,
+        -2.0,
+        2.0,
+        2.0,
+        2.0,
+        2.0,
+        2.0,
+        2.0,
+        2.0,
+        2.0,
+        2.0,
+        -2.0,
+        -2.0,
+        2.0,
+        2.0
+      ]
+    },
+    "respond": {
+      "action_counts": {
+        "Reply": 19
+      },
+      "confidence_scores": [
+        2.0,
+        2.0,
+        2.0,
+        2.0,
+        2.0,
+        2.0,
+        2.0,
+        -2.0,
+        2.0,
+        -2.0,
+        2.0,
+        2.0,
+        2.0,
+        2.0,
+        2.0,
+        2.0,
+        2.0,
+        -2.0,
+        2.0
+      ]
+    },
+    "soon": {
+      "action_counts": {
+        "Reply": 23
+      },
+      "confidence_scores": [
+        2.0,
+        2.0,
+        2.0,
+        2.0,
+        2.0,
+        2.0,
+        2.0,
+        -2.0,
+        2.0,
+        -2.0,
+        2.0,
+        -2.0,
+        2.0,
+        2.0,
+        2.0,
+        2.0,
+        2.0,
+        2.0,
+        2.0,
+        2.0,
+        -2.0,
+        2.0,
+        2.0
+      ]
+    },
+    "best": {
+      "action_counts": {
+        "Reply": 25,
+        "Forward": 1
+      },
+      "confidence_scores": [
+        2.0,
+        2.0,
+        2.0,
+        2.0,
+        2.0,
+        2.0,
+        2.0,
+        2.0,
+        2.0,
+        -2.0,
+        2.0,
+        2.0,
+        2.0,
+        -2.0,
+        2.0,
+        2.0,
+        2.0,
+        2.0,
+        2.0,
+        2.0,
+        2.0,
+        2.0,
+        2.0,
+        -2.0,
+        -2.0,
+        2.0
+      ]
+    },
+    "with": {
+      "action_counts": {
+        "Reply": 6,
+        "Forward": 1,
+        "Archive": 2
+      },
+      "confidence_scores": [
+        2.0,
+        2.0,
+        2.0,
+        -2.0,
+        2.0,
+        2.0,
+        -2.0,
+        2.0,
+        2.0
+      ]
+    },
+    "updates": {
+      "action_counts": {
+        "Reply": 5,
+        "Forward": 1
+      },
+      "confidence_scores": [
+        2.0,
+        2.0,
+        2.0,
+        2.0,
+        2.0,
+        -2.0
+      ]
+    },
+    "from": {
+      "action_counts": {
+        "Reply": 5,
+        "Forward": 1,
+        "Archive": 3
+      },
+      "confidence_scores": [
+        2.0,
+        2.0,
+        2.0,
+        2.0,
+        2.0,
+        -2.0,
+        2.0,
+        2.0,
+        2.0
+      ]
+    },
+    "newsletter": {
+      "action_counts": {
+        "Reply": 6,
+        "Forward": 2
+      },
+      "confidence_scores": [
+        2.0,
+        2.0,
+        2.0,
+        2.0,
+        2.0,
+        -2.0,
+        -2.0,
+        -2.0
+      ]
+    },
+    "weekly": {
+      "action_counts": {
+        "Reply": 5,
+        "Forward": 1
+      },
+      "confidence_scores": [
+        2.0,
+        2.0,
+        2.0,
+        2.0,
+        2.0,
+        -2.0
+      ]
+    },
+    "news": {
+      "action_counts": {
+        "Reply": 5,
+        "Forward": 1
+      },
+      "confidence_scores": [
+        2.0,
+        2.0,
+        2.0,
+        2.0,
+        2.0,
+        -2.0
+      ]
+    },
+    "latest": {
+      "action_counts": {
+        "Reply": 5,
+        "Forward": 1
+      },
+      "confidence_scores": [
+        2.0,
+        2.0,
+        2.0,
+        2.0,
+        2.0,
+        -2.0
+      ]
+    },
+    "current": {
+      "action_counts": {
+        "Reply": 3,
+        "Delete": 1
+      },
+      "confidence_scores": [
+        2.0,
+        -2.0,
+        2.0,
+        2.0
+      ]
+    },
+    "emma": {
+      "action_counts": {
+        "Reply": 1,
+        "Forward": 1
+      },
+      "confidence_scores": [
+        2.0,
+        -2.0
+      ]
+    },
+    "discussion": {
+      "action_counts": {
+        "Reply": 3,
+        "Delete": 1
+      },
+      "confidence_scores": [
+        2.0,
+        -2.0,
+        2.0,
+        2.0
+      ]
+    },
+    "follow": {
+      "action_counts": {
+        "Reply": 3,
+        "Delete": 1
+      },
+      "confidence_scores": [
+        2.0,
+        -2.0,
+        2.0,
+        2.0
+      ]
+    },
+    "provide": {
+      "action_counts": {
+        "Reply": 3,
+        "Delete": 1
+      },
+      "confidence_scores": [
+        2.0,
+        -2.0,
+        2.0,
+        2.0
+      ]
+    },
+    "wanted": {
+      "action_counts": {
+        "Reply": 3,
+        "Delete": 1
+      },
+      "confidence_scores": [
+        2.0,
+        -2.0,
+        2.0,
+        2.0
+      ]
+    },
+    "project": {
+      "action_counts": {
+        "Reply": 5,
+        "Delete": 1
+      },
+      "confidence_scores": [
+        2.0,
+        -2.0,
+        -2.0,
+        -2.0,
+        2.0,
+        2.0
+      ]
+    },
+    "davis": {
+      "action_counts": {
+        "Reply": 1,
+        "Forward": 1
+      },
+      "confidence_scores": [
+        2.0,
+        -2.0
+      ]
+    },
+    "previous": {
+      "action_counts": {
+        "Reply": 3,
+        "Delete": 1
+      },
+      "confidence_scores": [
+        2.0,
+        -2.0,
+        2.0,
+        2.0
+      ]
+    },
+    "update": {
+      "action_counts": {
+        "Reply": 8,
+        "Delete": 1,
+        "Forward": 1
+      },
+      "confidence_scores": [
+        2.0,
+        -2.0,
+        -2.0,
+        -2.0,
+        2.0,
+        2.0,
+        2.0,
+        2.0,
+        2.0,
+        -2.0
+      ]
+    },
+    "lunch": {
+      "action_counts": {
+        "Reply": 1
+      },
+      "confidence_scores": [
+        2.0
+      ]
+    },
+    "mike": {
+      "action_counts": {
+        "Reply": 2
+      },
+      "confidence_scores": [
+        -2.0,
+        2.0
+      ]
+    },
+    "dear": {
+      "action_counts": {
+        "Reply": 4,
+        "Archive": 1
+      },
+      "confidence_scores": [
+        -2.0,
+        2.0,
+        2.0,
+        2.0,
+        2.0
+      ]
+    },
+    "wilson": {
+      "action_counts": {
+        "Reply": 2
+      },
+      "confidence_scores": [
+        -2.0,
+        2.0
+      ]
+    },
+    "holiday": {
+      "action_counts": {
+        "Reply": 3,
+        "Forward": 1
+      },
+      "confidence_scores": [
+        -2.0,
+        -2.0,
+        2.0,
+        -2.0
+      ]
+    },
+    "schedule": {
+      "action_counts": {
+        "Reply": 3,
+        "Forward": 1
+      },
+      "confidence_scores": [
+        -2.0,
+        -2.0,
+        2.0,
+        -2.0
+      ]
+    },
+    "feedback": {
+      "action_counts": {
+        "Reply": 3
+      },
+      "confidence_scores": [
+        2.0,
+        2.0,
+        2.0
+      ]
+    },
+    "finds": {
+      "action_counts": {
+        "Reply": 1
+      },
+      "confidence_scores": [
+        2.0
+      ]
+    },
+    "hope": {
+      "action_counts": {
+        "Reply": 1
+      },
+      "confidence_scores": [
+        2.0
+      ]
+    },
+    "needed": {
+      "action_counts": {
+        "Reply": 3
+      },
+      "confidence_scores": [
+        2.0,
+        2.0,
+        2.0
+      ]
+    },
+    "client": {
+      "action_counts": {
+        "Reply": 4
+      },
+      "confidence_scores": [
+        2.0,
+        -2.0,
+        2.0,
+        2.0
+      ]
+    },
+    "email": {
+      "action_counts": {
+        "Reply": 2,
+        "Archive": 1
+      },
+      "confidence_scores": [
+        2.0,
+        2.0,
+        -2.0
+      ]
+    },
+    "call": {
+      "action_counts": {
+        "Reply": 4
+      },
+      "confidence_scores": [
+        2.0,
+        -2.0,
+        2.0,
+        2.0
+      ]
+    },
+    "needs": {
+      "action_counts": {
+        "Reply": 4
+      },
+      "confidence_scores": [
+        2.0,
+        -2.0,
+        2.0,
+        2.0
+      ]
+    },
+    "issue": {
+      "action_counts": {
+        "Reply": 4
+      },
+      "confidence_scores": [
+        2.0,
+        -2.0,
+        2.0,
+        2.0
+      ]
+    },
+    "password": {
+      "action_counts": {
+        "Reply": 3,
+        "Archive": 1
+      },
+      "confidence_scores": [
+        -2.0,
+        2.0,
+        2.0,
+        -2.0
+      ]
+    },
+    "garcia": {
+      "action_counts": {
+        "Reply": 2
+      },
+      "confidence_scores": [
+        -2.0,
+        -2.0
+      ]
+    },
+    "request": {
+      "action_counts": {
+        "Reply": 2
+      },
+      "confidence_scores": [
+        -2.0,
+        2.0
+      ]
+    },
+    "reset": {
+      "action_counts": {
+        "Reply": 2
+      },
+      "confidence_scores": [
+        -2.0,
+        2.0
+      ]
+    },
+    "maria": {
+      "action_counts": {
+        "Reply": 2
+      },
+      "confidence_scores": [
+        -2.0,
+        -2.0
+      ]
+    },
+    "invoice": {
+      "action_counts": {
+        "Reply": 1
+      },
+      "confidence_scores": [
+        2.0
+      ]
+    },
+    "james": {
+      "action_counts": {
+        "Reply": 3
+      },
+      "confidence_scores": [
+        2.0,
+        2.0,
+        2.0
+      ]
+    },
+    "results": {
+      "action_counts": {
+        "Reply": 2,
+        "Delete": 1,
+        "Forward": 1
+      },
+      "confidence_scores": [
+        -2.0,
+        -2.0,
+        2.0,
+        -2.0
+      ]
+    },
+    "review": {
+      "action_counts": {
+        "Reply": 1
+      },
+      "confidence_scores": [
+        -2.0
+      ]
+    },
+    "documents": {
+      "action_counts": {
+        "Reply": 1
+      },
+      "confidence_scores": [
+        -2.0
+      ]
+    },
+    "meeting": {
+      "action_counts": {
+        "Reply": 3,
+        "Archive": 6
+      },
+      "confidence_scores": [
+        -2.0,
+        -2.0,
+        2.0,
+        2.0,
+        -2.0,
+        -2.0,
+        2.0,
+        2.0,
+        2.0
+      ]
+    },
+    "attached": {
+      "action_counts": {
+        "Reply": 2,
+        "Forward": 1
+      },
+      "confidence_scores": [
+        -2.0,
+        -2.0,
+        -2.0
+      ]
+    },
+    "before": {
+      "action_counts": {
+        "Reply": 1
+      },
+      "confidence_scores": [
+        -2.0
+      ]
+    },
+    "next": {
+      "action_counts": {
+        "Reply": 1,
+        "Archive": 1
+      },
+      "confidence_scores": [
+        -2.0,
+        2.0
+      ]
+    },
+    "scheduled": {
+      "action_counts": {
+        "Reply": 1
+      },
+      "confidence_scores": [
+        -2.0
+      ]
+    },
+    "highlighted": {
+      "action_counts": {
+        "Reply": 2
+      },
+      "confidence_scores": [
+        2.0,
+        -2.0
+      ]
+    },
+    "monthly": {
+      "action_counts": {
+        "Reply": 2,
+        "Forward": 1
+      },
+      "confidence_scores": [
+        2.0,
+        -2.0,
+        -2.0
+      ]
+    },
+    "indicators": {
+      "action_counts": {
+        "Reply": 2
+      },
+      "confidence_scores": [
+        2.0,
+        -2.0
+      ]
+    },
+    "anna": {
+      "action_counts": {
+        "Reply": 2
+      },
+      "confidence_scores": [
+        2.0,
+        2.0
+      ]
+    },
+    "white": {
+      "action_counts": {
+        "Reply": 2
+      },
+      "confidence_scores": [
+        2.0,
+        2.0
+      ]
+    },
+    "metrics": {
+      "action_counts": {
+        "Reply": 2
+      },
+      "confidence_scores": [
+        2.0,
+        -2.0
+      ]
+    },
+    "application": {
+      "action_counts": {
+        "Reply": 2,
+        "Archive": 1
+      },
+      "confidence_scores": [
+        2.0,
+        2.0,
+        2.0
+      ]
+    },
+    "performance": {
+      "action_counts": {
+        "Reply": 2
+      },
+      "confidence_scores": [
+        2.0,
+        -2.0
+      ]
+    },
+    "status": {
+      "action_counts": {
+        "Reply": 2
+      },
+      "confidence_scores": [
+        2.0,
+        2.0
+      ]
+    },
+    "smith": {
+      "action_counts": {
+        "Reply": 4,
+        "Forward": 1
+      },
+      "confidence_scores": [
+        -2.0,
+        -2.0,
+        -2.0,
+        2.0,
+        -2.0
+      ]
+    },
+    "been": {
+      "action_counts": {
+        "Reply": 1,
+        "Archive": 1
+      },
+      "confidence_scores": [
+        -2.0,
+        2.0
+      ]
+    },
+    "sarah": {
+      "action_counts": {
+        "Reply": 4,
+        "Forward": 1
+      },
+      "confidence_scores": [
+        -2.0,
+        -2.0,
+        -2.0,
+        2.0,
+        -2.0
+      ]
+    },
+    "change": {
+      "action_counts": {
+        "Reply": 1
+      },
+      "confidence_scores": [
+        -2.0
+      ]
+    },
+    "discuss": {
+      "action_counts": {
+        "Reply": 1
+      },
+      "confidence_scores": [
+        -2.0
+      ]
+    },
+    "need": {
+      "action_counts": {
+        "Reply": 3,
+        "Forward": 1
+      },
+      "confidence_scores": [
+        -2.0,
+        2.0,
+        2.0,
+        -2.0
+      ]
+    },
+    "would": {
+      "action_counts": {
+        "Reply": 2,
+        "Forward": 1
+      },
+      "confidence_scores": [
+        2.0,
+        2.0,
+        -2.0
+      ]
+    },
+    "budget": {
+      "action_counts": {
+        "Reply": 2,
+        "Forward": 1
+      },
+      "confidence_scores": [
+        2.0,
+        2.0,
+        -2.0
+      ]
+    },
+    "expertise": {
+      "action_counts": {
+        "Reply": 2,
+        "Forward": 1
+      },
+      "confidence_scores": [
+        2.0,
+        2.0,
+        -2.0
+      ]
+    },
+    "planning": {
+      "action_counts": {
+        "Reply": 2,
+        "Forward": 1
+      },
+      "confidence_scores": [
+        2.0,
+        2.0,
+        -2.0
+      ]
+    },
+    "good": {
+      "action_counts": {
+        "Reply": 2,
+        "Archive": 2,
+        "Forward": 1
+      },
+      "confidence_scores": [
+        2.0,
+        -2.0,
+        2.0,
+        2.0,
+        -2.0
+      ]
+    },
+    "brown": {
+      "action_counts": {
+        "Reply": 1
+      },
+      "confidence_scores": [
+        2.0
+      ]
+    },
+    "david": {
+      "action_counts": {
+        "Reply": 1
+      },
+      "confidence_scores": [
+        2.0
+      ]
+    },
+    "input": {
+      "action_counts": {
+        "Reply": 2,
+        "Forward": 1
+      },
+      "confidence_scores": [
+        2.0,
+        2.0,
+        -2.0
+      ]
+    },
+    "upcoming": {
+      "action_counts": {
+        "Reply": 2,
+        "Forward": 1,
+        "Archive": 1
+      },
+      "confidence_scores": [
+        2.0,
+        2.0,
+        -2.0,
+        2.0
+      ]
+    },
+    "report": {
+      "action_counts": {
+        "Reply": 1,
+        "Forward": 1
+      },
+      "confidence_scores": [
+        -2.0,
+        -2.0
+      ]
+    },
+    "look": {
+      "action_counts": {
+        "Reply": 1,
+        "Archive": 1,
+        "Forward": 1
+      },
+      "confidence_scores": [
+        -2.0,
+        2.0,
+        -2.0
+      ]
+    },
+    "they": {
+      "action_counts": {
+        "Reply": 1,
+        "Archive": 2,
+        "Forward": 1
+      },
+      "confidence_scores": [
+        -2.0,
+        2.0,
+        2.0,
+        -2.0
+      ]
+    },
+    "quarterly": {
+      "action_counts": {
+        "Reply": 1,
+        "Forward": 1
+      },
+      "confidence_scores": [
+        -2.0,
+        -2.0
+      ]
+    },
+    "detailed": {
+      "action_counts": {
+        "Reply": 1,
+        "Forward": 1
+      },
+      "confidence_scores": [
+        -2.0,
+        -2.0
+      ]
+    },
+    "maintenance": {
+      "action_counts": {
+        "Reply": 1
+      },
+      "confidence_scores": [
+        -2.0
+      ]
+    },
+    "server": {
+      "action_counts": {
+        "Reply": 1
+      },
+      "confidence_scores": [
+        -2.0
+      ]
+    },
+    "encounter": {
+      "action_counts": {
+        "Reply": 2
+      },
+      "confidence_scores": [
+        2.0,
+        2.0
+      ]
+    },
+    "ready": {
+      "action_counts": {
+        "Reply": 3,
+        "Archive": 6
+      },
+      "confidence_scores": [
+        2.0,
+        -2.0,
+        2.0,
+        2.0,
+        -2.0,
+        -2.0,
+        2.0,
+        2.0,
+        2.0
+      ]
+    },
+    "know": {
+      "action_counts": {
+        "Reply": 3,
+        "Archive": 1
+      },
+      "confidence_scores": [
+        2.0,
+        2.0,
+        -2.0,
+        2.0
+      ]
+    },
+    "software": {
+      "action_counts": {
+        "Reply": 2
+      },
+      "confidence_scores": [
+        2.0,
+        2.0
+      ]
+    },
+    "sign": {
+      "action_counts": {
+        "Reply": 1,
+        "Archive": 1
+      },
+      "confidence_scores": [
+        2.0,
+        -2.0
+      ]
+    },
+    "someone": {
+      "action_counts": {
+        "Reply": 1,
+        "Archive": 1
+      },
+      "confidence_scores": [
+        2.0,
+        -2.0
+      ]
+    },
+    "activity": {
+      "action_counts": {
+        "Reply": 1,
+        "Archive": 1
+      },
+      "confidence_scores": [
+        2.0,
+        -2.0
+      ]
+    },
+    "account": {
+      "action_counts": {
+        "Reply": 1,
+        "Archive": 1
+      },
+      "confidence_scores": [
+        2.0,
+        -2.0
+      ]
+    },
+    "secure": {
+      "action_counts": {
+        "Reply": 1,
+        "Archive": 1
+      },
+      "confidence_scores": [
+        2.0,
+        -2.0
+      ]
+    },
+    "check": {
+      "action_counts": {
+        "Reply": 1,
+        "Archive": 1
+      },
+      "confidence_scores": [
+        2.0,
+        -2.0
+      ]
+    },
+    "amphitheatre": {
+      "action_counts": {
+        "Reply": 1,
+        "Archive": 1
+      },
+      "confidence_scores": [
+        2.0,
+        -2.0
+      ]
+    },
+    "important": {
+      "action_counts": {
+        "Reply": 1,
+        "Archive": 1
+      },
+      "confidence_scores": [
+        2.0,
+        -2.0
+      ]
+    },
+    "also": {
+      "action_counts": {
+        "Reply": 1,
+        "Archive": 1
+      },
+      "confidence_scores": [
+        2.0,
+        -2.0
+      ]
+    },
+    "alert": {
+      "action_counts": {
+        "Reply": 1,
+        "Archive": 1
+      },
+      "confidence_scores": [
+        2.0,
+        -2.0
+      ]
+    },
+    "google": {
+      "action_counts": {
+        "Reply": 1,
+        "Archive": 1
+      },
+      "confidence_scores": [
+        2.0,
+        -2.0
+      ]
+    },
+    "security": {
+      "action_counts": {
+        "Reply": 1,
+        "Archive": 1
+      },
+      "confidence_scores": [
+        2.0,
+        -2.0
+      ]
+    },
+    "might": {
+      "action_counts": {
+        "Reply": 1,
+        "Archive": 1
+      },
+      "confidence_scores": [
+        2.0,
+        -2.0
+      ]
+    },
+    "mountain": {
+      "action_counts": {
+        "Reply": 1,
+        "Archive": 1
+      },
+      "confidence_scores": [
+        2.0,
+        -2.0
+      ]
+    },
+    "used": {
+      "action_counts": {
+        "Reply": 1
+      },
+      "confidence_scores": [
+        2.0
+      ]
+    },
+    "else": {
+      "action_counts": {
+        "Reply": 1,
+        "Archive": 1
+      },
+      "confidence_scores": [
+        2.0,
+        -2.0
+      ]
+    },
+    "changes": {
+      "action_counts": {
+        "Reply": 1,
+        "Archive": 1
+      },
+      "confidence_scores": [
+        2.0,
+        -2.0
+      ]
+    },
+    "removed": {
+      "action_counts": {
+        "Reply": 1
+      },
+      "confidence_scores": [
+        2.0
+      ]
+    },
+    "remove": {
+      "action_counts": {
+        "Reply": 1
+      },
+      "confidence_scores": [
+        2.0
+      ]
+    },
+    "using": {
+      "action_counts": {
+        "Reply": 1,
+        "Archive": 1
+      },
+      "confidence_scores": [
+        2.0,
+        -2.0
+      ]
+    },
+    "received": {
+      "action_counts": {
+        "Reply": 1,
+        "Archive": 1
+      },
+      "confidence_scores": [
+        2.0,
+        -2.0
+      ]
+    },
+    "today": {
+      "action_counts": {
+        "Archive": 6,
+        "Reply": 1
+      },
+      "confidence_scores": [
+        -2.0,
+        2.0,
+        2.0,
+        -2.0,
+        -2.0,
+        2.0,
+        2.0
+      ]
+    },
+    "created": {
+      "action_counts": {
+        "Archive": 1
+      },
+      "confidence_scores": [
+        -2.0
+      ]
+    },
+    "generate": {
+      "action_counts": {
+        "Archive": 1
+      },
+      "confidence_scores": [
+        -2.0
+      ]
+    },
+    "lisa": {
+      "action_counts": {
+        "Reply": 1
+      },
+      "confidence_scores": [
+        2.0
+      ]
+    },
+    "chen": {
+      "action_counts": {
+        "Reply": 1
+      },
+      "confidence_scores": [
+        2.0
+      ]
+    },
+    "sites": {
+      "action_counts": {
+        "Archive": 2
+      },
+      "confidence_scores": [
+        2.0,
+        2.0
+      ]
+    },
+    "work": {
+      "action_counts": {
+        "Archive": 2
+      },
+      "confidence_scores": [
+        2.0,
+        2.0
+      ]
+    },
+    "lives": {
+      "action_counts": {
+        "Archive": 2
+      },
+      "confidence_scores": [
+        2.0,
+        2.0
+      ]
+    },
+    "pingalwad": {
+      "action_counts": {
+        "Archive": 2
+      },
+      "confidence_scores": [
+        2.0,
+        2.0
+      ]
+    },
+    "moment": {
+      "action_counts": {
+        "Archive": 2
+      },
+      "confidence_scores": [
+        2.0,
+        2.0
+      ]
+    },
+    "around": {
+      "action_counts": {
+        "Archive": 2
+      },
+      "confidence_scores": [
+        2.0,
+        2.0
+      ]
+    },
+    "will": {
+      "action_counts": {
+        "Archive": 3
+      },
+      "confidence_scores": [
+        2.0,
+        2.0,
+        2.0
+      ]
+    },
+    "kaggle": {
+      "action_counts": {
+        "Archive": 2
+      },
+      "confidence_scores": [
+        2.0,
+        2.0
+      ]
+    },
+    "hosted": {
+      "action_counts": {
+        "Archive": 2
+      },
+      "confidence_scores": [
+        2.0,
+        2.0
+      ]
+    },
+    "data": {
+      "action_counts": {
+        "Archive": 2
+      },
+      "confidence_scores": [
+        2.0,
+        2.0
+      ]
+    },
+    "ryan": {
+      "action_counts": {
+        "Archive": 2
+      },
+      "confidence_scores": [
+        2.0,
+        2.0
+      ]
+    },
+    "advancing": {
+      "action_counts": {
+        "Archive": 2
+      },
+      "confidence_scores": [
+        2.0,
+        2.0
+      ]
+    },
+    "across": {
+      "action_counts": {
+        "Archive": 2
+      },
+      "confidence_scores": [
+        2.0,
+        2.0
+      ]
+    },
+    "help": {
+      "action_counts": {
+        "Archive": 2
+      },
+      "confidence_scores": [
+        2.0,
+        2.0
+      ]
+    },
+    "competition": {
+      "action_counts": {
+        "Archive": 2
+      },
+      "confidence_scores": [
+        2.0,
+        2.0
+      ]
+    },
+    "often": {
+      "action_counts": {
+        "Archive": 2
+      },
+      "confidence_scores": [
+        2.0,
+        2.0
+      ]
+    },
+    "rsna": {
+      "action_counts": {
+        "Archive": 2
+      },
+      "confidence_scores": [
+        2.0,
+        2.0
+      ]
+    },
+    "total": {
+      "action_counts": {
+        "Archive": 2
+      },
+      "confidence_scores": [
+        2.0,
+        2.0
+      ]
+    },
+    "care": {
+      "action_counts": {
+        "Archive": 2
+      },
+      "confidence_scores": [
+        2.0,
+        2.0
+      ]
+    },
+    "detection": {
+      "action_counts": {
+        "Archive": 2
+      },
+      "confidence_scores": [
+        2.0,
+        2.0
+      ]
+    },
+    "holbrook": {
+      "action_counts": {
+        "Archive": 2
+      },
+      "confidence_scores": [
+        2.0,
+        2.0
+      ]
+    },
+    "patient": {
+      "action_counts": {
+        "Archive": 2
+      },
+      "confidence_scores": [
+        2.0,
+        2.0
+      ]
+    },
+    "brain": {
+      "action_counts": {
+        "Archive": 2
+      },
+      "confidence_scores": [
+        2.0,
+        2.0
+      ]
+    },
+    "models": {
+      "action_counts": {
+        "Archive": 2
+      },
+      "confidence_scores": [
+        2.0,
+        2.0
+      ]
+    },
+    "variation": {
+      "action_counts": {
+        "Archive": 2
+      },
+      "confidence_scores": [
+        2.0,
+        2.0
+      ]
+    },
+    "aneurysms": {
+      "action_counts": {
+        "Archive": 2
+      },
+      "confidence_scores": [
+        2.0,
+        2.0
+      ]
+    },
+    "save": {
+      "action_counts": {
+        "Archive": 2
+      },
+      "confidence_scores": [
+        2.0,
+        2.0
+      ]
+    },
+    "arteries": {
+      "action_counts": {
+        "Archive": 2
+      },
+      "confidence_scores": [
+        2.0,
+        2.0
+      ]
+    },
+    "build": {
+      "action_counts": {
+        "Archive": 2
+      },
+      "confidence_scores": [
+        2.0,
+        2.0
+      ]
+    },
+    "scientist": {
+      "action_counts": {
+        "Archive": 2
+      },
+      "confidence_scores": [
+        2.0,
+        2.0
+      ]
+    },
+    "localize": {
+      "action_counts": {
+        "Archive": 2
+      },
+      "confidence_scores": [
+        2.0,
+        2.0
+      ]
+    },
+    "curated": {
+      "action_counts": {
+        "Archive": 2
+      },
+      "confidence_scores": [
+        2.0,
+        2.0
+      ]
+    },
+    "transform": {
+      "action_counts": {
+        "Archive": 2
+      },
+      "confidence_scores": [
+        2.0,
+        2.0
+      ]
+    },
+    "spanning": {
+      "action_counts": {
+        "Archive": 2
+      },
+      "confidence_scores": [
+        2.0,
+        2.0
+      ]
+    },
+    "detect": {
+      "action_counts": {
+        "Archive": 2
+      },
+      "confidence_scores": [
+        2.0,
+        2.0
+      ]
+    },
+    "intracranial": {
+      "action_counts": {
+        "Archive": 2
+      },
+      "confidence_scores": [
+        2.0,
+        2.0
+      ]
+    },
+    "entry": {
+      "action_counts": {
+        "Archive": 2
+      },
+      "confidence_scores": [
+        2.0,
+        2.0
+      ]
+    },
+    "learn": {
+      "action_counts": {
+        "Archive": 3
+      },
+      "confidence_scores": [
+        2.0,
+        2.0,
+        2.0
+      ]
+    },
+    "test": {
+      "action_counts": {
+        "Archive": 2
+      },
+      "confidence_scores": [
+        2.0,
+        2.0
+      ]
+    },
+    "ability": {
+      "action_counts": {
+        "Archive": 2
+      },
+      "confidence_scores": [
+        2.0,
+        2.0
+      ]
+    },
+    "october": {
+      "action_counts": {
+        "Archive": 2
+      },
+      "confidence_scores": [
+        2.0,
+        2.0
+      ]
+    },
+    "bulges": {
+      "action_counts": {
+        "Archive": 2
+      },
+      "confidence_scores": [
+        2.0,
+        2.0
+      ]
+    },
+    "esnr": {
+      "action_counts": {
+        "Archive": 2
+      },
+      "confidence_scores": [
+        2.0,
+        2.0
+      ]
+    },
+    "more": {
+      "action_counts": {
+        "Archive": 3
+      },
+      "confidence_scores": [
+        2.0,
+        2.0,
+        2.0
+      ]
+    },
+    "happens": {
+      "action_counts": {
+        "Archive": 2
+      },
+      "confidence_scores": [
+        2.0,
+        2.0
+      ]
+    },
+    "tomorrow": {
+      "action_counts": {
+        "Reply": 1
+      },
+      "confidence_scores": [
+        2.0
+      ]
+    },
+    "john": {
+      "action_counts": {
+        "Delete": 1
+      },
+      "confidence_scores": [
+        2.0
+      ]
+    },
+    "opportunities": {
+      "action_counts": {
+        "Archive": 1
+      },
+      "confidence_scores": [
+        2.0
+      ]
+    },
+    "assessment": {
+      "action_counts": {
+        "Archive": 1
+      },
+      "confidence_scores": [
+        2.0
+      ]
+    },
+    "launch": {
+      "action_counts": {
+        "Archive": 1
+      },
+      "confidence_scores": [
+        2.0
+      ]
+    },
+    "cohort": {
+      "action_counts": {
+        "Archive": 1
+      },
+      "confidence_scores": [
+        2.0
+      ]
+    },
+    "courses": {
+      "action_counts": {
+        "Archive": 1
+      },
+      "confidence_scores": [
+        2.0
+      ]
+    },
+    "communication": {
+      "action_counts": {
+        "Archive": 1
+      },
+      "confidence_scores": [
+        2.0
+      ]
+    },
+    "internship": {
+      "action_counts": {
+        "Archive": 1
+      },
+      "confidence_scores": [
+        2.0
+      ]
+    },
+    "springboard": {
+      "action_counts": {
+        "Archive": 1
+      },
+      "confidence_scores": [
+        2.0
+      ]
+    },
+    "contents": {
+      "action_counts": {
+        "Archive": 1
+      },
+      "confidence_scores": [
+        2.0
+      ]
+    },
+    "join": {
+      "action_counts": {
+        "Archive": 1
+      },
+      "confidence_scores": [
+        2.0
+      ]
+    },
+    "tuned": {
+      "action_counts": {
+        "Archive": 1
+      },
+      "confidence_scores": [
+        2.0
+      ]
+    },
+    "completed": {
+      "action_counts": {
+        "Archive": 1
+      },
+      "confidence_scores": [
+        2.0
+      ]
+    },
+    "infosys": {
+      "action_counts": {
+        "Archive": 1
+      },
+      "confidence_scores": [
+        2.0
+      ]
+    },
+    "thank": {
+      "action_counts": {
+        "Archive": 1
+      },
+      "confidence_scores": [
+        2.0
+      ]
+    },
+    "deadline": {
+      "action_counts": {
+        "Archive": 1
+      },
+      "confidence_scores": [
+        2.0
+      ]
+    },
+    "completion": {
+      "action_counts": {
+        "Archive": 1
+      },
+      "confidence_scores": [
+        2.0
+      ]
+    },
+    "continue": {
+      "action_counts": {
+        "Archive": 1
+      },
+      "confidence_scores": [
+        2.0
+      ]
+    },
+    "write": {
+      "action_counts": {
+        "Archive": 1
+      },
+      "confidence_scores": [
+        2.0
+      ]
+    },
+    "take": {
+      "action_counts": {
+        "Archive": 1
+      },
+      "confidence_scores": [
+        2.0
+      ]
+    },
+    "outlined": {
+      "action_counts": {
+        "Archive": 1
+      },
+      "confidence_scores": [
+        2.0
+      ]
+    },
+    "selected": {
+      "action_counts": {
+        "Archive": 1
+      },
+      "confidence_scores": [
+        2.0
+      ]
+    },
+    "course": {
+      "action_counts": {
+        "Archive": 1
+      },
+      "confidence_scores": [
+        2.0
+      ]
+    },
+    "learning": {
+      "action_counts": {
+        "Archive": 1
+      },
+      "confidence_scores": [
+        2.0
+      ]
+    },
+    "stay": {
+      "action_counts": {
+        "Archive": 1
+      },
+      "confidence_scores": [
+        2.0
+      ]
+    },
+    "programs": {
+      "action_counts": {
+        "Archive": 1
+      },
+      "confidence_scores": [
+        2.0
+      ]
+    },
+    "within": {
+      "action_counts": {
+        "Archive": 1
+      },
+      "confidence_scores": [
+        2.0
+      ]
+    },
+    "considered": {
+      "action_counts": {
+        "Archive": 1
+      },
+      "confidence_scores": [
+        2.0
+      ]
+    },
+    "prerequisite": {
+      "action_counts": {
+        "Archive": 1
+      },
+      "confidence_scores": [
+        2.0
+      ]
+    },
+    "skip": {
+      "action_counts": {
+        "Archive": 1
+      },
+      "confidence_scores": [
+        2.0
+      ]
+    }
+  },
+  "topic_memory": {},
+  "feedback_history": [
+    {
+      "timestamp": "2025-08-02T01:33:53.650061",
+      "sender": "blackhole01729@gmail.com",
+      "subject": "URGENT: Action required immediately",
+      "predicted_action": "Reply",
+      "user_feedback": "approve",
+      "correct_action": "Reply",
+      "reward": 2.0,
+      "confidence": 0.95
+    },
+    {
+      "timestamp": "2025-08-02T01:33:53.844783",
+      "sender": "blackhole01729@gmail.com",
+      "subject": "Question about your recent order",
+      "predicted_action": "Spam",
+      "user_feedback": "approve",
+      "correct_action": "Spam",
+      "reward": 2.0,
+      "confidence": 0.95
+    },
+    {
+      "timestamp": "2025-08-02T01:37:53.917343",
+      "sender": "blackhole01729@gmail.com",
+      "subject": "URGENT: Action required immediately",
+      "predicted_action": "Reply",
+      "user_feedback": "approve",
+      "correct_action": "Reply",
+      "reward": 2.0,
+      "confidence": 0.95
+    },
+    {
+      "timestamp": "2025-08-02T01:37:53.953614",
+      "sender": "blackhole01729@gmail.com",
+      "subject": "Question about your recent order",
+      "predicted_action": "Spam",
+      "user_feedback": "reject",
+      "correct_action": "Spam",
+      "reward": -2.0,
+      "confidence": 0.95
+    },
+    {
+      "timestamp": "2025-08-02T01:37:53.988653",
+      "sender": "blackhole01729@gmail.com",
+      "subject": "Weekly Newsletter - Latest Updates",
+      "predicted_action": "Reply",
+      "user_feedback": "approve",
+      "correct_action": "Reply",
+      "reward": 2.0,
+      "confidence": 0.95
+    },
+    {
+      "timestamp": "2025-08-02T01:37:54.227745",
+      "sender": "blackhole01729@gmail.com",
+      "subject": "URGENT: Action required immediately",
+      "predicted_action": "Reply",
+      "user_feedback": "approve",
+      "correct_action": "Reply",
+      "reward": 2.0,
+      "confidence": 0.95
+    },
+    {
+      "timestamp": "2025-08-02T01:37:54.234056",
+      "sender": "blackhole01729@gmail.com",
+      "subject": "URGENT: Action required immediately",
+      "predicted_action": "Reply",
+      "user_feedback": "approve",
+      "correct_action": "Reply",
+      "reward": 2.0,
+      "confidence": 0.95
+    },
+    {
+      "timestamp": "2025-08-02T01:37:54.243775",
+      "sender": "blackhole01729@gmail.com",
+      "subject": "URGENT: Action required immediately",
+      "predicted_action": "Reply",
+      "user_feedback": "approve",
+      "correct_action": "Reply",
+      "reward": 2.0,
+      "confidence": 0.95
+    },
+    {
+      "timestamp": "2025-08-02T01:37:54.246714",
+      "sender": "blackhole01729@gmail.com",
+      "subject": "URGENT: Action required immediately",
+      "predicted_action": "Reply",
+      "user_feedback": "approve",
+      "correct_action": "Reply",
+      "reward": 2.0,
+      "confidence": 0.95
+    },
+    {
+      "timestamp": "2025-08-02T01:37:54.260103",
+      "sender": "blackhole01729@gmail.com",
+      "subject": "URGENT: Action required immediately",
+      "predicted_action": "Reply",
+      "user_feedback": "approve",
+      "correct_action": "Reply",
+      "reward": 2.0,
+      "confidence": 0.95
+    },
+    {
+      "timestamp": "2025-08-02T01:38:46.456868",
+      "sender": "blackhole01729@gmail.com",
+      "subject": "URGENT: Action required immediately",
+      "predicted_action": "Reply",
+      "user_feedback": "approve",
+      "correct_action": "Reply",
+      "reward": 2.0,
+      "confidence": 0.95
+    },
+    {
+      "timestamp": "2025-08-02T01:38:46.493401",
+      "sender": "blackhole01729@gmail.com",
+      "subject": "Question about your recent order",
+      "predicted_action": "Delete",
+      "user_feedback": "reject",
+      "correct_action": "Delete",
+      "reward": -2.0,
+      "confidence": 0.95
+    },
+    {
+      "timestamp": "2025-08-02T01:38:46.542848",
+      "sender": "blackhole01729@gmail.com",
+      "subject": "Weekly Newsletter - Latest Updates",
+      "predicted_action": "Reply",
+      "user_feedback": "approve",
+      "correct_action": "Reply",
+      "reward": 2.0,
+      "confidence": 0.95
+    },
+    {
+      "timestamp": "2025-08-02T01:38:46.577819",
+      "sender": "blackhole01729@gmail.com",
+      "subject": "URGENT: Action required immediately",
+      "predicted_action": "Reply",
+      "user_feedback": "reject",
+      "correct_action": "Reply",
+      "reward": -2.0,
+      "confidence": 0.95
+    },
+    {
+      "timestamp": "2025-08-02T01:38:46.604394",
+      "sender": "blackhole01729@gmail.com",
+      "subject": "Question about your recent order",
+      "predicted_action": "Reply",
+      "user_feedback": "approve",
+      "correct_action": "Reply",
+      "reward": 2.0,
+      "confidence": 0.95
+    },
+    {
+      "timestamp": "2025-08-02T01:38:46.626386",
+      "sender": "john.doe@company.com",
+      "subject": "Team lunch this Friday?",
+      "predicted_action": "Reply",
+      "user_feedback": "approve",
+      "correct_action": "Reply",
+      "reward": 2.0,
+      "confidence": 0.95
+    },
+    {
+      "timestamp": "2025-08-02T01:38:46.662094",
+      "sender": "sarah.smith@business.org",
+      "subject": "Holiday schedule update",
+      "predicted_action": "Reply",
+      "user_feedback": "reject",
+      "correct_action": "Reply",
+      "reward": -2.0,
+      "confidence": 0.95
+    },
+    {
+      "timestamp": "2025-08-02T01:38:46.693696",
+      "sender": "mike.wilson@startup.io",
+      "subject": "Urgent: Client feedback needed",
+      "predicted_action": "Reply",
+      "user_feedback": "approve",
+      "correct_action": "Reply",
+      "reward": 2.0,
+      "confidence": 0.95
+    },
+    {
+      "timestamp": "2025-08-02T01:38:46.714940",
+      "sender": "lisa.chen@techcorp.com",
+      "subject": "Password reset request",
+      "predicted_action": "Reply",
+      "user_feedback": "reject",
+      "correct_action": "Reply",
+      "reward": -2.0,
+      "confidence": 0.95
+    },
+    {
+      "timestamp": "2025-08-02T01:39:49.446175",
+      "sender": "blackhole01729@gmail.com",
+      "subject": "URGENT: Action required immediately",
+      "predicted_action": "Reply",
+      "user_feedback": "approve",
+      "correct_action": "Reply",
+      "reward": 2.0,
+      "confidence": 0.95
+    },
+    {
+      "timestamp": "2025-08-02T01:39:49.571373",
+      "sender": "blackhole01729@gmail.com",
+      "subject": "Question about your recent order",
+      "predicted_action": "Reply",
+      "user_feedback": "approve",
+      "correct_action": "Reply",
+      "reward": 2.0,
+      "confidence": 0.95
+    },
+    {
+      "timestamp": "2025-08-02T01:41:55.361524",
+      "sender": "blackhole01729@gmail.com",
+      "subject": "URGENT: Action required immediately",
+      "predicted_action": "Reply",
+      "user_feedback": "approve",
+      "correct_action": "Reply",
+      "reward": 2.0,
+      "confidence": 0.95
+    },
+    {
+      "timestamp": "2025-08-02T01:41:55.388925",
+      "sender": "blackhole01729@gmail.com",
+      "subject": "Question about your recent order",
+      "predicted_action": "Reply",
+      "user_feedback": "reject",
+      "correct_action": "Reply",
+      "reward": -2.0,
+      "confidence": 0.95
+    },
+    {
+      "timestamp": "2025-08-02T01:41:55.413097",
+      "sender": "blackhole01729@gmail.com",
+      "subject": "Weekly Newsletter - Latest Updates",
+      "predicted_action": "Reply",
+      "user_feedback": "approve",
+      "correct_action": "Reply",
+      "reward": 2.0,
+      "confidence": 0.95
+    },
+    {
+      "timestamp": "2025-08-02T01:41:55.445888",
+      "sender": "blackhole01729@gmail.com",
+      "subject": "URGENT: Action required immediately",
+      "predicted_action": "Reply",
+      "user_feedback": "reject",
+      "correct_action": "Reply",
+      "reward": -2.0,
+      "confidence": 0.95
+    },
+    {
+      "timestamp": "2025-08-02T01:41:55.479432",
+      "sender": "blackhole01729@gmail.com",
+      "subject": "Question about your recent order",
+      "predicted_action": "Reply",
+      "user_feedback": "approve",
+      "correct_action": "Reply",
+      "reward": 2.0,
+      "confidence": 0.95
+    },
+    {
+      "timestamp": "2025-08-02T01:41:55.511212",
+      "sender": "john.doe@company.com",
+      "subject": "Invoice #12345",
+      "predicted_action": "Reply",
+      "user_feedback": "approve",
+      "correct_action": "Reply",
+      "reward": 2.0,
+      "confidence": 0.95
+    },
+    {
+      "timestamp": "2025-08-02T01:41:55.541265",
+      "sender": "sarah.smith@business.org",
+      "subject": "Project update - Q4 results",
+      "predicted_action": "Reply",
+      "user_feedback": "reject",
+      "correct_action": "Reply",
+      "reward": -2.0,
+      "confidence": 0.95
+    },
+    {
+      "timestamp": "2025-08-02T01:41:55.573337",
+      "sender": "mike.wilson@startup.io",
+      "subject": "Job application status",
+      "predicted_action": "Reply",
+      "user_feedback": "approve",
+      "correct_action": "Reply",
+      "reward": 2.0,
+      "confidence": 0.95
+    },
+    {
+      "timestamp": "2025-08-02T01:41:55.603998",
+      "sender": "lisa.chen@techcorp.com",
+      "subject": "Holiday schedule update",
+      "predicted_action": "Reply",
+      "user_feedback": "reject",
+      "correct_action": "Reply",
+      "reward": -2.0,
+      "confidence": 0.95
+    },
+    {
+      "timestamp": "2025-08-02T01:42:05.219469",
+      "sender": "blackhole01729@gmail.com",
+      "subject": "URGENT: Action required immediately",
+      "predicted_action": "Reply",
+      "user_feedback": "approve",
+      "correct_action": "Reply",
+      "reward": 2.0,
+      "confidence": 0.95
+    },
+    {
+      "timestamp": "2025-08-02T01:42:05.246808",
+      "sender": "blackhole01729@gmail.com",
+      "subject": "Question about your recent order",
+      "predicted_action": "Reply",
+      "user_feedback": "reject",
+      "correct_action": "Reply",
+      "reward": -2.0,
+      "confidence": 0.95
+    },
+    {
+      "timestamp": "2025-08-02T01:42:05.267083",
+      "sender": "blackhole01729@gmail.com",
+      "subject": "Weekly Newsletter - Latest Updates",
+      "predicted_action": "Reply",
+      "user_feedback": "approve",
+      "correct_action": "Reply",
+      "reward": 2.0,
+      "confidence": 0.95
+    },
+    {
+      "timestamp": "2025-08-02T01:42:05.323631",
+      "sender": "blackhole01729@gmail.com",
+      "subject": "URGENT: Action required immediately",
+      "predicted_action": "Reply",
+      "user_feedback": "approve",
+      "correct_action": "Reply",
+      "reward": 2.0,
+      "confidence": 0.95
+    },
+    {
+      "timestamp": "2025-08-02T01:42:05.333441",
+      "sender": "blackhole01729@gmail.com",
+      "subject": "URGENT: Action required immediately",
+      "predicted_action": "Reply",
+      "user_feedback": "approve",
+      "correct_action": "Reply",
+      "reward": 2.0,
+      "confidence": 0.95
+    },
+    {
+      "timestamp": "2025-08-02T01:42:05.338593",
+      "sender": "blackhole01729@gmail.com",
+      "subject": "URGENT: Action required immediately",
+      "predicted_action": "Reply",
+      "user_feedback": "approve",
+      "correct_action": "Reply",
+      "reward": 2.0,
+      "confidence": 0.95
+    },
+    {
+      "timestamp": "2025-08-02T01:42:05.348629",
+      "sender": "blackhole01729@gmail.com",
+      "subject": "URGENT: Action required immediately",
+      "predicted_action": "Reply",
+      "user_feedback": "approve",
+      "correct_action": "Reply",
+      "reward": 2.0,
+      "confidence": 0.95
+    },
+    {
+      "timestamp": "2025-08-02T01:42:05.354770",
+      "sender": "blackhole01729@gmail.com",
+      "subject": "URGENT: Action required immediately",
+      "predicted_action": "Reply",
+      "user_feedback": "approve",
+      "correct_action": "Reply",
+      "reward": 2.0,
+      "confidence": 0.95
+    },
+    {
+      "timestamp": "2025-08-02T01:45:08.719201",
+      "sender": "blackhole01729@gmail.com",
+      "subject": "URGENT: Action required immediately",
+      "predicted_action": "Reply",
+      "user_feedback": "approve",
+      "correct_action": "Reply",
+      "reward": 2.0,
+      "confidence": 0.95
+    },
+    {
+      "timestamp": "2025-08-02T01:45:08.753586",
+      "sender": "blackhole01729@gmail.com",
+      "subject": "Question about your recent order",
+      "predicted_action": "Reply",
+      "user_feedback": "reject",
+      "correct_action": "Reply",
+      "reward": -2.0,
+      "confidence": 0.95
+    },
+    {
+      "timestamp": "2025-08-02T01:45:08.785604",
+      "sender": "blackhole01729@gmail.com",
+      "subject": "Weekly Newsletter - Latest Updates",
+      "predicted_action": "Reply",
+      "user_feedback": "approve",
+      "correct_action": "Reply",
+      "reward": 2.0,
+      "confidence": 0.95
+    },
+    {
+      "timestamp": "2025-08-02T01:45:08.833349",
+      "sender": "blackhole01729@gmail.com",
+      "subject": "URGENT: Action required immediately",
+      "predicted_action": "Reply",
+      "user_feedback": "reject",
+      "correct_action": "Reply",
+      "reward": -2.0,
+      "confidence": 0.95
+    },
+    {
+      "timestamp": "2025-08-02T01:45:08.888429",
+      "sender": "blackhole01729@gmail.com",
+      "subject": "Question about your recent order",
+      "predicted_action": "Reply",
+      "user_feedback": "approve",
+      "correct_action": "Reply",
+      "reward": 2.0,
+      "confidence": 0.95
+    },
+    {
+      "timestamp": "2025-08-02T01:45:08.944504",
+      "sender": "john.doe@company.com",
+      "subject": "Password reset request",
+      "predicted_action": "Reply",
+      "user_feedback": "approve",
+      "correct_action": "Reply",
+      "reward": 2.0,
+      "confidence": 0.95
+    },
+    {
+      "timestamp": "2025-08-02T01:45:09.004262",
+      "sender": "sarah.smith@business.org",
+      "subject": "ASAP: Server maintenance",
+      "predicted_action": "Reply",
+      "user_feedback": "reject",
+      "correct_action": "Reply",
+      "reward": -2.0,
+      "confidence": 0.95
+    },
+    {
+      "timestamp": "2025-08-02T01:45:09.140685",
+      "sender": "mike.wilson@startup.io",
+      "subject": "Job application status",
+      "predicted_action": "Reply",
+      "user_feedback": "approve",
+      "correct_action": "Reply",
+      "reward": 2.0,
+      "confidence": 0.95
+    },
+    {
+      "timestamp": "2025-08-02T01:45:09.236815",
+      "sender": "lisa.chen@techcorp.com",
+      "subject": "Monthly newsletter",
+      "predicted_action": "Reply",
+      "user_feedback": "reject",
+      "correct_action": "Reply",
+      "reward": -2.0,
+      "confidence": 0.95
+    },
+    {
+      "timestamp": "2025-08-02T02:04:10.422652",
+      "sender": "google <no-reply@accounts.google.com>",
+      "subject": "Security alert",
+      "predicted_action": "Reply",
+      "user_feedback": "approve",
+      "correct_action": "Reply",
+      "reward": 2.0,
+      "confidence": 0.95
+    },
+    {
+      "timestamp": "2025-08-02T02:52:35.130241",
+      "sender": "pingalwad sankalp <vu2f2223072@pvppcoe.ac.in>",
+      "subject": "Today meeting at 5pm be ready",
+      "predicted_action": "Reply",
+      "user_feedback": "reject",
+      "correct_action": "Archive",
+      "reward": -2.0,
+      "confidence": 0.7
+    },
+    {
+      "timestamp": "2025-08-02T02:57:39.619999",
+      "sender": "pingalwad sankalp <vu2f2223072@pvppcoe.ac.in>",
+      "subject": "Today meeting at 5pm be ready",
+      "predicted_action": "Archive",
+      "user_feedback": "approve",
+      "correct_action": "Archive",
+      "reward": 2.0,
+      "confidence": 0.95
+    },
+    {
+      "timestamp": "2025-08-02T03:10:26.759086",
+      "sender": "pingalwad sankalp <vu2f2223072@pvppcoe.ac.in>",
+      "subject": "Today meeting at 5pm be ready",
+      "predicted_action": "Reply",
+      "user_feedback": "approve",
+      "correct_action": "Reply",
+      "reward": 2.0,
+      "confidence": 0.9
+    },
+    {
+      "timestamp": "2025-08-02T03:24:01.855031",
+      "sender": "pingalwad sankalp <vu2f2223072@pvppcoe.ac.in>",
+      "subject": "Today meeting at 5pm be ready",
+      "predicted_action": "Reply",
+      "user_feedback": "reject",
+      "correct_action": "Archive",
+      "reward": -2.0,
+      "confidence": 0.875
+    },
+    {
+      "timestamp": "2025-08-02T08:22:45.392746",
+      "sender": "google <no-reply@accounts.google.com>",
+      "subject": "Security alert",
+      "predicted_action": "Reply",
+      "user_feedback": "reject",
+      "correct_action": "Archive",
+      "reward": -2.0,
+      "confidence": 0.95
+    },
+    {
+      "timestamp": "2025-08-02T08:54:11.490869",
+      "sender": "pingalwad sankalp <vu2f2223072@pvppcoe.ac.in>",
+      "subject": "Today meeting at 5pm be ready",
+      "predicted_action": "Reply",
+      "user_feedback": "reject",
+      "correct_action": "Archive",
+      "reward": -2.0,
+      "confidence": 0.86
+    },
+    {
+      "timestamp": "2025-08-02T08:54:31.269365",
+      "sender": "alex.johnson@finance.com",
+      "subject": "Holiday schedule update",
+      "predicted_action": "Reply",
+      "user_feedback": "approve",
+      "correct_action": "Reply",
+      "reward": 2.0,
+      "confidence": 0.95
+    },
+    {
+      "timestamp": "2025-08-02T08:55:13.985194",
+      "sender": "blackhole01729@gmail.com",
+      "subject": "Weekly Newsletter - Latest Updates",
+      "predicted_action": "Reply",
+      "user_feedback": "reject",
+      "correct_action": "Forward",
+      "reward": -2.0,
+      "confidence": 0.95
+    },
+    {
+      "timestamp": "2025-08-02T08:56:34.973195",
+      "sender": "pingalwad sankalp <vu2f2223072@pvppcoe.ac.in>",
+      "subject": "Today meeting at 5pm be ready",
+      "predicted_action": "Archive",
+      "user_feedback": "approve",
+      "correct_action": "Archive",
+      "reward": 2.0,
+      "confidence": 0.95
+    },
+    {
+      "timestamp": "2025-08-02T08:56:50.583325",
+      "sender": "blackhole01729@gmail.com",
+      "subject": "Question about your recent order",
+      "predicted_action": "Reply",
+      "user_feedback": "approve",
+      "correct_action": "Reply",
+      "reward": 2.0,
+      "confidence": 0.95
+    },
+    {
+      "timestamp": "2025-08-02T08:58:44.148356",
+      "sender": "pingalwad sankalp <vu2f2223072@pvppcoe.ac.in>",
+      "subject": "Hi PINGALWAD SANKALP, Intracranial aneurysms are bulges in the brain\u2019s arteries that often go unnoticed\u2014until they rupture. That moment can be life-threatening, and it happens far too often. In this RSNA challenge, hosted with ASNR, SNIS, and ESNR you\u2019ll build ML models to detect and localize aneurysms across CTA, MRA, and MRI scans. You\u2019ll work with expert-labeled data spanning 13 brain vessels, curated from 18 sites around the world. With variation in scanners, protocols, and anatomy, this competition will be a real-world test of your model\u2019s ability to generalize. Total Prizes: $50,000 Entry Deadline: October 7, 2025 Learn More Your work could help transform patient care and save lives by advancing AI-assisted detection and diagnosis. Good luck, Ryan Holbrook Kaggle Data Scientist",
+      "predicted_action": "Archive",
+      "user_feedback": "approve",
+      "correct_action": "Archive",
+      "reward": 2.0,
+      "confidence": 0.95
+    },
+    {
+      "timestamp": "2025-08-02T09:01:12.569543",
+      "sender": "pingalwad sankalp <vu2f2223072@pvppcoe.ac.in>",
+      "subject": "Hi PINGALWAD SANKALP, Intracranial aneurysms are bulges in the brain\u2019s arteries that often go unnoticed\u2014until they rupture. That moment can be life-threatening, and it happens far too often. In this RSNA challenge, hosted with ASNR, SNIS, and ESNR you\u2019ll build ML models to detect and localize aneurysms across CTA, MRA, and MRI scans. You\u2019ll work with expert-labeled data spanning 13 brain vessels, curated from 18 sites around the world. With variation in scanners, protocols, and anatomy, this competition will be a real-world test of your model\u2019s ability to generalize. Total Prizes: $50,000 Entry Deadline: October 7, 2025 Learn More Your work could help transform patient care and save lives by advancing AI-assisted detection and diagnosis. Good luck, Ryan Holbrook Kaggle Data Scientist",
+      "predicted_action": "Archive",
+      "user_feedback": "approve",
+      "correct_action": "Archive",
+      "reward": 2.0,
+      "confidence": 0.95
+    },
+    {
+      "timestamp": "2025-08-02T09:02:01.825933",
+      "sender": "anna.white@support.net",
+      "subject": "Urgent: Client feedback needed",
+      "predicted_action": "Reply",
+      "user_feedback": "approve",
+      "correct_action": "Reply",
+      "reward": 2.0,
+      "confidence": 0.95
+    },
+    {
+      "timestamp": "2025-08-02T09:02:09.434309",
+      "sender": "blackhole01729@gmail.com",
+      "subject": "URGENT: Action required immediately",
+      "predicted_action": "Reply",
+      "user_feedback": "approve",
+      "correct_action": "Reply",
+      "reward": 2.0,
+      "confidence": 0.95
+    },
+    {
+      "timestamp": "2025-08-02T09:02:15.629767",
+      "sender": "lisa.chen@techcorp.com",
+      "subject": "Meeting tomorrow at 10 AM",
+      "predicted_action": "Reply",
+      "user_feedback": "approve",
+      "correct_action": "Reply",
+      "reward": 2.0,
+      "confidence": 0.95
+    },
+    {
+      "timestamp": "2025-08-02T09:02:26.467106",
+      "sender": "blackhole01729@gmail.com",
+      "subject": "Urgent: Client feedback needed",
+      "predicted_action": "Reply",
+      "user_feedback": "approve",
+      "correct_action": "Reply",
+      "reward": 2.0,
+      "confidence": 0.95
+    },
+    {
+      "timestamp": "2025-08-02T09:02:37.728028",
+      "sender": "blackhole01729@gmail.com",
+      "subject": "Project update - Q4 results",
+      "predicted_action": "Delete",
+      "user_feedback": "approve",
+      "correct_action": "Delete",
+      "reward": 2.0,
+      "confidence": 0.95
+    },
+    {
+      "timestamp": "2025-08-02T09:02:47.339158",
+      "sender": "maria.garcia@hr.org",
+      "subject": "Holiday schedule update",
+      "predicted_action": "Delete",
+      "user_feedback": "reject",
+      "correct_action": "Forward",
+      "reward": -2.0,
+      "confidence": 0.7
+    },
+    {
+      "timestamp": "2025-08-02T09:56:31.850089",
+      "sender": "pingalwad sankalp <vu2f2223072@pvppcoe.ac.in>",
+      "subject": "Dear Learner, Thank you for your application to the\u00a0Infosys Springboard Internship 6.0. Unfortunately, you have not been selected for the upcoming cohort as\u00a0you have not completed\u00a0all\u00a0the prerequisite courses\u00a0within the deadline\u00a0outlined in the learning path. Completion will not be considered if you skip the course contents and take up assessment directly. \u00a0 You can join the next internship cohort, look out for our communication regarding launch of the same. \u00a0 Stay tuned for more programs and opportunities from Infosys Springboard and\u00a0continue to learn new skills. \u00a0 Got a query?\u00a0Write to\u00a0springboard-support@infosys.com Regards, Team Infosys Springboard",
+      "predicted_action": "Archive",
+      "user_feedback": "approve",
+      "correct_action": "Archive",
+      "reward": 2.0,
+      "confidence": 0.95
+    },
+    {
+      "timestamp": "2025-08-02T09:56:57.944501",
+      "sender": "pingalwad sankalp <vu2f2223072@pvppcoe.ac.in>",
+      "subject": "Today meeting at 5pm be ready",
+      "predicted_action": "Archive",
+      "user_feedback": "approve",
+      "correct_action": "Archive",
+      "reward": 2.0,
+      "confidence": 0.95
+    },
+    {
+      "timestamp": "2025-08-02T09:57:06.899460",
+      "sender": "blackhole01729@gmail.com",
+      "subject": "Question about your recent order",
+      "predicted_action": "Reply",
+      "user_feedback": "approve",
+      "correct_action": "Reply",
+      "reward": 2.0,
+      "confidence": 0.95
+    },
+    {
+      "timestamp": "2025-08-02T09:57:15.663106",
+      "sender": "john.doe@company.com",
+      "subject": "Monthly newsletter",
+      "predicted_action": "Delete",
+      "user_feedback": "reject",
+      "correct_action": "Forward",
+      "reward": -2.0,
+      "confidence": 0.7
+    }
+  ]
+}

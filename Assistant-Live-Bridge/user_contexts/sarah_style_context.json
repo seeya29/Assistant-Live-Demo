@@ -1,0 +1,19 @@
+{
+  "user_id": "sarah_style",
+  "platforms": {
+    "instagram": [
+      {
+        "timestamp": "2025-09-02T13:26:57.506153",
+        "message_text": "omg love your latest post! \ud83d\ude0d where did u get that gorgeous dress? dm me the details please! #fashion #style",
+        "message_id": "insta_001",
+        "summary": "\u2753 Continuing: omg love ur latest post",
+        "intent": "question",
+        "urgency": "medium",
+        "context_score": 0.0
+      }
+    ]
+  },
+  "created_at": "2025-09-02T13:26:57.551707",
+  "last_updated": "2025-09-02T13:26:57.551798",
+  "total_messages": 1
+}

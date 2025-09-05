@@ -1,0 +1,70 @@
+{
+  "platforms": {
+    "email": [
+      {
+        "timestamp": "2025-08-07T16:40:00Z",
+        "message_text": "Can we do a code freeze meeting next Friday at 4pm?",
+        "message_id": "msg_011",
+        "summary": "Can we do a code freeze meeting next Friday at 4pm",
+        "intent": "question",
+        "urgency": "medium",
+        "context_score": 0.0
+      },
+      {
+        "timestamp": "2025-08-07T16:40:00Z",
+        "message_text": "Can we do a code freeze meeting next Friday at 4pm?",
+        "message_id": "msg_011",
+        "summary": "Can we do a code freeze meeting next Friday at 4pm",
+        "intent": "question",
+        "urgency": "medium",
+        "context_score": 0.0
+      },
+      {
+        "timestamp": "2025-08-07T16:40:00Z",
+        "message_text": "Can we do a code freeze meeting next Friday at 4pm?",
+        "message_id": "msg_011",
+        "summary": "Continuing: Schedule Next friday at 4pm",
+        "intent": "question",
+        "urgency": "medium",
+        "context_score": 0.0
+      }
+    ]
+  },
+  "total_messages": 3,
+  "last_updated": "2025-09-03T06:05:21.695221+00:00",
+  "user_id": "engineering",
+  "created_at": "2025-09-03T06:05:21.673105+00:00",
+  "message_history": [
+    {
+      "timestamp": "2025-09-03T11:35:21.672826",
+      "platform": "email",
+      "message_type": "inquiry",
+      "summary": "Continuing: Schedule Next friday at 4pm"
+    }
+  ],
+  "intent_patterns": {
+    "scheduling": 1,
+    "type_inquiry": 1
+  },
+  "platform_usage": {
+    "email": 1
+  },
+  "message_type_frequency": {
+    "inquiry": 1
+  },
+  "scheduled_tasks": [],
+  "missed_tasks": [],
+  "completed_tasks": [],
+  "response_patterns": {},
+  "peak_activity_hours": {
+    "11": 1
+  },
+  "context_score": 0.33,
+  "behavioral_insights": {
+    "preferred_platform": "email",
+    "common_message_type": "inquiry",
+    "peak_activity_hour": 11,
+    "dominant_intent": "scheduling",
+    "activity_level": "low"
+  }
+}

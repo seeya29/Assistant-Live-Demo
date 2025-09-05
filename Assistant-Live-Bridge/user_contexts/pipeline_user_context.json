@@ -1,0 +1,98 @@
+{
+  "user_id": "pipeline_user",
+  "platforms": {
+    "slack": [
+      {
+        "timestamp": "2025-09-02T11:51:53.539085",
+        "message_text": "URGENT: Server maintenance needed tonight. Schedule downtime from 11 PM to 2 AM. Notify all teams.",
+        "message_id": "pipeline_001",
+        "summary": "Meeting coordination request - URGENT: Server issue",
+        "intent": "request",
+        "urgency": "critical",
+        "context_score": 0.0
+      },
+      {
+        "timestamp": "2025-09-02T11:56:02.973148",
+        "message_text": "URGENT: Server maintenance needed tonight. Schedule downtime from 11 PM to 2 AM. Notify all teams.",
+        "message_id": "pipeline_001",
+        "summary": "Meeting coordination request - URGENT: Server issue",
+        "intent": "request",
+        "urgency": "critical",
+        "context_score": 0.0
+      },
+      {
+        "timestamp": "2025-09-02T12:01:41.207801",
+        "message_text": "URGENT: Server maintenance needed tonight. Schedule downtime from 11 PM to 2 AM. Notify all teams.",
+        "message_id": "pipeline_001",
+        "summary": "Meeting coordination request - URGENT: Server issue",
+        "intent": "request",
+        "urgency": "critical",
+        "context_score": 0.0
+      },
+      {
+        "timestamp": "2025-09-02T12:14:31.059008",
+        "message_text": "URGENT: Server maintenance needed tonight. Schedule downtime from 11 PM to 2 AM. Notify all teams.",
+        "message_id": "pipeline_001",
+        "summary": "Meeting coordination request - URGENT: Server issue",
+        "intent": "request",
+        "urgency": "critical",
+        "context_score": 0.0
+      }
+    ]
+  },
+  "created_at": "2025-09-02T11:51:55.568567",
+  "last_updated": "2025-09-02T06:44:33.088398+00:00",
+  "total_messages": 4,
+  "message_history": [
+    {
+      "timestamp": "2025-09-02T11:51:55.570382",
+      "platform": "slack",
+      "message_type": "urgent",
+      "summary": "Meeting coordination request - URGENT: Server issue"
+    },
+    {
+      "timestamp": "2025-09-02T11:56:04.981948",
+      "platform": "slack",
+      "message_type": "urgent",
+      "summary": "Meeting coordination request - URGENT: Server issue"
+    },
+    {
+      "timestamp": "2025-09-02T12:01:43.239648",
+      "platform": "slack",
+      "message_type": "urgent",
+      "summary": "Meeting coordination request - URGENT: Server issue"
+    },
+    {
+      "timestamp": "2025-09-02T12:14:33.073805",
+      "platform": "slack",
+      "message_type": "urgent",
+      "summary": "Meeting coordination request - URGENT: Server issue"
+    }
+  ],
+  "intent_patterns": {
+    "scheduling": 4,
+    "urgent_request": 4,
+    "type_urgent": 4
+  },
+  "platform_usage": {
+    "slack": 4
+  },
+  "message_type_frequency": {
+    "urgent": 4
+  },
+  "scheduled_tasks": [],
+  "missed_tasks": [],
+  "completed_tasks": [],
+  "response_patterns": {},
+  "peak_activity_hours": {
+    "11": 2
+  },
+  "context_score": 0.345,
+  "behavioral_insights": {
+    "preferred_platform": "slack",
+    "common_message_type": "urgent",
+    "peak_activity_hour": 11,
+    "dominant_intent": "scheduling",
+    "activity_level": "low"
+  }
+}

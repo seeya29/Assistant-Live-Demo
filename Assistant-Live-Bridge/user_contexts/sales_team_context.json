@@ -1,0 +1,26 @@
+{
+  "platforms": {
+    "email": [
+      {
+        "timestamp": "2025-08-07T09:45:00Z",
+        "message_text": "Please prepare the Q3 pipeline deck and send by Friday EOD.",
+        "message_id": "msg_006",
+        "summary": "Please prepare the Q3 pipeline deck and send by Friday EOD",
+        "intent": "request",
+        "urgency": "low",
+        "context_score": 0.0
+      },
+      {
+        "timestamp": "2025-08-07T09:45:00Z",
+        "message_text": "Please prepare the Q3 pipeline deck and send by Friday EOD.",
+        "message_id": "msg_006",
+        "summary": "Please prepare the Q3 pipeline deck and send by Friday EOD",
+        "intent": "request",
+        "urgency": "low",
+        "context_score": 0.0
+      }
+    ]
+  },
+  "total_messages": 2,
+  "last_updated": "2025-09-03T11:21:20.350465"
+}

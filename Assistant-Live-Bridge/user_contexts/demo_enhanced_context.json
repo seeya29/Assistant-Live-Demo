@@ -1,0 +1,52 @@
+{
+  "user_id": "demo_enhanced",
+  "platforms": {
+    "instagram": [
+      {
+        "timestamp": "2025-09-02T13:45:00Z",
+        "message_text": "OMG love your latest post!!  Where did you get that amazing dress? It looks so cute on you! Please share the deets! ",
+        "message_id": "enhanced_insta_001",
+        "summary": "Question about clothing/fashion",
+        "intent": "question",
+        "urgency": "medium",
+        "context_score": 0.0
+      }
+    ]
+  },
+  "created_at": "2025-09-02T12:35:17.606666",
+  "last_updated": "2025-09-02T07:05:19.657998+00:00",
+  "total_messages": 1,
+  "message_history": [
+    {
+      "timestamp": "2025-09-02T12:35:19.629793",
+      "platform": "instagram",
+      "message_type": "inquiry",
+      "summary": " Where did you get that amazing dress?"
+    }
+  ],
+  "intent_patterns": {
+    "information_seeking": 1,
+    "type_inquiry": 1
+  },
+  "platform_usage": {
+    "instagram": 1
+  },
+  "message_type_frequency": {
+    "inquiry": 1
+  },
+  "scheduled_tasks": [],
+  "missed_tasks": [],
+  "completed_tasks": [],
+  "response_patterns": {},
+  "peak_activity_hours": {
+    "12": 1
+  },
+  "context_score": 0.33,
+  "behavioral_insights": {
+    "preferred_platform": "instagram",
+    "common_message_type": "inquiry",
+    "peak_activity_hour": 12,
+    "dominant_intent": "information_seeking",
+    "activity_level": "low"
+  }
+}

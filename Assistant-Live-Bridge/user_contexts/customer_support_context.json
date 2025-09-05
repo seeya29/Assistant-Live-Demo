@@ -1,0 +1,98 @@
+{
+  "platforms": {
+    "slack": [
+      {
+        "timestamp": "2025-08-07T11:15:00Z",
+        "message_text": "URGENT: The payment system is down and customers cannot complete purchases. Need immediate attention!",
+        "message_id": "msg_003",
+        "summary": "\ud83d\ude4f URGENT: The payment system is down and customers cannot complete purch...",
+        "intent": "request",
+        "urgency": "critical",
+        "context_score": 0.0
+      },
+      {
+        "timestamp": "2025-08-07T11:15:00Z",
+        "message_text": "URGENT: The payment system is down and customers cannot complete purchases. Need immediate attention!",
+        "message_id": "msg_003",
+        "summary": "\ud83d\ude4f URGENT: The payment system is down and customers cannot complete purch...",
+        "intent": "request",
+        "urgency": "critical",
+        "context_score": 0.0
+      },
+      {
+        "timestamp": "2025-08-07T11:15:00Z",
+        "message_text": "URGENT: The payment system is down and customers cannot complete purchases. Need immediate attention!",
+        "message_id": "msg_003",
+        "summary": "\ud83d\ude4f Continuing: URGENT: The payment system is down and customers cannot co...",
+        "intent": "request",
+        "urgency": "critical",
+        "context_score": 0.0
+      },
+      {
+        "timestamp": "2025-08-07T11:15:00Z",
+        "message_text": "URGENT: The payment system is down and customers cannot complete purchases. Need immediate attention!",
+        "message_id": "msg_003",
+        "summary": "\ud83d\ude4f Continuing: Urgent: URGENT: The payment system is down",
+        "intent": "request",
+        "urgency": "critical",
+        "context_score": 0.0
+      }
+    ]
+  },
+  "total_messages": 4,
+  "last_updated": "2025-09-05T12:03:17.428037",
+  "user_id": "customer_support",
+  "created_at": "2025-09-03T05:49:55.428899+00:00",
+  "message_history": [
+    {
+      "timestamp": "2025-09-03T11:19:55.428861",
+      "platform": "slack",
+      "message_type": "urgent",
+      "summary": "\ud83d\ude4f Continuing: URGENT: The payment system is down and customers cannot co..."
+    },
+    {
+      "timestamp": "2025-09-03T11:20:04.783870",
+      "platform": "slack",
+      "message_type": "urgent",
+      "summary": "\ud83d\ude4f URGENT: The payment system is down and customers cannot complete purch..."
+    },
+    {
+      "timestamp": "2025-09-03T11:20:08.769359",
+      "platform": "slack",
+      "message_type": "urgent",
+      "summary": "\ud83d\ude4f URGENT: The payment system is down and customers cannot complete purch..."
+    },
+    {
+      "timestamp": "2025-09-03T11:20:14.827929",
+      "platform": "slack",
+      "message_type": "urgent",
+      "summary": "\ud83d\ude4f URGENT: The payment system is down and customers cannot complete purch..."
+    }
+  ],
+  "intent_patterns": {
+    "task_assignment": 4,
+    "urgent_request": 4,
+    "type_urgent": 4
+  },
+  "platform_usage": {
+    "slack": 4
+  },
+  "message_type_frequency": {
+    "urgent": 4
+  },
+  "scheduled_tasks": [],
+  "missed_tasks": [],
+  "completed_tasks": [],
+  "response_patterns": {},
+  "peak_activity_hours": {
+    "11": 4
+  },
+  "context_score": 0.345,
+  "behavioral_insights": {
+    "preferred_platform": "slack",
+    "common_message_type": "urgent",
+    "peak_activity_hour": 11,
+    "dominant_intent": "task_assignment",
+    "activity_level": "low"
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "platforms": {
+    "teams": [
+      {
+        "timestamp": "2025-08-07T12:00:00Z",
+        "message_text": "Review new mockups next Tuesday at 3 PM.",
+        "message_id": "msg_008",
+        "summary": "Review new mockups next Tuesday at 3 PM",
+        "intent": "informational",
+        "urgency": "low",
+        "context_score": 0.0
+      },
+      {
+        "timestamp": "2025-08-07T12:00:00Z",
+        "message_text": "Review new mockups next Tuesday at 3 PM.",
+        "message_id": "msg_008",
+        "summary": "Review new mockups next Tuesday at 3 PM",
+        "intent": "informational",
+        "urgency": "low",
+        "context_score": 0.0
+      }
+    ]
+  },
+  "total_messages": 2,
+  "last_updated": "2025-09-03T11:21:13.550598"
+}

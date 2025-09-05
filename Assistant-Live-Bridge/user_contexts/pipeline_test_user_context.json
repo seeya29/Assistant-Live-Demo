@@ -1,0 +1,52 @@
+{
+  "user_id": "pipeline_test_user",
+  "platforms": {
+    "email": [
+      {
+        "timestamp": "2025-09-02T13:50:50.969991",
+        "message_text": "Hi team, please review the budget proposal and provide feedback by Friday. This is needed for the board meeting next week.",
+        "message_id": "pipeline_test_msg",
+        "summary": "Hi team, please review the budget proposal and provide feedback by Friday",
+        "intent": "schedule",
+        "urgency": "medium",
+        "context_score": 0.0
+      }
+    ]
+  },
+  "created_at": "2025-09-02T13:50:52.999955",
+  "last_updated": "2025-09-02T08:20:53.026050+00:00",
+  "total_messages": 1,
+  "message_history": [
+    {
+      "timestamp": "2025-09-02T13:50:53.001724",
+      "platform": "email",
+      "message_type": "scheduling",
+      "summary": "Hi team, please review the budget proposal and provide feedback by Friday"
+    }
+  ],
+  "intent_patterns": {
+    "social": 1,
+    "type_scheduling": 1
+  },
+  "platform_usage": {
+    "email": 1
+  },
+  "message_type_frequency": {
+    "scheduling": 1
+  },
+  "scheduled_tasks": [],
+  "missed_tasks": [],
+  "completed_tasks": [],
+  "response_patterns": {},
+  "peak_activity_hours": {
+    "13": 1
+  },
+  "context_score": 0.33,
+  "behavioral_insights": {
+    "preferred_platform": "email",
+    "common_message_type": "scheduling",
+    "peak_activity_hour": 13,
+    "dominant_intent": "social",
+    "activity_level": "low"
+  }
+}

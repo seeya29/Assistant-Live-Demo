@@ -1,0 +1,35 @@
+{
+  "platforms": {
+    "teams": [
+      {
+        "timestamp": "2025-08-07T17:10:00Z",
+        "message_text": "Can we schedule a quick standup tomorrow at 10 AM? Need to discuss sprint planning and blockers.",
+        "message_id": "msg_004",
+        "summary": "Continuing: Can we schedule a quick standup tomorrow at 10 AM",
+        "intent": "schedule",
+        "urgency": "medium",
+        "context_score": 0.0
+      },
+      {
+        "timestamp": "2025-08-07T17:10:00Z",
+        "message_text": "Can we schedule a quick standup tomorrow at 10 AM? Need to discuss sprint planning and blockers.",
+        "message_id": "msg_004",
+        "summary": "Can we schedule a quick standup tomorrow at 10 AM",
+        "intent": "schedule",
+        "urgency": "medium",
+        "context_score": 0.0
+      },
+      {
+        "timestamp": "2025-08-07T17:10:00Z",
+        "message_text": "Can we schedule a quick standup tomorrow at 10 AM? Need to discuss sprint planning and blockers.",
+        "message_id": "msg_004",
+        "summary": "Continuing: Schedule: Can we schedule a quick standup tomorrow at 10 AM?",
+        "intent": "schedule",
+        "urgency": "medium",
+        "context_score": 0.0
+      }
+    ]
+  },
+  "total_messages": 3,
+  "last_updated": "2025-09-05T12:04:08.577925"
+}

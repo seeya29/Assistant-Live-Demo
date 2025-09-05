@@ -1,0 +1,135 @@
+{
+  "feedback_history": [
+    {
+      "summary_id": "test_summary_001",
+      "feedback": "upvote",
+      "comment": "Great summary!",
+      "timestamp": "2025-09-02T10:19:15.889730"
+    },
+    {
+      "summary_id": "test_summary_002",
+      "feedback": "downvote",
+      "comment": "Not accurate",
+      "timestamp": "2025-09-02T10:19:15.891507"
+    },
+    {
+      "summary_id": "test_summary_001",
+      "feedback": "upvote",
+      "comment": "Great summary!",
+      "timestamp": "2025-09-02T10:20:10.532348"
+    },
+    {
+      "summary_id": "test_summary_002",
+      "feedback": "downvote",
+      "comment": "Not accurate",
+      "timestamp": "2025-09-02T10:20:10.533230"
+    },
+    {
+      "summary_id": "test_summary_001",
+      "feedback": "upvote",
+      "comment": "Great summary!",
+      "timestamp": "2025-09-02T10:20:52.992058"
+    },
+    {
+      "summary_id": "test_summary_002",
+      "feedback": "downvote",
+      "comment": "Not accurate",
+      "timestamp": "2025-09-02T10:20:52.993196"
+    },
+    {
+      "summary_id": "test_summary_001",
+      "feedback": "upvote",
+      "comment": "Great summary!",
+      "timestamp": "2025-09-02T10:21:11.824338"
+    },
+    {
+      "summary_id": "test_summary_002",
+      "feedback": "downvote",
+      "comment": "Not accurate",
+      "timestamp": "2025-09-02T10:21:11.825483"
+    },
+    {
+      "summary_id": "sum_1fcee7585e80",
+      "feedback": "upvote",
+      "comment": "Great summary! Very concise and captures the key intent.",
+      "timestamp": "2025-09-02T11:32:41.911610"
+    },
+    {
+      "summary_id": "sum_21b98c43a884",
+      "feedback": "upvote",
+      "comment": "User approved summary",
+      "timestamp": "2025-09-02T11:40:22.157206"
+    },
+    {
+      "summary_id": "sum_ebe706f088b2",
+      "feedback": "upvote",
+      "comment": "Good job identifying the critical urgency of server issues.",
+      "timestamp": "2025-09-02T12:11:58.067113"
+    },
+    {
+      "summary_id": "sum_2872f65c99f3",
+      "feedback": "upvote",
+      "comment": "Excellent summary! Captured the urgency and key details perfectly.",
+      "timestamp": "2025-09-02T12:11:58.119155"
+    },
+    {
+      "summary_id": "sum_7b293b8bb80b",
+      "feedback": "upvote",
+      "comment": "Great job! The enhanced SmartBrief v3 correctly identified this as a fashion inquiry and optimized it for Instagram!",
+      "timestamp": "2025-09-02T12:35:30.235198"
+    },
+    {
+      "summary_id": "sum_9847f2c3fe43",
+      "feedback": "downvote",
+      "comment": "User rejected summary",
+      "timestamp": "2025-09-05T12:35:51.563894",
+      "summary_text": "\u2753 Question: Is anyone interested to come to the..."
+    },
+    {
+      "summary_id": "sum_9847f2c3fe43",
+      "feedback": "downvote",
+      "comment": "User rejected summary",
+      "timestamp": "2025-09-05T12:36:10.705097",
+      "summary_text": "\u2753 Question: Is anyone interested to come to the..."
+    },
+    {
+      "summary_id": "sum_4daa31f89f5f",
+      "feedback": "downvote",
+      "comment": "User rejected summary",
+      "timestamp": "2025-09-05T12:56:20.438727",
+      "summary_text": "\u2753 Question: students....why u need so many re..."
+    },
+    {
+      "summary_id": "sum_d515363f632b",
+      "feedback": "upvote",
+      "comment": "User approved summary",
+      "timestamp": "2025-09-05T12:56:30.944977",
+      "summary_text": "\ud83d\udc4b Invite: mall shopping + latest movie today"
+    }
+  ],
+  "performance_metrics": {
+    "approval_rate": 0.5882352941176471
+  },
+  "last_updated": "2025-09-05T12:56:30.944977",
+  "term_weights": {
+    "question": -0.6,
+    "anyone": -0.4,
+    "interested": -0.4,
+    "come": -0.4,
+    "the": -0.4,
+    "user": -0.1,
+    "rejected": -0.15,
+    "summary": -0.1,
+    "students": -0.2,
+    "why": -0.2,
+    "need": -0.2,
+    "many": -0.2,
+    "invite": 0.2,
+    "mall": 0.2,
+    "shopping": 0.2,
+    "latest": 0.2,
+    "movie": 0.2,
+    "today": 0.2,
+    "approved": 0.05
+  }
+}

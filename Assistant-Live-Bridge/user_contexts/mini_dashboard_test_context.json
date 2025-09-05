@@ -1,0 +1,19 @@
+{
+  "user_id": "mini_dashboard_test",
+  "platforms": {
+    "email": [
+      {
+        "timestamp": "2025-09-02T13:58:29.762824",
+        "message_text": "Please schedule a team meeting for tomorrow at 3 PM to discuss the project roadmap.",
+        "message_id": "dashboard_test_001",
+        "summary": "Please schedule a team meeting for tomorrow at 3 PM to discuss the project roadmap",
+        "intent": "schedule",
+        "urgency": "low",
+        "context_score": 0.0
+      }
+    ]
+  },
+  "created_at": "2025-09-02T13:58:33.839503",
+  "last_updated": "2025-09-02T13:58:33.839560",
+  "total_messages": 1
+}

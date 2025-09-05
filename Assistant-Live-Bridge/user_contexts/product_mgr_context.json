@@ -1,0 +1,17 @@
+{
+  "platforms": {
+    "whatsapp": [
+      {
+        "timestamp": "2025-08-07T10:00:00Z",
+        "message_text": "Let's sync in 2 hours about the launch checklist.",
+        "message_id": "msg_007",
+        "summary": "Let's sync in 2 hours about the launch checklist",
+        "intent": "informational",
+        "urgency": "low",
+        "context_score": 0.0
+      }
+    ]
+  },
+  "total_messages": 1,
+  "last_updated": "2025-09-03T11:21:16.691675"
+}

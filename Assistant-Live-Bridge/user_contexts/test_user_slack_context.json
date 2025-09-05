@@ -1,0 +1,19 @@
+{
+  "user_id": "test_user_slack",
+  "platforms": {
+    "slack": [
+      {
+        "timestamp": "2025-09-02T11:35:00Z",
+        "message_text": "URGENT: The production server is down. Customer complaints are coming in. Need immediate attention from the DevOps team. ETA for fix?",
+        "message_id": "api_test_002",
+        "summary": "URGENT: Server issue",
+        "intent": "task",
+        "urgency": "critical",
+        "context_score": 0.0
+      }
+    ]
+  },
+  "created_at": "2025-09-02T11:32:16.854665",
+  "last_updated": "2025-09-02T11:32:16.854697",
+  "total_messages": 1
+}

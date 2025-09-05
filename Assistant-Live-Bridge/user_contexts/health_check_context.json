@@ -1,0 +1,16 @@
+{
+  "user_id": "health_check",
+  "created_at": "2025-09-03T04:06:43.880397+00:00",
+  "last_updated": "2025-09-03T04:06:43.880413+00:00",
+  "message_history": [],
+  "intent_patterns": {},
+  "platform_usage": {},
+  "message_type_frequency": {},
+  "scheduled_tasks": [],
+  "missed_tasks": [],
+  "completed_tasks": [],
+  "response_patterns": {},
+  "peak_activity_hours": {},
+  "context_score": 0.0,
+  "behavioral_insights": {}
+}

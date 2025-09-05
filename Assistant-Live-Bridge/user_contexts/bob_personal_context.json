@@ -1,0 +1,133 @@
+{
+  "user_id": "bob_personal",
+  "platforms": {
+    "whatsapp": [
+      {
+        "timestamp": "2025-08-07T14:30:00Z",
+        "message_text": "Hey! The concert tickets go on sale tomorrow at 10am. Don't forget to get them!",
+        "message_id": "msg_002",
+        "summary": "\ud83d\udc4b Hey",
+        "intent": "social",
+        "urgency": "low",
+        "context_score": 0.0
+      },
+      {
+        "timestamp": "2025-08-07T14:30:00Z",
+        "message_text": "Hey! The concert tickets go on sale tomorrow at 10am. Don't forget to get them!",
+        "message_id": "msg_002",
+        "summary": "\ud83d\udc4b Continuing: Hey",
+        "intent": "social",
+        "urgency": "low",
+        "context_score": 0.0
+      },
+      {
+        "timestamp": "2025-08-07T14:30:00Z",
+        "message_text": "Hey! The concert tickets go on sale tomorrow at 10am. Don't forget to get them!",
+        "message_id": "msg_002",
+        "summary": "\ud83d\udc4b Continuing: Hey",
+        "intent": "social",
+        "urgency": "low",
+        "context_score": 0.0
+      },
+      {
+        "timestamp": "2025-08-07T14:30:00Z",
+        "message_text": "Hey! The concert tickets go on sale tomorrow at 10am. Don't forget to get them!",
+        "message_id": "msg_002",
+        "summary": "\ud83d\udc4b Continuing: Hey",
+        "intent": "social",
+        "urgency": "low",
+        "context_score": 0.0
+      },
+      {
+        "timestamp": "2025-08-07T14:30:00Z",
+        "message_text": "Hey! The concert tickets go on sale tomorrow at 10am. Don't forget to get them!",
+        "message_id": "msg_002",
+        "summary": "\ud83d\udc4b Continuing: Hey",
+        "intent": "social",
+        "urgency": "low",
+        "context_score": 0.0
+      },
+      {
+        "timestamp": "2025-08-07T14:30:00Z",
+        "message_text": "Hey! The concert tickets go on sale tomorrow at 10am. Don't forget to get them!",
+        "message_id": "msg_002",
+        "summary": "\ud83d\udc4b The concert tickets sale tomorrow 10am don't ...",
+        "intent": "social",
+        "urgency": "low",
+        "context_score": 0.0
+      },
+      {
+        "timestamp": "2025-08-07T14:30:00Z",
+        "message_text": "Hey! The concert tickets go on sale tomorrow at 10am. Don't forget to get them!",
+        "message_id": "msg_002",
+        "summary": "\ud83d\udc4b Continuing: The concert tickets go on sale to...",
+        "intent": "social",
+        "urgency": "low",
+        "context_score": 0.0
+      }
+    ]
+  },
+  "created_at": "2025-09-02T20:16:31.280291",
+  "last_updated": "2025-09-05T06:57:14.897525+00:00",
+  "total_messages": 7,
+  "message_history": [
+    {
+      "timestamp": "2025-09-02T20:16:36.869366",
+      "platform": "whatsapp",
+      "message_type": "general",
+      "summary": "\ud83d\udc4b Continuing: Hey"
+    },
+    {
+      "timestamp": "2025-09-02T20:16:53.472586",
+      "platform": "whatsapp",
+      "message_type": "general",
+      "summary": "\ud83d\udc4b Hey"
+    },
+    {
+      "timestamp": "2025-09-03T09:47:28.432159",
+      "platform": "whatsapp",
+      "message_type": "general",
+      "summary": "\ud83d\udc4b Continuing: Hey"
+    },
+    {
+      "timestamp": "2025-09-03T09:47:37.425061",
+      "platform": "whatsapp",
+      "message_type": "general",
+      "summary": "\ud83d\udc4b Continuing: Hey"
+    },
+    {
+      "timestamp": "2025-09-05T12:27:14.897525",
+      "platform": "whatsapp",
+      "message_type": "error",
+      "summary": "Error processing message"
+    }
+  ],
+  "intent_patterns": {
+    "type_general": 4,
+    "type_error": 1
+  },
+  "platform_usage": {
+    "whatsapp": 5
+  },
+  "message_type_frequency": {
+    "general": 4,
+    "error": 1
+  },
+  "scheduled_tasks": [],
+  "missed_tasks": [],
+  "completed_tasks": [],
+  "response_patterns": {},
+  "peak_activity_hours": {
+    "20": 2,
+    "9": 2,
+    "12": 1
+  },
+  "context_score": 0.35,
+  "behavioral_insights": {
+    "preferred_platform": "whatsapp",
+    "common_message_type": "general",
+    "peak_activity_hour": 20,
+    "dominant_intent": "type_general",
+    "activity_level": "low"
+  }
+}

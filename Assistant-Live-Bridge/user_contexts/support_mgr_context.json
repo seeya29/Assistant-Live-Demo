@@ -1,0 +1,62 @@
+{
+  "platforms": {
+    "slack": [
+      {
+        "timestamp": "2025-08-07T10:50:00Z",
+        "message_text": "Customer escalation pending; schedule a follow-up call today at 5pm.",
+        "message_id": "msg_012",
+        "summary": "\ud83d\udd04 User is following up on customer escalation pending; schedule a follow...",
+        "intent": "follow_up",
+        "urgency": "critical",
+        "context_score": 0.0
+      },
+      {
+        "timestamp": "2025-08-07T10:50:00Z",
+        "message_text": "Customer escalation pending; schedule a follow-up call today at 5pm.",
+        "message_id": "msg_012",
+        "summary": "\ud83d\udd04 User is following up on customer escalation pending; schedule a follow...",
+        "intent": "follow_up",
+        "urgency": "critical",
+        "context_score": 0.0
+      }
+    ]
+  },
+  "total_messages": 2,
+  "last_updated": "2025-09-03T05:51:39.653100+00:00",
+  "user_id": "support_mgr",
+  "created_at": "2025-09-03T05:51:39.636901+00:00",
+  "message_history": [
+    {
+      "timestamp": "2025-09-03T11:21:39.636861",
+      "platform": "slack",
+      "message_type": "urgent",
+      "summary": "\ud83d\udd04 User is following up on customer escalation pending; schedule a follow..."
+    }
+  ],
+  "intent_patterns": {
+    "scheduling": 1,
+    "follow_up": 1,
+    "type_urgent": 1
+  },
+  "platform_usage": {
+    "slack": 1
+  },
+  "message_type_frequency": {
+    "urgent": 1
+  },
+  "scheduled_tasks": [],
+  "missed_tasks": [],
+  "completed_tasks": [],
+  "response_patterns": {},
+  "peak_activity_hours": {
+    "11": 1
+  },
+  "context_score": 0.33,
+  "behavioral_insights": {
+    "preferred_platform": "slack",
+    "common_message_type": "urgent",
+    "peak_activity_hour": 11,
+    "dominant_intent": "scheduling",
+    "activity_level": "low"
+  }
+}

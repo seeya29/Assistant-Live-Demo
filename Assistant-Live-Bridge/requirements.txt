@@ -1,0 +1,45 @@
+# Web Framework & API
+streamlit>=1.28.0
+fastapi>=0.104.0
+uvicorn>=0.24.0
+
+# Data Processing
+pandas>=1.5.0
+numpy>=1.21.0
+scikit-learn>=1.0.0
+
+# Database
+pymongo>=4.6.0
+psycopg2-binary>=2.9.0
+sqlalchemy>=2.0.0
+alembic>=1.12.0
+
+# Date & Time
+pytz>=2023.3
+python-dateutil>=2.8.0
+dateparser>=1.2.0
+
+# NLP & AI
+nltk>=3.8
+spacy>=3.7.0
+transformers>=4.30.0
+torch>=2.0.0
+
+# Visualization
+plotly>=5.0.0
+pillow>=9.0.0
+
+# Utilities
+python-dotenv>=0.19.0
+json5==0.9.14
+requests>=2.31.0
+pydantic>=2.0.0
+
+# Testing
+pytest>=7.0.0
+pytest-asyncio>=0.21.0
+httpx>=0.25.0
+
+# Development
+black>=23.0.0
+flake8>=6.0.0

@@ -1,0 +1,190 @@
+{
+  "conversations": {
+    "ops_oncall_slack": [
+      {
+        "message_text": "We need to schedule maintenance tonight between 11pm and 1am. Notify stakeholders.",
+        "timestamp": "2025-08-07T18:05:00Z",
+        "message_id": "msg_005"
+      },
+      {
+        "message_text": "We need to schedule maintenance tonight between 11pm and 1am. Notify stakeholders.",
+        "timestamp": "2025-08-07T18:05:00Z",
+        "message_id": "msg_005"
+      },
+      {
+        "message_text": "We need to schedule maintenance tonight between 11pm and 1am. Notify stakeholders.",
+        "timestamp": "2025-08-07T18:05:00Z",
+        "message_id": "msg_005"
+      }
+    ],
+    "customer_support_slack": [
+      {
+        "message_text": "URGENT: The payment system is down and customers cannot complete purchases. Need immediate attention!",
+        "timestamp": "2025-08-07T11:15:00Z",
+        "message_id": "msg_003"
+      },
+      {
+        "message_text": "URGENT: The payment system is down and customers cannot complete purchases. Need immediate attention!",
+        "timestamp": "2025-08-07T11:15:00Z",
+        "message_id": "msg_003"
+      },
+      {
+        "message_text": "URGENT: The payment system is down and customers cannot complete purchases. Need immediate attention!",
+        "timestamp": "2025-08-07T11:15:00Z",
+        "message_id": "msg_003"
+      }
+    ],
+    "qa_lead_telegram": [
+      {
+        "message_text": "Smoke tests failed on staging. Please investigate ASAP.",
+        "timestamp": "2025-08-07T13:20:00Z",
+        "message_id": "msg_010"
+      }
+    ],
+    "engineering_email": [
+      {
+        "message_text": "Can we do a code freeze meeting next Friday at 4pm?",
+        "timestamp": "2025-08-07T16:40:00Z",
+        "message_id": "msg_011"
+      },
+      {
+        "message_text": "Can we do a code freeze meeting next Friday at 4pm?",
+        "timestamp": "2025-08-07T16:40:00Z",
+        "message_id": "msg_011"
+      }
+    ],
+    "support_mgr_slack": [
+      {
+        "message_text": "Customer escalation pending; schedule a follow-up call today at 5pm.",
+        "timestamp": "2025-08-07T10:50:00Z",
+        "message_id": "msg_012"
+      }
+    ],
+    "marketing_instagram": [
+      {
+        "message_text": "FYI: Campaign kickoff delayed; reschedule the briefing call to tomorrow morning.",
+        "timestamp": "2025-08-07T08:30:00Z",
+        "message_id": "msg_009"
+      }
+    ],
+    "design_lead_teams": [
+      {
+        "message_text": "Review new mockups next Tuesday at 3 PM.",
+        "timestamp": "2025-08-07T12:00:00Z",
+        "message_id": "msg_008"
+      }
+    ],
+    "product_mgr_whatsapp": [
+      {
+        "message_text": "Let's sync in 2 hours about the launch checklist.",
+        "timestamp": "2025-08-07T10:00:00Z",
+        "message_id": "msg_007"
+      }
+    ],
+    "sales_team_email": [
+      {
+        "message_text": "Please prepare the Q3 pipeline deck and send by Friday EOD.",
+        "timestamp": "2025-08-07T09:45:00Z",
+        "message_id": "msg_006"
+      }
+    ],
+    "project_manager_teams": [
+      {
+        "message_text": "Can we schedule a quick standup tomorrow at 10 AM? Need to discuss sprint planning and blockers.",
+        "timestamp": "2025-08-07T17:10:00Z",
+        "message_id": "msg_004"
+      },
+      {
+        "message_text": "Can we schedule a quick standup tomorrow at 10 AM? Need to discuss sprint planning and blockers.",
+        "timestamp": "2025-08-07T17:10:00Z",
+        "message_id": "msg_004"
+      }
+    ],
+    "test_user_email": [
+      {
+        "message_text": "Can we schedule a meeting for tomorrow at 2pm?",
+        "timestamp": "2025-09-03T11:23:23.280679",
+        "message_id": "test_112323"
+      },
+      {
+        "message_text": "Can we schedule a meeting for tomorrow at 2pm?",
+        "timestamp": "2025-09-03T11:35:53.038681",
+        "message_id": "test_113553"
+      }
+    ],
+    "alice_work_email": [
+      {
+        "message_text": "Hi team, we need to schedule the quarterly review meeting for next week. Please share availability for Tue/Wed afternoon.",
+        "timestamp": "2025-08-07T09:00:00Z",
+        "message_id": "msg_001"
+      },
+      {
+        "message_text": "Hi team, we need to schedule the quarterly review meeting for next week. Please share availability for Tue/Wed afternoon.",
+        "timestamp": "2025-08-07T09:00:00Z",
+        "message_id": "msg_001"
+      },
+      {
+        "message_text": "Hi team, we need to schedule the quarterly review meeting for next week. Please share availability for Tue/Wed afternoon.",
+        "timestamp": "2025-08-07T09:00:00Z",
+        "message_id": "msg_001"
+      },
+      {
+        "message_text": "Hi team, we need to schedule the quarterly review meeting for next week. Please share availability for Tue/Wed afternoon.",
+        "timestamp": "2025-08-07T09:00:00Z",
+        "message_id": "msg_001"
+      },
+      {
+        "message_text": "Hi team, we need to schedule the quarterly review meeting for next week. Please share availability for Tue/Wed afternoon.",
+        "timestamp": "2025-08-07T09:00:00Z",
+        "message_id": "msg_001"
+      }
+    ],
+    "bob_personal_whatsapp": [
+      {
+        "message_text": "Hey! The concert tickets go on sale tomorrow at 10am. Don't forget to get them!",
+        "timestamp": "2025-08-07T14:30:00Z",
+        "message_id": "msg_002"
+      },
+      {
+        "message_text": "Hey! The concert tickets go on sale tomorrow at 10am. Don't forget to get them!",
+        "timestamp": "2025-08-07T14:30:00Z",
+        "message_id": "msg_002"
+      }
+    ],
+    "Seeya_whatsapp": [
+      {
+        "message_text": "Is anyone interested to come to the mall today for shopping and to watch the latest movie?\n",
+        "timestamp": "2025-09-05T12:35:30.151202",
+        "message_id": "custom_12"
+      },
+      {
+        "message_text": "Is anyone interested to come to the mall today for shopping and to watch the latest movie?\n",
+        "timestamp": "2025-09-05T12:35:30.151202",
+        "message_id": "custom_12"
+      },
+      {
+        "message_text": "Is anyone interested to come to the mall today for shopping and to watch the latest movie?",
+        "timestamp": "2025-09-05T12:45:09.350973",
+        "message_id": "custom_0"
+      },
+      {
+        "message_text": "Is anyone interested to come to the mall today for shopping and to watch the latest movie?",
+        "timestamp": "2025-09-05T12:52:04.154384",
+        "message_id": "custom_0"
+      },
+      {
+        "message_text": "Dear students....why you need so many reminders when the things are for your own benefits...",
+        "timestamp": "2025-09-05T12:56:00.470154",
+        "message_id": "custom_1"
+      }
+    ],
+    "demo_user_whatsapp": [
+      {
+        "message_text": "Is anyone interested to come to the mall today for shopping and to watch the latest movie?",
+        "timestamp": "2025-09-05T12:53:51.569589",
+        "message_id": "custom_0"
+      }
+    ]
+  },
+  "user_profiles": {}
+}

@@ -1,0 +1,198 @@
+{
+  "user_id": "alice_work",
+  "platforms": {
+    "email": [
+      {
+        "timestamp": "2025-08-07T09:00:00Z",
+        "message_text": "Hi team, we need to schedule the quarterly review meeting for next week. Please let me know your availability for Tuesday or Wednesday afternoon.",
+        "message_id": "msg_001",
+        "summary": "Hi team, we need to schedule the quarterly review meeting for next week. Please let me know your availability for Tuesday or Wednesday afternoon.",
+        "intent": "meeting",
+        "urgency": "high",
+        "context_score": 0.0
+      },
+      {
+        "timestamp": "2025-08-07T09:00:00Z",
+        "message_text": "Hi team, we need to schedule the quarterly review meeting for next week. Please let me know your availability for Tuesday or Wednesday afternoon.",
+        "message_id": "msg_001",
+        "summary": "Meeting request for tuesday - Task: Review requested (continuing previous topic)",
+        "intent": "meeting",
+        "urgency": "critical",
+        "context_score": 0.0
+      },
+      {
+        "timestamp": "2025-08-07T09:00:00Z",
+        "message_text": "Hi team, we need to schedule the quarterly review meeting for next week. Please let me know your availability for Tuesday or Wednesday afternoon.",
+        "message_id": "msg_001",
+        "summary": "Meeting request for tuesday - Task: Review requested (continuing previous topic)",
+        "intent": "meeting",
+        "urgency": "critical",
+        "context_score": 0.0
+      },
+      {
+        "timestamp": "2025-09-02T13:26:57.506112",
+        "message_text": "URGENT: Need to schedule team meeting for tomorrow 2 PM for quarterly review. Please confirm ASAP!",
+        "message_id": "email_001",
+        "summary": "URGENT: Need to schedule team meeting for tomorrow 2 PM for quarterly review",
+        "intent": "schedule",
+        "urgency": "critical",
+        "context_score": 0.0
+      },
+      {
+        "timestamp": "2025-09-02T13:26:57.506161",
+        "message_text": "Any update on the meeting confirmation? Did everyone respond?",
+        "message_id": "email_002",
+        "summary": "Follow-up: Any update on the meeting confirmation",
+        "intent": "question",
+        "urgency": "medium",
+        "context_score": 0.0
+      },
+      {
+        "timestamp": "2025-09-02T13:56:42.344920",
+        "message_text": "URGENT: Need to schedule quarterly review meeting for next Friday. Board meeting following week.",
+        "message_id": "sample_msg_1",
+        "summary": "Continuing: URGENT: Need to schedule quarterly review meeting for next Friday",
+        "intent": "schedule",
+        "urgency": "critical",
+        "context_score": 0.0
+      },
+      {
+        "timestamp": "2025-08-07T09:00:00Z",
+        "message_text": "Hi team, we need to schedule the quarterly review meeting for next week. Please let me know your availability for Tuesday or Wednesday afternoon.",
+        "message_id": "msg_001",
+        "summary": "Continuing: Hi team, we need to schedule the quarterly review meeting for next week",
+        "intent": "schedule",
+        "urgency": "medium",
+        "context_score": 0.0
+      },
+      {
+        "timestamp": "2025-08-07T09:00:00Z",
+        "message_text": "Hi team, we need to schedule the quarterly review meeting for next week. Please share availability for Tue/Wed afternoon.",
+        "message_id": "msg_001",
+        "summary": "Continuing: Hi team, we need to schedule the quarterly review meeting for next week",
+        "intent": "schedule",
+        "urgency": "medium",
+        "context_score": 0.0
+      },
+      {
+        "timestamp": "2025-08-07T09:00:00Z",
+        "message_text": "Hi team, we need to schedule the quarterly review meeting for next week. Please share availability for Tue/Wed afternoon.",
+        "message_id": "msg_001",
+        "summary": "Continuing: Hi team, we need to schedule the quarterly review meeting for next week",
+        "intent": "schedule",
+        "urgency": "medium",
+        "context_score": 0.0
+      },
+      {
+        "timestamp": "2025-08-07T09:00:00Z",
+        "message_text": "Hi team, we need to schedule the quarterly review meeting for next week. Please share availability for Tue/Wed afternoon.",
+        "message_id": "msg_001",
+        "summary": "Schedule Next week",
+        "intent": "schedule",
+        "urgency": "medium",
+        "context_score": 0.0
+      },
+      {
+        "timestamp": "2025-08-07T09:00:00Z",
+        "message_text": "Hi team, we need to schedule the quarterly review meeting for next week. Please share availability for Tue/Wed afternoon.",
+        "message_id": "msg_001",
+        "summary": "Continuing: Schedule Next week",
+        "intent": "schedule",
+        "urgency": "medium",
+        "context_score": 0.0
+      },
+      {
+        "timestamp": "2025-08-07T09:00:00Z",
+        "message_text": "Hi team, we need to schedule the quarterly review meeting for next week. Please share availability for Tue/Wed afternoon.",
+        "message_id": "msg_001",
+        "summary": "Continuing: Schedule: team, we need to schedule the quarterly review meeting for next week",
+        "intent": "schedule",
+        "urgency": "medium",
+        "context_score": 0.0
+      }
+    ]
+  },
+  "created_at": "2025-09-02T10:48:08.608429",
+  "last_updated": "2025-09-05T10:13:36.057033+00:00",
+  "total_messages": 12,
+  "message_history": [
+    {
+      "timestamp": "2025-09-02T13:57:20.108077",
+      "platform": "email",
+      "message_type": "urgent",
+      "summary": "Continuing: URGENT: Need to schedule quarterly review meeting for next Friday"
+    },
+    {
+      "timestamp": "2025-09-05T11:50:26.099602",
+      "platform": "email",
+      "message_type": "scheduling",
+      "summary": "Continuing: Schedule Next week"
+    },
+    {
+      "timestamp": "2025-09-05T12:26:27.050813",
+      "platform": "email",
+      "message_type": "error",
+      "summary": "Error processing message"
+    },
+    {
+      "timestamp": "2025-09-05T12:33:36.165615",
+      "platform": "email",
+      "message_type": "request",
+      "summary": "Continuing: Request: team, we need to schedule the quarterly review meeting for next week"
+    },
+    {
+      "timestamp": "2025-09-05T12:33:50.261003",
+      "platform": "email",
+      "message_type": "request",
+      "summary": "Continuing: Request: team, we need to schedule the quarterly review meeting for next week"
+    },
+    {
+      "timestamp": "2025-09-05T15:43:33.798569",
+      "platform": "email",
+      "message_type": "request",
+      "summary": "Request: team, we need to schedule the quarterly review meeting for next week"
+    },
+    {
+      "timestamp": "2025-09-05T15:43:36.057033",
+      "platform": "email",
+      "message_type": "request",
+      "summary": "Request: team, we need to schedule the quarterly review meeting for next week"
+    }
+  ],
+  "intent_patterns": {
+    "scheduling": 6,
+    "task_assignment": 5,
+    "urgent_request": 1,
+    "type_urgent": 1,
+    "type_scheduling": 1,
+    "type_error": 1,
+    "type_request": 4
+  },
+  "platform_usage": {
+    "email": 7
+  },
+  "message_type_frequency": {
+    "urgent": 1,
+    "scheduling": 1,
+    "error": 1,
+    "request": 4
+  },
+  "scheduled_tasks": [],
+  "missed_tasks": [],
+  "completed_tasks": [],
+  "response_patterns": {},
+  "peak_activity_hours": {
+    "13": 1,
+    "11": 1,
+    "12": 3,
+    "15": 2
+  },
+  "context_score": 0.36,
+  "behavioral_insights": {
+    "preferred_platform": "email",
+    "common_message_type": "request",
+    "peak_activity_hour": 12,
+    "dominant_intent": "scheduling",
+    "activity_level": "low"
+  }
+}

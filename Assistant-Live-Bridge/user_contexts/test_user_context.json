@@ -1,0 +1,163 @@
+{
+  "user_id": "test_user",
+  "created_at": "2025-09-02T04:17:42.514915+00:00",
+  "last_updated": "2025-09-03T11:35:53.063298",
+  "message_history": [
+    {
+      "timestamp": "2025-09-02T09:47:42.514866",
+      "platform": "email",
+      "message_type": "meeting",
+      "summary": "Meeting request for tomorrow"
+    },
+    {
+      "timestamp": "2025-09-02T09:49:45.310970",
+      "platform": "email",
+      "message_type": "meeting",
+      "summary": "Meeting request for tomorrow"
+    },
+    {
+      "timestamp": "2025-09-02T09:54:00.070598",
+      "platform": "email",
+      "message_type": "meeting",
+      "summary": "Meeting request for tomorrow"
+    },
+    {
+      "timestamp": "2025-09-02T10:45:37.745607",
+      "platform": "email",
+      "message_type": "meeting",
+      "summary": "Meeting request for tomorrow"
+    },
+    {
+      "timestamp": "2025-09-02T12:13:44.858186",
+      "platform": "email",
+      "message_type": "meeting",
+      "summary": "Meeting request for tomorrow"
+    },
+    {
+      "timestamp": "2025-09-02T12:28:19.195522",
+      "platform": "email",
+      "message_type": "meeting",
+      "summary": "Meeting request for tomorrow"
+    },
+    {
+      "timestamp": "2025-09-02T13:28:27.447976",
+      "platform": "email",
+      "message_type": "meeting",
+      "summary": "Meeting request for tomorrow"
+    },
+    {
+      "timestamp": "2025-09-02T13:53:50.722172",
+      "platform": "email",
+      "message_type": "meeting",
+      "summary": "Meeting request for tomorrow"
+    },
+    {
+      "timestamp": "2025-09-02T13:59:40.896799",
+      "platform": "email",
+      "message_type": "meeting",
+      "summary": "Meeting request for tomorrow"
+    }
+  ],
+  "intent_patterns": {
+    "scheduling": 9,
+    "type_meeting": 9
+  },
+  "platform_usage": {
+    "email": 9
+  },
+  "message_type_frequency": {
+    "meeting": 9
+  },
+  "scheduled_tasks": [],
+  "missed_tasks": [],
+  "completed_tasks": [],
+  "response_patterns": {},
+  "peak_activity_hours": {
+    "9": 3
+  },
+  "context_score": 0.37,
+  "behavioral_insights": {
+    "preferred_platform": "email",
+    "common_message_type": "meeting",
+    "peak_activity_hour": 9,
+    "dominant_intent": "scheduling",
+    "activity_level": "low"
+  },
+  "platforms": {
+    "email": [
+      {
+        "timestamp": "2025-09-02T10:47:02.381312",
+        "message_text": "Can we schedule a meeting for tomorrow at 2pm?",
+        "message_id": "test_104702",
+        "summary": "Can we schedule a meeting for tomorrow at 2pm?",
+        "intent": "meeting",
+        "urgency": "high",
+        "context_score": 0.0
+      },
+      {
+        "timestamp": "2025-09-02T11:37:08.108918",
+        "message_text": "Can we schedule a meeting for tomorrow at 2pm?",
+        "message_id": "test_113708",
+        "summary": "Quick question",
+        "intent": "meeting",
+        "urgency": "critical",
+        "context_score": 0.0
+      },
+      {
+        "timestamp": "2025-01-02T10:00:00Z",
+        "message_text": "Please schedule a meeting with the team tomorrow at 2 PM to discuss the quarterly results",
+        "message_id": "msg_ffef9a77855a",
+        "summary": "Please schedule a meeting with the team tomorrow at 2 PM to discuss the quarterly results",
+        "intent": "schedule",
+        "urgency": "low",
+        "context_score": 0.0
+      },
+      {
+        "timestamp": "2025-09-02T16:35:00.450187",
+        "message_text": "Can we schedule a meeting for tomorrow at 2pm?",
+        "message_id": "test_163500",
+        "summary": "Continuing: Can we schedule a meeting for tomorrow at 2pm",
+        "intent": "schedule",
+        "urgency": "low",
+        "context_score": 0.0
+      },
+      {
+        "timestamp": "2025-09-02T16:38:18.431582",
+        "message_text": "Can we schedule a meeting for tomorrow at 2pm?",
+        "message_id": "test_163818",
+        "summary": "Continuing: Can we schedule a meeting for tomorrow at 2pm",
+        "intent": "schedule",
+        "urgency": "low",
+        "context_score": 0.0
+      },
+      {
+        "timestamp": "2025-09-03T09:48:07.377979",
+        "message_text": "Can we schedule a meeting for tomorrow at 2pm?",
+        "message_id": "test_094807",
+        "summary": "Continuing: Can we schedule a meeting for tomorrow at 2pm",
+        "intent": "schedule",
+        "urgency": "low",
+        "context_score": 0.0
+      },
+      {
+        "timestamp": "2025-09-03T11:23:23.280679",
+        "message_text": "Can we schedule a meeting for tomorrow at 2pm?",
+        "message_id": "test_112323",
+        "summary": "Can we schedule a meeting for tomorrow at 2pm",
+        "intent": "schedule",
+        "urgency": "low",
+        "context_score": 0.0
+      },
+      {
+        "timestamp": "2025-09-03T11:35:53.038681",
+        "message_text": "Can we schedule a meeting for tomorrow at 2pm?",
+        "message_id": "test_113553",
+        "summary": "Continuing: Schedule Tomorrow at 2pm",
+        "intent": "schedule",
+        "urgency": "low",
+        "context_score": 0.0
+      }
+    ]
+  },
+  "total_messages": 8
+}

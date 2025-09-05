@@ -1,0 +1,30 @@
+{
+  "user_id": "test_user_001",
+  "platforms": {
+    "email": [
+      {
+        "timestamp": "2025-09-02T13:50:20.373552",
+        "message_text": "Hi team, we need to schedule the quarterly review meeting for next Thursday at 2 PM. Please confirm your availability.",
+        "message_id": "test_msg_001",
+        "summary": "Hi team, we need to schedule the quarterly review meeting for next Thursday at 2 PM",
+        "intent": "request",
+        "urgency": "medium",
+        "context_score": 0.0
+      }
+    ],
+    "slack": [
+      {
+        "timestamp": "2025-09-02T13:50:20.373566",
+        "message_text": "Can someone review the pull request #123? It has the new authentication module.",
+        "message_id": "test_msg_003",
+        "summary": "\u2753 Can someone review the pull request #123",
+        "intent": "question",
+        "urgency": "medium",
+        "context_score": 0.0
+      }
+    ]
+  },
+  "created_at": "2025-09-02T13:50:34.618582",
+  "last_updated": "2025-09-02T13:50:38.727073",
+  "total_messages": 2
+}

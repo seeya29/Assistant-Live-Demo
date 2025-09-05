@@ -1,0 +1,55 @@
+{
+  "user_id": "test_integration_user",
+  "platforms": {
+    "email": [
+      {
+        "timestamp": "2025-09-02T13:53:35.378410",
+        "message_text": "Hi team, we need to urgently schedule a client presentation for Friday at 3 PM. Please prepare the quarterly report and book the conference room.",
+        "message_id": "integration_msg_001",
+        "summary": "Hi team, we need to urgently schedule a client presentation for Friday at 3 PM",
+        "intent": "request",
+        "urgency": "medium",
+        "context_score": 0.0
+      }
+    ]
+  },
+  "created_at": "2025-09-02T13:53:37.402687",
+  "last_updated": "2025-09-02T08:23:41.478896+00:00",
+  "total_messages": 1,
+  "message_history": [
+    {
+      "timestamp": "2025-09-02T13:53:41.463700",
+      "platform": "email",
+      "message_type": "request",
+      "summary": "Hi team, we need to urgently schedule a client presentation for Friday at 3 PM"
+    }
+  ],
+  "intent_patterns": {
+    "scheduling": 1,
+    "task_assignment": 1,
+    "urgent_request": 1,
+    "social": 1,
+    "type_request": 1
+  },
+  "platform_usage": {
+    "email": 1
+  },
+  "message_type_frequency": {
+    "request": 1
+  },
+  "scheduled_tasks": [],
+  "missed_tasks": [],
+  "completed_tasks": [],
+  "response_patterns": {},
+  "peak_activity_hours": {
+    "13": 1
+  },
+  "context_score": 0.33,
+  "behavioral_insights": {
+    "preferred_platform": "email",
+    "common_message_type": "request",
+    "peak_activity_hour": 13,
+    "dominant_intent": "scheduling",
+    "activity_level": "low"
+  }
+}

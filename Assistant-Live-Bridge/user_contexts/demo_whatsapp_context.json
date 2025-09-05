@@ -1,0 +1,19 @@
+{
+  "user_id": "demo_whatsapp",
+  "platforms": {
+    "whatsapp": [
+      {
+        "timestamp": "2025-09-02T12:15:00Z",
+        "message_text": "Hey, can you pick up some groceries on your way home? We need milk, bread, and eggs. Thanks!",
+        "message_id": "whatsapp_001",
+        "summary": "Information request",
+        "intent": "question",
+        "urgency": "low",
+        "context_score": 0.0
+      }
+    ]
+  },
+  "created_at": "2025-09-02T12:11:35.774724",
+  "last_updated": "2025-09-02T12:11:35.774751",
+  "total_messages": 1
+}

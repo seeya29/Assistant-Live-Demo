@@ -1,0 +1,19 @@
+{
+  "user_id": "devops_team",
+  "platforms": {
+    "slack": [
+      {
+        "timestamp": "2025-09-02T13:26:57.506158",
+        "message_text": "@channel URGENT: The production server is down. Customer complaints are coming in. Need immediate attention from DevOps team. ETA for fix?",
+        "message_id": "slack_001",
+        "summary": "\u2753 @channel URGENT: The production server is down",
+        "intent": "question",
+        "urgency": "critical",
+        "context_score": 0.0
+      }
+    ]
+  },
+  "created_at": "2025-09-02T13:26:57.590396",
+  "last_updated": "2025-09-02T13:26:57.590473",
+  "total_messages": 1
+}

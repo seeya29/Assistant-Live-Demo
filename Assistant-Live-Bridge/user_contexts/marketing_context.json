@@ -1,0 +1,26 @@
+{
+  "platforms": {
+    "instagram": [
+      {
+        "timestamp": "2025-08-07T08:30:00Z",
+        "message_text": "FYI: Campaign kickoff delayed; reschedule the briefing call to tomorrow morning.",
+        "message_id": "msg_009",
+        "summary": "FYI: Campaign kickoff delayed; resche...",
+        "intent": "informational",
+        "urgency": "low",
+        "context_score": 0.0
+      },
+      {
+        "timestamp": "2025-08-07T08:30:00Z",
+        "message_text": "FYI: Campaign kickoff delayed; reschedule the briefing call to tomorrow morning.",
+        "message_id": "msg_009",
+        "summary": "FYI: Campaign kickoff delayed; resche...",
+        "intent": "informational",
+        "urgency": "low",
+        "context_score": 0.0
+      }
+    ]
+  },
+  "total_messages": 2,
+  "last_updated": "2025-09-03T11:21:09.090947"
+}

@@ -1,0 +1,51 @@
+{
+  "user_id": "bob_dev",
+  "platforms": {
+    "slack": [
+      {
+        "timestamp": "2025-09-02T13:56:42.344944",
+        "message_text": "Can someone review PR #123? New auth module ready for testing.",
+        "message_id": "sample_msg_2",
+        "summary": "\u2753 Can someone review PR #123",
+        "intent": "question",
+        "urgency": "medium",
+        "context_score": 0.0
+      }
+    ]
+  },
+  "created_at": "2025-09-02T13:57:22.188212",
+  "last_updated": "2025-09-02T08:27:24.218497+00:00",
+  "total_messages": 1,
+  "message_history": [
+    {
+      "timestamp": "2025-09-02T13:57:24.217539",
+      "platform": "slack",
+      "message_type": "inquiry",
+      "summary": "\u2753 Can someone review PR #123"
+    }
+  ],
+  "intent_patterns": {
+    "type_inquiry": 1
+  },
+  "platform_usage": {
+    "slack": 1
+  },
+  "message_type_frequency": {
+    "inquiry": 1
+  },
+  "scheduled_tasks": [],
+  "missed_tasks": [],
+  "completed_tasks": [],
+  "response_patterns": {},
+  "peak_activity_hours": {
+    "13": 1
+  },
+  "context_score": 0.33,
+  "behavioral_insights": {
+    "preferred_platform": "slack",
+    "common_message_type": "inquiry",
+    "peak_activity_hour": 13,
+    "dominant_intent": "type_inquiry",
+    "activity_level": "low"
+  }
+}

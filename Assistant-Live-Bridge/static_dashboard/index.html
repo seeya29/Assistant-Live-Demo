@@ -1,0 +1,727 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Daily Cognitive Agent - Static Dashboard</title>
+  <style>
+    :root {
+      --bg: #0f172a;
+      --panel: #111827;
+      --card: #0b1220;
+      --text: #e5e7eb;
+      --muted: #9ca3af;
+      --accent: #3b82f6;
+      --good: #22c55e;
+      --warn: #f59e0b;
+      --bad: #ef4444;
+      --chip: #1f2937;
+      --border: #1f2937;
+    }
+    * { box-sizing: border-box; }
+    body { margin: 0; font-family: ui-sans-serif, system-ui, -apple-system, Segoe UI, Roboto, Ubuntu, Cantarell, Noto Sans, Helvetica Neue, Arial, "Apple Color Emoji", "Segoe UI Emoji"; background: var(--bg); color: var(--text); }
+    header { padding: 24px; background: linear-gradient(90deg, #1f2937, #0b1220); border-bottom: 1px solid var(--border); }
+    .container { padding: 20px 24px 40px; max-width: 1400px; margin: 0 auto; }
+    h1 { margin: 0; font-size: 24px; letter-spacing: 0.3px; }
+    .subtitle { color: var(--muted); margin-top: 6px; }
+
+    .grid { display: grid; grid-template-columns: repeat(4, minmax(0, 1fr)); gap: 16px; margin-top: 18px; }
+    .card { background: var(--card); border: 1px solid var(--border); border-radius: 12px; padding: 16px; }
+    .metric-title { color: var(--muted); font-size: 12px; text-transform: uppercase; letter-spacing: 0.08em; }
+    .metric-value { font-size: 26px; margin-top: 8px; font-weight: 600; }
+
+    .filters { display: grid; grid-template-columns: repeat(4, minmax(0, 1fr)); gap: 12px; margin-top: 18px; }
+    select, input[type="text"] { width: 100%; background: var(--panel); color: var(--text); border: 1px solid var(--border); border-radius: 10px; padding: 10px 12px; outline: none; }
+    select:focus, input[type="text"]:focus { border-color: var(--accent); box-shadow: 0 0 0 2px rgba(59,130,246,0.25); }
+
+    table { width: 100%; border-collapse: collapse; margin-top: 14px; }
+    thead th { position: sticky; top: 0; background: #0b1220; border-bottom: 1px solid var(--border); text-align: left; font-size: 12px; text-transform: uppercase; letter-spacing: 0.08em; color: var(--muted); padding: 10px; }
+    tbody td { border-bottom: 1px solid var(--border); padding: 10px; vertical-align: top; }
+    .table-wrap { overflow: auto; max-height: 60vh; border-radius: 10px; border: 1px solid var(--border); }
+
+    .chip { display: inline-block; padding: 4px 10px; border-radius: 999px; font-size: 12px; background: var(--chip); color: var(--text); border: 1px solid var(--border); }
+    .priority-high { background: rgba(239,68,68,0.15); color: #fecaca; border-color: rgba(239,68,68,0.3); }
+    .priority-medium { background: rgba(245,158,11,0.15); color: #fde68a; border-color: rgba(245,158,11,0.3); }
+    .priority-low { background: rgba(34,197,94,0.15); color: #bbf7d0; border-color: rgba(34,197,94,0.3); }
+
+    .status { background: rgba(59,130,246,0.15); color: #bfdbfe; border-color: rgba(59,130,246,0.3); }
+
+    .flex { display: flex; gap: 10px; align-items: center; }
+    .muted { color: var(--muted); font-size: 12px; }
+    .mono { font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace; font-size: 12px; }
+
+    .bar { height: 10px; background: #0b1220; border: 1px solid var(--border); border-radius: 999px; overflow: hidden; }
+    .bar > div { height: 100%; background: var(--accent); }
+
+    .row-actions { white-space: nowrap; }
+    .btn { background: var(--panel); color: var(--text); border: 1px solid var(--border); border-radius: 8px; padding: 6px 10px; cursor: pointer; }
+    .btn:hover { border-color: var(--accent); }
+
+    footer { margin-top: 22px; color: var(--muted); font-size: 12px; }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>🧠 Daily Cognitive Agent - Static Dashboard</h1>
+    <div class="subtitle">Offline view of tasks without requiring localhost or firewall exceptions</div>
+  </header>
+
+  <div class="container">
+    <div class="grid">
+      <div class="card">
+        <div class="metric-title">Total Tasks</div>
+        <div class="metric-value" id="m-total">0</div>
+      </div>
+      <div class="card">
+        <div class="metric-title">Users</div>
+        <div class="metric-value" id="m-users">0</div>
+      </div>
+      <div class="card">
+        <div class="metric-title">High Priority</div>
+        <div class="metric-value" id="m-high">0</div>
+      </div>
+      <div class="card">
+        <div class="metric-title">Pending</div>
+        <div class="metric-value" id="m-pending">0</div>
+      </div>
+    </div>
+
+    <div class="filters">
+      <select id="f-user"></select>
+      <select id="f-platform"></select>
+      <select id="f-priority"></select>
+      <select id="f-status"></select>
+    </div>
+
+    <div class="grid" style="grid-template-columns: 2fr 2fr; margin-top: 16px;">
+      <div class="card">
+        <div class="metric-title" style="margin-bottom:8px;">Platform Distribution</div>
+        <div id="d-platforms"></div>
+      </div>
+      <div class="card">
+        <div class="metric-title" style="margin-bottom:8px;">Type Distribution</div>
+        <div id="d-types"></div>
+      </div>
+    </div>
+
+    <div class="card" style="margin-top: 16px;">
+      <div class="flex" style="justify-content: space-between; margin-bottom: 6px;">
+        <div class="metric-title">Tasks</div>
+        <div class="row-actions">
+          <button class="btn" id="btn-export">Export CSV</button>
+        </div>
+      </div>
+      <div class="table-wrap">
+        <table id="tasks">
+          <thead>
+            <tr>
+              <th>User</th>
+              <th>Task ID</th>
+              <th>Platform</th>
+              <th>Summary</th>
+              <th>Type</th>
+              <th>Priority</th>
+              <th>Status</th>
+              <th>Scheduled</th>
+              <th>Created</th>
+            </tr>
+          </thead>
+          <tbody></tbody>
+        </table>
+      </div>
+    </div>
+
+    <footer>
+      Data embedded from task_queue.json at build time. To refresh, re-generate this file after new tasks are created.
+    </footer>
+  </div>
+
+  <script>
+    // Embedded data (from task_queue.json)
+    const TASK_QUEUE = {
+      "abc123": [
+        {
+          "user_id": "abc123",
+          "task_id": "task789",
+          "platform": "whatsapp",
+          "task_summary": "Finalize slides",
+          "task_type": "meeting",
+          "scheduled_for": "2025-08-06T16:00:00Z",
+          "status": "pending",
+          "created_at": "2025-08-05T12:30:00Z",
+          "original_message": "Can we meet at 4 pm tomorrow to finalize the slides?",
+          "summary": "Request for a meeting to finalize slides.",
+          "priority": "medium",
+          "context_score": 0.75
+        }
+      ],
+      "test_user": [
+        {
+          "user_id": "test_user",
+          "task_id": "task_7a010078",
+          "platform": "email",
+          "task_summary": "Meeting request for tomorrow",
+          "task_type": "meeting",
+          "scheduled_for": "2025-09-03T14:00:00+00:00",
+          "status": "pending",
+          "created_at": "2025-09-02T04:17:42.518369+00:00",
+          "original_message": "Can we schedule a meeting for tomorrow at 2pm?",
+          "summary": "Meeting request for tomorrow",
+          "priority": "medium",
+          "context_score": 0.53
+        },
+        {
+          "user_id": "test_user",
+          "task_id": "task_3666572f",
+          "platform": "email",
+          "task_summary": "Meeting request for tomorrow",
+          "task_type": "meeting",
+          "scheduled_for": "2025-09-03T14:00:00+00:00",
+          "status": "pending",
+          "created_at": "2025-09-02T04:19:45.313660+00:00",
+          "original_message": "Can we schedule a meeting for tomorrow at 2pm?",
+          "summary": "Meeting request for tomorrow",
+          "priority": "medium",
+          "context_score": 0.535
+        },
+        {
+          "user_id": "test_user",
+          "task_id": "task_988dbf3a",
+          "platform": "email",
+          "task_summary": "Meeting request for tomorrow",
+          "task_type": "meeting",
+          "scheduled_for": "2025-09-03T14:00:00+00:00",
+          "status": "pending",
+          "created_at": "2025-09-02T04:24:00.075738+00:00",
+          "original_message": "Can we schedule a meeting for tomorrow at 2pm?",
+          "summary": "Meeting request for tomorrow",
+          "priority": "medium",
+          "context_score": 0.54
+        },
+        {
+          "user_id": "test_user",
+          "task_id": "task_3ba085e3",
+          "platform": "email",
+          "task_summary": "Meeting request for tomorrow",
+          "task_type": "meeting",
+          "scheduled_for": "2025-09-03T14:00:00+00:00",
+          "status": "pending",
+          "created_at": "2025-09-02T05:15:37.748216+00:00",
+          "original_message": "Can we schedule a meeting for tomorrow at 2pm?",
+          "summary": "Meeting request for tomorrow",
+          "priority": "medium",
+          "context_score": 0.5449999999999999
+        },
+        {
+          "user_id": "test_user",
+          "task_id": "task_b7b7b143",
+          "platform": "email",
+          "task_summary": "Meeting request for tomorrow",
+          "task_type": "meeting",
+          "scheduled_for": "2025-09-03T14:00:00+00:00",
+          "status": "pending",
+          "created_at": "2025-09-02T07:58:27.453432+00:00",
+          "original_message": "Can we schedule a meeting for tomorrow at 2pm?",
+          "summary": "Meeting request for tomorrow",
+          "priority": "medium",
+          "context_score": 0.56
+        },
+        {
+          "user_id": "test_user",
+          "task_id": "task_390fb34b",
+          "platform": "email",
+          "task_summary": "Meeting request for tomorrow",
+          "task_type": "meeting",
+          "scheduled_for": "2025-09-03T14:00:00+00:00",
+          "status": "pending",
+          "created_at": "2025-09-02T08:29:40.899192+00:00",
+          "original_message": "Can we schedule a meeting for tomorrow at 2pm?",
+          "summary": "Meeting request for tomorrow",
+          "priority": "medium",
+          "context_score": 0.5700000000000001
+        }
+      ],
+      "test_user_api": [
+        {
+          "user_id": "test_user_api",
+          "task_id": "task_16fd35ed",
+          "platform": "email",
+          "task_summary": "Meeting request for next friday - task: review requested",
+          "task_type": "meeting",
+          "scheduled_for": null,
+          "status": "pending",
+          "created_at": "2025-09-02T06:18:31.388967+00:00",
+          "original_message": "Hi team, we need to schedule the quarterly budget review meeting for next Friday. Please confirm your availability by Wednesday. This is high priority as the board meeting is scheduled for the following week.",
+          "summary": "Meeting request for next Friday - Task: Review requested",
+          "priority": "medium",
+          "context_score": 0.33
+        },
+        {
+          "user_id": "test_user_api",
+          "task_id": "task_69544ffa",
+          "platform": "email",
+          "task_summary": "Meeting request for next friday - task: review requested (continuing previous topic)",
+          "task_type": "meeting",
+          "scheduled_for": null,
+          "status": "pending",
+          "created_at": "2025-09-02T06:19:18.854877+00:00",
+          "original_message": "Hi team, we need to schedule the quarterly budget review meeting for next Friday. Please confirm your availability by Wednesday. This is high priority as the board meeting is scheduled for the following week.",
+          "summary": "Meeting request for next Friday - Task: Review requested (continuing previous topic)",
+          "priority": "medium",
+          "context_score": 0.335
+        },
+        {
+          "user_id": "test_user_api",
+          "task_id": "task_5ffaebf4",
+          "platform": "email",
+          "task_summary": "Meeting request for next friday - task: review requested (continuing previous topic)",
+          "task_type": "meeting",
+          "scheduled_for": null,
+          "status": "pending",
+          "created_at": "2025-09-02T06:41:18.370018+00:00",
+          "original_message": "Hi team, we need to schedule the quarterly budget review meeting for next Friday",
+          "summary": "Meeting request for next Friday - Task: Review requested (continuing previous topic)",
+          "priority": "medium",
+          "context_score": 0.34
+        }
+      ],
+      "diagnostic_user": [
+        {
+          "user_id": "diagnostic_user",
+          "task_id": "task_e59c89f5",
+          "platform": "email",
+          "task_summary": "Meeting request for next friday - task assignment",
+          "task_type": "meeting",
+          "scheduled_for": null,
+          "status": "pending",
+          "created_at": "2025-09-02T06:21:53.523048+00:00",
+          "original_message": "Hi team, we need to schedule a meeting for next Friday to discuss the project status.",
+          "summary": "Meeting request for next Friday - Task assignment",
+          "priority": "medium",
+          "context_score": 0.33
+        },
+        {
+          "user_id": "diagnostic_user",
+          "task_id": "task_c4495773",
+          "platform": "email",
+          "task_summary": "Meeting request for next friday - task assignment (continuing previous topic)",
+          "task_type": "meeting",
+          "scheduled_for": null,
+          "status": "pending",
+          "created_at": "2025-09-02T06:26:02.956613+00:00",
+          "original_message": "Hi team, we need to schedule a meeting for next Friday to discuss the project status.",
+          "summary": "Meeting request for next Friday - Task assignment (continuing previous topic)",
+          "priority": "medium",
+          "context_score": 0.335
+        },
+        {
+          "user_id": "diagnostic_user",
+          "task_id": "task_4f939872",
+          "platform": "email",
+          "task_summary": "Meeting request for next friday - task assignment (continuing previous topic)",
+          "task_type": "meeting",
+          "scheduled_for": null,
+          "status": "pending",
+          "created_at": "2025-09-02T06:31:41.193663+00:00",
+          "original_message": "Hi team, we need to schedule a meeting for next Friday to discuss the project status.",
+          "summary": "Meeting request for next Friday - Task assignment (continuing previous topic)",
+          "priority": "medium",
+          "context_score": 0.34
+        },
+        {
+          "user_id": "diagnostic_user",
+          "task_id": "task_c16e5e11",
+          "platform": "email",
+          "task_summary": "Meeting request for next friday - task assignment (continuing previous topic)",
+          "task_type": "meeting",
+          "scheduled_for": null,
+          "status": "pending",
+          "created_at": "2025-09-02T06:44:31.033125+00:00",
+          "original_message": "Hi team, we need to schedule a meeting for next Friday to discuss the project status.",
+          "summary": "Meeting request for next Friday - Task assignment (continuing previous topic)",
+          "priority": "medium",
+          "context_score": 0.345
+        }
+      ],
+      "pipeline_user": [
+        {
+          "user_id": "pipeline_user",
+          "task_id": "task_231fbbbf",
+          "platform": "slack",
+          "task_summary": "Meeting coordination request - urgent: server issue",
+          "task_type": "urgent",
+          "scheduled_for": "2025-09-02T23:00:00+00:00",
+          "status": "pending",
+          "created_at": "2025-09-02T06:21:55.586718+00:00",
+          "original_message": "URGENT: Server maintenance needed tonight. Schedule downtime from 11 PM to 2 AM. Notify all teams.",
+          "summary": "Meeting coordination request - URGENT: Server issue",
+          "priority": "high",
+          "context_score": 0.53
+        },
+        {
+          "user_id": "pipeline_user",
+          "task_id": "task_3b56ec2a",
+          "platform": "slack",
+          "task_summary": "Meeting coordination request - urgent: server issue",
+          "task_type": "urgent",
+          "scheduled_for": "2025-09-02T23:00:00+00:00",
+          "status": "pending",
+          "created_at": "2025-09-02T06:26:04.996404+00:00",
+          "original_message": "URGENT: Server maintenance needed tonight. Schedule downtime from 11 PM to 2 AM. Notify all teams.",
+          "summary": "Meeting coordination request - URGENT: Server issue",
+          "priority": "high",
+          "context_score": 0.535
+        },
+        {
+          "user_id": "pipeline_user",
+          "task_id": "task_380c92f1",
+          "platform": "slack",
+          "task_summary": "Meeting coordination request - urgent: server issue",
+          "task_type": "urgent",
+          "scheduled_for": "2025-09-02T23:00:00+00:00",
+          "status": "pending",
+          "created_at": "2025-09-02T06:31:43.252139+00:00",
+          "original_message": "URGENT: Server maintenance needed tonight. Schedule downtime from 11 PM to 2 AM. Notify all teams.",
+          "summary": "Meeting coordination request - URGENT: Server issue",
+          "priority": "high",
+          "context_score": 0.54
+        },
+        {
+          "user_id": "pipeline_user",
+          "task_id": "task_59841861",
+          "platform": "slack",
+          "task_summary": "Meeting coordination request - urgent: server issue",
+          "task_type": "urgent",
+          "scheduled_for": "2025-09-02T23:00:00+00:00",
+          "status": "pending",
+          "created_at": "2025-09-02T06:44:33.089928+00:00",
+          "original_message": "URGENT: Server maintenance needed tonight. Schedule downtime from 11 PM to 2 AM. Notify all teams.",
+          "summary": "Meeting coordination request - URGENT: Server issue",
+          "priority": "high",
+          "context_score": 0.5449999999999999
+        }
+      ],
+      "demo_user": [
+        {
+          "user_id": "demo_user",
+          "task_id": "task_1728fdae",
+          "platform": "email",
+          "task_summary": "Meeting request for tomorrow - task assignment",
+          "task_type": "urgent",
+          "scheduled_for": "2025-09-03T14:00:00+00:00",
+          "status": "pending",
+          "created_at": "2025-09-02T06:26:33.694821+00:00",
+          "original_message": "Hi team, we need to schedule an urgent meeting for tomorrow at 2 PM to discuss the quarterly results. Please confirm your attendance ASAP as this is critical for our board presentation.",
+          "summary": "Meeting request for tomorrow - Task assignment",
+          "priority": "high",
+          "context_score": 0.53
+        },
+        {
+          "user_id": "demo_user",
+          "task_id": "task_d3b8d7da",
+          "platform": "email",
+          "task_summary": "Meeting request for tomorrow - task assignment (continuing previous topic)",
+          "task_type": "urgent",
+          "scheduled_for": "2025-09-03T14:00:00+00:00",
+          "status": "pending",
+          "created_at": "2025-09-02T06:32:40.377426+00:00",
+          "original_message": "Hi team, we need to schedule an urgent meeting for tomorrow at 2 PM",
+          "summary": "Meeting request for tomorrow - Task assignment (continuing previous topic)",
+          "priority": "high",
+          "context_score": 0.535
+        },
+        {
+          "user_id": "demo_user",
+          "task_id": "task_f23916e1",
+          "platform": "email",
+          "task_summary": "Meeting request for tomorrow - task assignment (continuing previous topic)",
+          "task_type": "urgent",
+          "scheduled_for": "2025-09-03T14:00:00+00:00",
+          "status": "pending",
+          "created_at": "2025-09-02T06:41:18.343805+00:00",
+          "original_message": "Hi team, we need to schedule an urgent meeting for tomorrow at 2 PM to discuss the quarterly results",
+          "summary": "Meeting request for tomorrow - Task assignment (continuing previous topic)",
+          "priority": "high",
+          "context_score": 0.54
+        },
+        {
+          "user_id": "demo_user",
+          "task_id": "task_c7e4a57d",
+          "platform": "email",
+          "task_summary": "Continuing: i need to schedule a meeting with the development team tomorrow at 2 pm to discuss th...",
+          "task_type": "urgent",
+          "scheduled_for": "2025-09-03T14:00:00+00:00",
+          "status": "pending",
+          "created_at": "2025-09-02T08:15:17.572885+00:00",
+          "original_message": "I need to schedule a meeting with the development team tomorrow at 2 PM to discuss the new project requirements. This is urgent.",
+          "summary": "Continuing: I need to schedule a meeting with the development team tomorrow at 2 PM to discuss th...",
+          "priority": "high",
+          "context_score": 0.5449999999999999
+        }
+      ],
+      "demo_slack": [
+        {
+          "user_id": "demo_slack",
+          "task_id": "task_a5de8bae",
+          "platform": "slack",
+          "task_summary": "Urgent: server issue",
+          "task_type": "urgent",
+          "scheduled_for": null,
+          "status": "pending",
+          "created_at": "2025-09-02T06:41:43.269526+00:00",
+          "original_message": "URGENT: Production server is down. Database connection timeout errors",
+          "summary": "URGENT: Server issue",
+          "priority": "high",
+          "context_score": 0.53
+        }
+      ],
+      "demo_enhanced": [
+        {
+          "user_id": "demo_enhanced",
+          "task_id": "task_f8fc6a63",
+          "platform": "instagram",
+          "task_summary": " where did you get that amazing dress?",
+          "task_type": "inquiry",
+          "scheduled_for": null,
+          "status": "pending",
+          "created_at": "2025-09-02T07:05:19.670437+00:00",
+          "original_message": "OMG love your latest post!!  Where did you get that amazing dress?",
+          "summary": " Where did you get that amazing dress?",
+          "priority": "low",
+          "context_score": 0.53
+        }
+      ],
+      "pipeline_test_user": [
+        {
+          "user_id": "pipeline_test_user",
+          "task_id": "task_1afa3d39",
+          "platform": "email",
+          "task_summary": "Hi team, please review the budget proposal and provide feedback by friday",
+          "task_type": "meeting",
+          "scheduled_for": null,
+          "status": "pending",
+          "created_at": "2025-09-02T08:20:53.029778+00:00",
+          "original_message": "Hi team, please review the budget proposal and provide feedback by Friday. This is needed for the board meeting next week.",
+          "summary": "Hi team, please review the budget proposal and provide feedback by Friday",
+          "priority": "medium",
+          "context_score": 0.33
+        }
+      ],
+      "integration_test_user": [
+        {
+          "user_id": "integration_test_user",
+          "task_id": "task_61b5b4fa",
+          "platform": "email",
+          "task_summary": "Schedule a project review meeting for next tuesday at 3 pm",
+          "task_type": "meeting",
+          "scheduled_for": "2025-09-02T15:00:00+00:00",
+          "status": "pending",
+          "created_at": "2025-09-02T08:22:25.440507+00:00",
+          "original_message": "Please schedule a project review meeting for next Tuesday at 3 PM. We need to discuss budget and timeline.",
+          "summary": "Please schedule a project review meeting for next Tuesday at 3 PM",
+          "priority": "medium",
+          "context_score": 0.33
+        }
+      ],
+      "test_integration_user": [
+        {
+          "user_id": "test_integration_user",
+          "task_id": "task_12e28f26",
+          "platform": "email",
+          "task_summary": "Hi team, we need to urgently schedule a client presentation for friday at 3 pm",
+          "task_type": "meeting",
+          "scheduled_for": "2025-09-02T15:00:00+00:00",
+          "status": "pending",
+          "created_at": "2025-09-02T08:23:41.480954+00:00",
+          "original_message": "Hi team, we need to urgently schedule a client presentation for Friday at 3 PM. Please prepare the quarterly report and book the conference room.",
+          "summary": "Hi team, we need to urgently schedule a client presentation for Friday at 3 PM",
+          "priority": "high",
+          "context_score": 0.33
+        }
+      ],
+      "alice_work": [
+        {
+          "user_id": "alice_work",
+          "task_id": "task_983a6c02",
+          "platform": "email",
+          "task_summary": "Continuing: urgent: need to schedule quarterly review meeting for next friday",
+          "task_type": "urgent",
+          "scheduled_for": null,
+          "status": "pending",
+          "created_at": "2025-09-02T08:27:20.130051+00:00",
+          "original_message": "URGENT: Need to schedule quarterly review meeting for next Friday. Board meeting following week.",
+          "summary": "Continuing: URGENT: Need to schedule quarterly review meeting for next Friday",
+          "priority": "high",
+          "context_score": 0.53
+        }
+      ],
+      "bob_dev": [
+        {
+          "user_id": "bob_dev",
+          "task_id": "task_206bb85e",
+          "platform": "slack",
+          "task_summary": "❓ can someone review pr #123",
+          "task_type": "inquiry",
+          "scheduled_for": null,
+          "status": "pending",
+          "created_at": "2025-09-02T08:27:24.226400+00:00",
+          "original_message": "Can someone review PR #123? New auth module ready for testing.",
+          "summary": "❓ Can someone review PR #123",
+          "priority": "low",
+          "context_score": 0.53
+        }
+      ]
+    };
+
+    function flattenTasks(queue) {
+      const rows = [];
+      Object.keys(queue).forEach(user => {
+        (queue[user] || []).forEach(t => rows.push({ ...t, user_id: user }));
+      });
+      return rows;
+    }
+
+    function uniq(arr) {
+      return Array.from(new Set(arr)).filter(Boolean).sort();
+    }
+
+    function fmtDate(x) {
+      if (!x) return '';
+      try { return new Date(x).toLocaleString(); } catch { return String(x); }
+    }
+
+    function countBy(arr, key) {
+      const map = {};
+      arr.forEach(x => { const k = (x[key] || 'unknown'); map[k] = (map[k]||0)+1; });
+      return map;
+    }
+
+    function renderBars(containerId, counts) {
+      const container = document.getElementById(containerId);
+      container.innerHTML = '';
+      const total = Object.values(counts).reduce((a,b)=>a+b,0) || 1;
+      Object.entries(counts).sort((a,b)=>b[1]-a[1]).forEach(([k,v]) => {
+        const pct = Math.round(100 * v / total);
+        const row = document.createElement('div');
+        row.style.margin = '6px 0';
+        row.innerHTML = `
+          <div class="flex" style="justify-content: space-between;">
+            <div class="muted">${k}</div>
+            <div class="muted">${v} (${pct}%)</div>
+          </div>
+          <div class="bar"><div style="width:${pct}%;"></div></div>
+        `;
+        container.appendChild(row);
+      });
+    }
+
+    function toCSV(rows) {
+      const headers = ['user_id','task_id','platform','task_summary','task_type','priority','status','scheduled_for','created_at'];
+      const lines = [headers.join(',')];
+      rows.forEach(r => {
+        const vals = headers.map(h => {
+          const val = r[h] == null ? '' : String(r[h]);
+          const safe = '"' + val.replace(/"/g,'""') + '"';
+          return safe;
+        });
+        lines.push(vals.join(','));
+      });
+      return lines.join('\n');
+    }
+
+    function download(filename, text) {
+      const a = document.createElement('a');
+      a.setAttribute('href', 'data:text/plain;charset=utf-8,' + encodeURIComponent(text));
+      a.setAttribute('download', filename);
+      a.style.display = 'none';
+      document.body.appendChild(a);
+      a.click();
+      document.body.removeChild(a);
+    }
+
+    const ALL_ROWS = flattenTasks(TASK_QUEUE);
+
+    function populateFilters(rows) {
+      const $user = document.getElementById('f-user');
+      const $plat = document.getElementById('f-platform');
+      const $prio = document.getElementById('f-priority');
+      const $stat = document.getElementById('f-status');
+
+      const users = ['All Users', ...uniq(rows.map(r => r.user_id))];
+      const plats = ['All Platforms', ...uniq(rows.map(r => r.platform))];
+      const prios = ['All Priorities', ...uniq(rows.map(r => r.priority))];
+      const stats = ['All Statuses', ...uniq(rows.map(r => r.status))];
+
+      $user.innerHTML = users.map(x => `<option>${x}</option>`).join('');
+      $plat.innerHTML = plats.map(x => `<option>${x}</option>`).join('');
+      $prio.innerHTML = prios.map(x => `<option>${x}</option>`).join('');
+      $stat.innerHTML = stats.map(x => `<option>${x}</option>`).join('');
+    }
+
+    function applyFilters(rows) {
+      const fu = document.getElementById('f-user').value;
+      const fp = document.getElementById('f-platform').value;
+      const fr = document.getElementById('f-priority').value;
+      const fs = document.getElementById('f-status').value;
+
+      return rows.filter(r =>
+        (fu === 'All Users' || r.user_id === fu) &&
+        (fp === 'All Platforms' || r.platform === fp) &&
+        (fr === 'All Priorities' || r.priority === fr) &&
+        (fs === 'All Statuses' || r.status === fs)
+      );
+    }
+
+    function renderTable(rows) {
+      const tbody = document.querySelector('#tasks tbody');
+      tbody.innerHTML = '';
+      rows.forEach(r => {
+        const tr = document.createElement('tr');
+        tr.innerHTML = `
+          <td class="mono">${r.user_id}</td>
+          <td class="mono">${r.task_id}</td>
+          <td>${r.platform || ''}</td>
+          <td>${(r.task_summary||'').replace(/</g,'&lt;')}</td>
+          <td><span class="chip">${r.task_type || ''}</span></td>
+          <td>
+            <span class="chip ${r.priority==='high'?'priority-high': r.priority==='medium'?'priority-medium':'priority-low'}">${r.priority || ''}</span>
+          </td>
+          <td><span class="chip status">${r.status || ''}</span></td>
+          <td class="mono">${fmtDate(r.scheduled_for)}</td>
+          <td class="mono">${fmtDate(r.created_at)}</td>
+        `;
+        tbody.appendChild(tr);
+      });
+    }
+
+    function updateMetrics(rows) {
+      document.getElementById('m-total').textContent = rows.length;
+      document.getElementById('m-users').textContent = uniq(rows.map(r => r.user_id)).length;
+      document.getElementById('m-high').textContent = rows.filter(r => r.priority === 'high').length;
+      document.getElementById('m-pending').textContent = rows.filter(r => r.status === 'pending').length;
+
+      renderBars('d-platforms', countBy(rows, 'platform'));
+      renderBars('d-types', countBy(rows, 'task_type'));
+    }
+
+    function refresh() {
+      const filtered = applyFilters(ALL_ROWS);
+      updateMetrics(filtered);
+      renderTable(filtered);
+    }
+
+    // Init
+    populateFilters(ALL_ROWS);
+    ['f-user','f-platform','f-priority','f-status'].forEach(id => {
+      document.getElementById(id).addEventListener('change', refresh);
+    });
+
+    document.getElementById('btn-export').addEventListener('click', () => {
+      const filtered = applyFilters(ALL_ROWS);
+      download('tasks.csv', toCSV(filtered));
+    });
+
+    refresh();
+  </script>
+</body>
+</html>
