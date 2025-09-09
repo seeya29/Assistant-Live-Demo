@@ -1,6 +1,7 @@
 import os
 import sqlite3
 import uuid
+import logging
 from datetime import datetime, timedelta
 from typing import Optional, Literal
 
@@ -72,8 +73,16 @@ SCHEMA = {
 
 def get_conn():
     os.makedirs(REPO_ROOT, exist_ok=True)
-    conn = sqlite3.connect(DB_PATH)
+    # Keep DB waits short so HTTP requests do not time out; return 503 quickly on lock
+    conn = sqlite3.connect(DB_PATH, timeout=5, check_same_thread=False)
     conn.row_factory = sqlite3.Row
+    try:
+        conn.execute("PRAGMA busy_timeout=5000;")
+        conn.execute("PRAGMA journal_mode=WAL;")
+        conn.execute("PRAGMA synchronous=NORMAL;")
+        conn.execute("PRAGMA foreign_keys=ON;")
+    except Exception:
+        pass
     return conn
 
 
@@ -241,6 +250,10 @@ def api_summarize(message: MessageIn):
             ),
         )
         conn.commit()
+    except sqlite3.OperationalError as e:
+        raise HTTPException(status_code=503, detail=f"Database error (messages): {str(e)}")
+    except Exception as e:
+        raise HTTPException(status_code=500, detail=f"Failed to store message: {str(e)}")
     finally:
         conn.close()
 
@@ -261,6 +274,10 @@ def api_summarize(message: MessageIn):
             (summary_id, message.message_id, smry_text, smry_type, intent, urgency, ts),
         )
         conn.commit()
+    except sqlite3.OperationalError as e:
+        raise HTTPException(status_code=503, detail=f"Database error (summaries): {str(e)}")
+    except Exception as e:
+        raise HTTPException(status_code=500, detail=f"Failed to store summary: {str(e)}")
     finally:
         conn.close()
 
@@ -305,6 +322,10 @@ def api_process_summary(summary: SummaryIn):
             (task_id, user_id, task_summary, task_type, scheduled_for, "pending"),
         )
         conn.commit()
+    except sqlite3.OperationalError as e:
+        raise HTTPException(status_code=503, detail=f"Database error (tasks): {str(e)}")
+    except Exception as e:
+        raise HTTPException(status_code=500, detail=f"Failed to store task: {str(e)}")
     finally:
         conn.close()
 
@@ -335,6 +356,10 @@ def api_feedback(feedback: FeedbackIn):
             (feedback.summary_id, feedback.rating, feedback.comment, feedback.timestamp),
         )
         conn.commit()
+    except sqlite3.OperationalError as e:
+        raise HTTPException(status_code=503, detail=f"Database error (feedback): {str(e)}")
+    except Exception as e:
+        raise HTTPException(status_code=500, detail=f"Failed to store feedback: {str(e)}")
     finally:
         conn.close()
     return {"success": True, "summary_id": feedback.summary_id, "timestamp": feedback.timestamp}

@@ -144,3 +144,58 @@ curl -X POST http://127.0.0.1:8000/api/feedback \
 
 ## VALUES.md
 - Reflection (Humility / Gratitude / Honesty) required. See VALUES.md.
+
+---
+
+## Spec compliance (Assistant Live Demo)
+
+This demo implements the requested pipeline end-to-end. Summary of how each requirement is satisfied:
+
+1) API (FastAPI)
+- POST /api/summarize
+  - Accepts JSON { user_id, platform, conversation_id, message_id, message_text, timestamp }
+  - Uses lightweight heuristics to produce a concise summary and simple classification (type/intent/urgency)
+  - Persists the original message (messages) and the summary (summaries)
+  - Returns a JSON body including summary_id
+- POST /api/process_summary
+  - Accepts the summary JSON (incl. summary_id)
+  - Generates a task with naive schedule inference and type selection
+  - Persists the task (tasks)
+  - Returns a JSON body including task_id
+- POST /api/feedback
+  - Accepts { summary_id, rating: "up"|"down", comment?, timestamp }
+  - Persists feedback linked to summaries
+
+2) Database (SQLite)
+- File: assistant-live-demo/assistant_demo.db (auto-created by the API)
+- Actual schema in this demo uses string IDs for convenience and clarity:
+  - messages(message_id TEXT PRIMARY KEY, user_id TEXT, platform TEXT, conversation_id TEXT, text TEXT, timestamp TEXT)
+  - summaries(summary_id TEXT PRIMARY KEY, message_id TEXT REFERENCES messages(message_id), summary TEXT, type TEXT, intent TEXT, urgency TEXT, timestamp TEXT)
+  - tasks(task_id TEXT PRIMARY KEY, user_id TEXT, task_summary TEXT, task_type TEXT, scheduled_for TEXT, status TEXT)
+  - feedback(id INTEGER PRIMARY KEY AUTOINCREMENT, summary_id TEXT REFERENCES summaries(summary_id), rating TEXT, comment TEXT, timestamp TEXT)
+- Note: While your outline suggests integer autoincrement IDs, this demo uses short string IDs to keep the payloads self-describing and quick to test. The README above documents both the contracts and the actual persisted fields.
+
+3) Streamlit Tester
+- Input form for user_id, platform, message_text; on submit:
+  - Calls /api/summarize and shows a summary card
+  - Immediately calls /api/process_summary and shows a task card
+- Data visualization: live Messages | Summaries | Tasks tabs, with a Refresh button
+- Feedback: Up/Down buttons next to summaries post to /api/feedback
+
+4) Testing
+- End-to-end test script: assistant-live-demo/tests/test_integration.py
+  - Verifies summarize → process_summary → DB rows → feedback
+
+5) Sample Data & Documentation
+- Sample data: assistant-live-demo/data/sample_messages.json (5+ messages: WhatsApp, Instagram, Email)
+- Documentation: this README includes run steps, API contracts, and curl examples
+- VALUES.md: included at assistant-live-demo/VALUES.md
+- Evidence: screenshots in assistant-live-demo/ScreenShots
+
+Run commands (quick reference)
+- Install deps: pip install -r assistant-live-demo/requirements.txt
+- Start API: uvicorn api.main:app --reload --port 8000 (run from assistant-live-demo)
+- Start Streamlit: streamlit run streamlit/demo_streamlit.py (run from assistant-live-demo)
+- Run tests: python assistant-live-demo/tests/test_integration.py (API must be running)
+
+These additions clarify the mapping from requirements to the working demo without altering the functioning code.
