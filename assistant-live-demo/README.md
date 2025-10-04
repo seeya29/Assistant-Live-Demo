@@ -14,7 +14,7 @@ cd assistant-live-demo
 pip install -r requirements.txt
 
 # API (terminal 1)
-uvicorn api.main:app --reload --port 8000
+uvicorn assistant_api.main:app --reload --port 8000
 
 # Streamlit (terminal 2)
 streamlit run streamlit/demo_streamlit.py
@@ -194,7 +194,7 @@ This demo implements the requested pipeline end-to-end. Summary of how each requ
 
 Run commands (quick reference)
 - Install deps: pip install -r assistant-live-demo/requirements.txt
-- Start API: uvicorn api.main:app --reload --port 8000 (run from assistant-live-demo)
+- Start API: uvicorn assistant_api.main:app --reload --port 8000 (run from assistant-live-demo)
 - Start Streamlit: streamlit run streamlit/demo_streamlit.py (run from assistant-live-demo)
 - Run tests: python assistant-live-demo/tests/test_integration.py (API must be running)
 
